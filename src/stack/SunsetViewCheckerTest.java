@@ -49,5 +49,10 @@ public class SunsetViewCheckerTest {
         Collection<Building> buildingsWithSunsetView = SunsetViewChecker.getBuildingsWithSunsetView(listOfBuildings);
         assertEquals(buildingsWithSunsetView,expectedBuildingsWithSunsetView);
     }
+    @Test
+    public void test()
+    {
+        
+    }
 
 }
