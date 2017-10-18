@@ -18,7 +18,6 @@ public class StackSortTest {
         StackSorter.sort(stack);
         assertEquals(new Integer(2),stack.peek());
 
-
     }
 
     @Test
@@ -42,6 +41,23 @@ public class StackSortTest {
         StackSorter.sortedPush(3,stack);
         StackSorter.sortedPush(2,stack);
         StackSorter.sortedPush(1,stack);
+        assertEquals(Integer.valueOf(4),stack.pop());
+        assertEquals(Integer.valueOf(3),stack.pop());
+        assertEquals(Integer.valueOf(3),stack.pop());
+        assertEquals(Integer.valueOf(2),stack.pop());
+        assertEquals(Integer.valueOf(1),stack.pop());
+    }
+
+    @Test
+    public void testIfSortOfStackWithMoreThanTwoElementsWorksCorrectly()
+    {
+        Stack<Integer> stack = new Stack<>();
+        stack.push(4);
+        stack.push(3);
+        stack.push(3);
+        stack.push(2);
+        stack.push(1);
+        StackSorter.sort(stack);
         assertEquals(Integer.valueOf(4),stack.pop());
         assertEquals(Integer.valueOf(3),stack.pop());
         assertEquals(Integer.valueOf(3),stack.pop());
