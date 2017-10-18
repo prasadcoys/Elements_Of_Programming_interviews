@@ -13,6 +13,25 @@ public class StackSorter {
             stack.push(temp);
         }
 
+    }
 
+    public static void sortedPush(int i, Stack<Integer> stack) {
+
+        if(stack.empty())
+        {
+            stack.push(i);
+            return;
+        }
+        int topElement = stack.pop();
+        if(topElement>=i)
+        {
+            StackSorter.sortedPush(i,stack);
+            stack.push(topElement);
+        }
+        else
+        {
+            stack.push(topElement);
+            stack.push(i);
+        }
     }
 }
