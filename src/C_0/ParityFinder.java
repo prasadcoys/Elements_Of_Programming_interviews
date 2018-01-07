@@ -58,6 +58,17 @@ public class ParityFinder
         return isNumberOdd(numberOfOnes);
     }
 
+    public static boolean isOddParityXORVersion(long binary)
+    {
+        int numberOfOnes = 0;
+        while (binary != 0)
+        {
+            binary -= 1;
+            numberOfOnes++;
+        }
+        return isNumberOdd(numberOfOnes);
+    }
+
     private static boolean isNumberOdd(int oneCounter)
     {
         return oneCounter % 2 == 1;

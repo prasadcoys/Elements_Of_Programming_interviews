@@ -2,7 +2,8 @@ package C_0;
 
 import org.junit.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
 
 public class ParityOfWordTest
@@ -59,6 +60,7 @@ public class ParityOfWordTest
         assertTrue(ParityFinder.isOddParityBitOperationCachedVersion
                 (binary));
     }
+
     @Test
     public void testIfCachedParityBitFinderWorksFor4BitForTrueparity()
     {
@@ -66,6 +68,7 @@ public class ParityOfWordTest
         assertTrue(ParityFinder.isOddParityBitOperationCachedVersion
                 (binary));
     }
+
     @Test
     public void testIfCachedParityBitFinderWorksFor1BitForTrueparity()
     {
@@ -73,6 +76,7 @@ public class ParityOfWordTest
         assertTrue(ParityFinder.isOddParityBitOperationCachedVersion
                 (binary));
     }
+
     @Test
     public void testIfCachedParityBitFinderWorksFor1BitForFalseparity()
     {
@@ -80,5 +84,38 @@ public class ParityOfWordTest
         assertFalse(ParityFinder.isOddParityBitOperationCachedVersion
                 (binary));
     }
+
+    @Test
+    public void testIfXORParityBitFinderWorksFor32BitForTrueparity()
+    {
+        long binary = 0b01100110011001100110011001100111;
+        assertTrue(ParityFinder.isOddParityXORVersion
+                (binary));
+    }
+
+    @Test
+    public void testIfXORParityBitFinderWorksFor4BitForTrueparity()
+    {
+        long binary = 0b0111;
+        assertTrue(ParityFinder.isOddParityXORVersion
+                (binary));
+    }
+
+    @Test
+    public void testIfXORParityBitFinderWorksFor1BitForTrueparity()
+    {
+        long binary = 0b1;
+        assertTrue(ParityFinder.isOddParityXORVersion
+                (binary));
+    }
+
+    @Test
+    public void testIfXORParityBitFinderWorksFor1BitForFalseparity()
+    {
+        long binary = 0b0;
+        assertFalse(ParityFinder.isOddParityXORVersion
+                (binary));
+    }
+
 
 }
