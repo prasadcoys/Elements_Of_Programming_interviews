@@ -61,12 +61,16 @@ public class ParityFinder
     public static boolean isOddParityXORVersion(long binary)
     {
         int numberOfOnes = 0;
-        while (binary != 0)
-        {
-            binary -= 1;
-            numberOfOnes++;
-        }
-        return isNumberOdd(numberOfOnes);
+        binary ^= binary >> 32;
+        binary ^= binary >> 16;
+        binary ^= binary >> 8;
+        binary ^= binary >> 4;
+        binary ^= binary >> 2;
+        binary ^= binary >> 1;
+
+        binary &= 0b1;
+
+        return isNumberOdd(Math.toIntExact(Long.valueOf(binary)));
     }
 
     private static boolean isNumberOdd(int oneCounter)
