@@ -44,4 +44,41 @@ public class ParityOfWordTest
         long binary = 0b0L;
         assertFalse(ParityFinder.isOddParityBitOperation(binary));
     }
+
+    @Test
+    public void testIfCachedParityBitFinderWorksFor32Bit()
+    {
+        long binary = 0b01100110011001100110011001100110;
+        assertFalse(ParityFinder.isOddParityBitOperationCachedVersion(binary));
+    }
+
+    @Test
+    public void testIfCachedParityBitFinderWorksFor32BitForTrueparity()
+    {
+        long binary = 0b01100110011001100110011001100111;
+        assertTrue(ParityFinder.isOddParityBitOperationCachedVersion
+                (binary));
+    }
+    @Test
+    public void testIfCachedParityBitFinderWorksFor4BitForTrueparity()
+    {
+        long binary = 0b0111;
+        assertTrue(ParityFinder.isOddParityBitOperationCachedVersion
+                (binary));
+    }
+    @Test
+    public void testIfCachedParityBitFinderWorksFor1BitForTrueparity()
+    {
+        long binary = 0b1;
+        assertTrue(ParityFinder.isOddParityBitOperationCachedVersion
+                (binary));
+    }
+    @Test
+    public void testIfCachedParityBitFinderWorksFor1BitForFalseparity()
+    {
+        long binary = 0b0;
+        assertFalse(ParityFinder.isOddParityBitOperationCachedVersion
+                (binary));
+    }
+
 }
