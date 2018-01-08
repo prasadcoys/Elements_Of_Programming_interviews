@@ -52,4 +52,39 @@ public class StringIntegerInterConvertTest
                 (numberWord);
         assertEquals(1,valueInInt);
     }
+
+    @Test
+    public void testIfFourDigitNumberStringIsConvertedToInteger()
+    {
+        String numberWord = "1234";
+        int valueInInt = StringIntegerInterConverter.convertToInteger
+                (numberWord);
+        assertEquals(1234,valueInInt);
+    }
+    @Test
+    public void testIfOneDigitZeroStringIsConvertedToInteger()
+    {
+        String numberWord = "0";
+        int valueInInt = StringIntegerInterConverter.convertToInteger
+                (numberWord);
+        assertEquals(0,valueInInt);
+    }
+
+    @Test
+    public void testIfOneDigitNegativeNumberStringIsConvertedToInteger()
+    {
+        String numberWord = "-1";
+        int valueInInt = StringIntegerInterConverter.convertToInteger
+                (numberWord);
+        assertEquals(-1,valueInInt);
+    }
+
+    @Test
+    public void testIfFourDigitNegativeNumberStringIsConvertedToInteger()
+    {
+        String numberWord = "-1234";
+        int valueInInt = StringIntegerInterConverter.convertToInteger
+                (numberWord);
+        assertEquals(-1234,valueInInt);
+    }
 }

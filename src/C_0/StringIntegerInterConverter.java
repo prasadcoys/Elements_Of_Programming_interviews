@@ -26,8 +26,10 @@ public class StringIntegerInterConverter
     public static int convertToInteger(String numberWord)
     {
         char[] wordCharArray;
+        boolean isNegative = false;
         if (numberWord.startsWith("-"))
         {
+            isNegative = true;
             wordCharArray = numberWord.substring(1).toCharArray();
         } else
         {
@@ -35,9 +37,13 @@ public class StringIntegerInterConverter
         }
         int value = 0;
         int asciiValueOfZero = '0';
-        for(int i = wordCharArray.length-1;i>=0;i--)
+        for(int i = 0;i<=wordCharArray.length-1;i++)
         {
-            //value = wordCharArray[i].
+            value = value*10 + (wordCharArray[i]-asciiValueOfZero);
+        }
+        if(isNegative)
+        {
+            value*=-1;
         }
         return value;
     }
