@@ -1,5 +1,7 @@
 package C_0;
 
+import C_0.utils.LinkedListNode;
+import C_0.utils.MyLinkedList;
 import org.junit.Test;
 
 import java.util.LinkedList;
@@ -13,21 +15,20 @@ public class SortedListsMergerTest
     @Test
     public void testIfMergingSortedListsWorks()
     {
-        List<Integer> listA = new LinkedList<>();
-        listA.add(2);
-        listA.add(5);
-        List<Integer> listB = new LinkedList<>();
-        listB.add(3);
-        listB.add(7);
+        LinkedListNode nodeTwo = new LinkedListNode(2);
+        LinkedListNode nodeThree = new LinkedListNode(3);
+        LinkedListNode nodeFive = new LinkedListNode(5);
+        LinkedListNode nodeSeven = new LinkedListNode(7);
+        LinkedListNode nodeEight = new LinkedListNode(8);
+        MyLinkedList listA = new MyLinkedList();
+        listA.add(nodeTwo);
+        listA.add(nodeFive);
+        listA.add(nodeSeven);
+        MyLinkedList listB = new MyLinkedList();
+        listB.add(nodeThree);
+        listB.add(nodeEight);
         SortedListsMerger.merge(listA,listB);
-        List<Integer> expectedList = new LinkedList<>();
-        expectedList.add(2);
-        expectedList.add(3);
-        expectedList.add(5);
-        expectedList.add(7);
-        assertEquals(expectedList,listA);
-
-
+        assertEquals("2 3 5 7 8 ",listA.toString());
 
     }
 }
