@@ -43,4 +43,9 @@ public class MyLinkedList
         }
         return toStringValue;
     }
+
+    public void setHead(LinkedListNode head)
+    {
+        this.head = head;
+    }
 }
