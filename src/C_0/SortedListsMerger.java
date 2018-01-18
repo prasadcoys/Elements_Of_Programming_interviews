@@ -3,6 +3,8 @@ package C_0;
 import C_0.utils.LinkedListNode;
 import C_0.utils.MyLinkedList;
 
+import java.util.List;
+
 public class SortedListsMerger
 {
     public static void merge(MyLinkedList listA, MyLinkedList listB)
@@ -53,5 +55,10 @@ public class SortedListsMerger
 
         }
 
+    }
+
+    public static List mergeMultipleHeaps(List collectionOfAllHeaps)
+    {
+        return null;
     }
 }

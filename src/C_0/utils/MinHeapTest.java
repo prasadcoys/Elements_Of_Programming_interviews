@@ -103,4 +103,17 @@ public class MinHeapTest
         assertEquals(1,heap.extractMini());
         assertEquals(3,heap.getMini());
     }
+
+    @Test
+    public void testExtractForSortedList()
+    {
+        List<Integer> list = new ArrayList<>();
+        list.add(1);
+        list.add(2);
+        list.add(3);
+        MinHeap heap = new MinHeap(list);
+        assertEquals(1,heap.getMini());
+        assertEquals(1,heap.extractMiniFromSortedList());
+        assertEquals(2,heap.getMini());
+    }
 }

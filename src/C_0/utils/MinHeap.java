@@ -171,4 +171,9 @@ public class MinHeap
         }
         return mini;
     }
+
+    public int extractMiniFromSortedList()
+    {
+        return list.remove(0);
+    }
 }
