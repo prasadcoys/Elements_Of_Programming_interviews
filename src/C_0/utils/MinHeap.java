@@ -16,6 +16,12 @@ public class MinHeap
         }
     }
 
+    public MinHeap()
+    {
+
+    }
+
+
     public int getLeftChild(int i)
     {
         return list.get(getLeftIndex(i));
@@ -26,7 +32,7 @@ public class MinHeap
         return list.get(getRightIndex(i));
     }
 
-    public int getRightIndex(int i)
+    public static int getRightIndex(int i)
     {
         return (i * 2) + 2;
     }
@@ -34,16 +40,6 @@ public class MinHeap
     public boolean hasLeftChild(int i)
     {
         return (getLeftIndex(i) < list.size());
-    }
-
-    public int getLeftIndex(int i)
-    {
-        return (i * 2) + 1;
-    }
-
-    public boolean hasRightChild(int i)
-    {
-        return ((getRightIndex(i)) < list.size());
     }
 
     public void insert(int i)
@@ -67,7 +63,17 @@ public class MinHeap
         }
     }
 
-    public int getParentIndex(int currentIndex)
+    public static int getLeftIndex(int i)
+    {
+        return (i * 2) + 1;
+    }
+
+    public boolean hasRightChild(int i)
+    {
+        return ((getRightIndex(i)) < list.size());
+    }
+
+    public static int getParentIndex(int currentIndex)
     {
         int parentIndex = 0;
         if (currentIndex % 2 == 0)
@@ -141,8 +147,7 @@ public class MinHeap
                         break;
                     }
                 }
-            }
-            else if(hasLeftChild(currentIndex))
+            } else if (hasLeftChild(currentIndex))
             {
                 if (list.get(currentIndex) > leftValue)
                 {
@@ -154,8 +159,7 @@ public class MinHeap
                 {
                     break;
                 }
-            }
-            else if(hasRightChild(currentIndex))
+            } else if (hasRightChild(currentIndex))
             {
                 if (list.get(currentIndex) > rightValue)
                 {
@@ -172,8 +176,5 @@ public class MinHeap
         return mini;
     }
 
-    public int extractMiniFromSortedList()
-    {
-        return list.remove(0);
-    }
+
 }

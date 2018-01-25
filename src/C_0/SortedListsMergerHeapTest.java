@@ -29,10 +29,10 @@ public class SortedListsMergerHeapTest
         listC.add(9);
         MinHeap heapC = new MinHeap(listC);
 
-        List collectionOfAllHeaps = new ArrayList();
-        collectionOfAllHeaps.add(heapA);
-        collectionOfAllHeaps.add(heapB);
-        collectionOfAllHeaps.add(heapC);
+        List<List> collectionOfAllHeaps = new ArrayList();
+        collectionOfAllHeaps.add(listA);
+        collectionOfAllHeaps.add(listB);
+        collectionOfAllHeaps.add(listC);
         List mergedList = new ArrayList();
         mergedList.add(1);
         mergedList.add(2);

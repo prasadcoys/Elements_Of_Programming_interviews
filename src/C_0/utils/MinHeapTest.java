@@ -17,9 +17,10 @@ public class MinHeapTest
         list.add(2);
         list.add(3);
         MinHeap heap = new MinHeap(list);
-        assertEquals(2,heap.getLeftChild(0));
-        assertEquals(3,heap.getRightChild(0));
+        assertEquals(2, heap.getLeftChild(0));
+        assertEquals(3, heap.getRightChild(0));
     }
+
     @Test
     public void testIfLeafHasChildren()
     {
@@ -59,6 +60,7 @@ public class MinHeapTest
         assertTrue(heap.hasLeftChild(1));
         assertEquals(3, heap.getLeftChild(1));
     }
+
     @Test
     public void testIfInsertOfLesserElementToRightChildWorks()
     {
@@ -84,7 +86,7 @@ public class MinHeapTest
         list.add(5);
         MinHeap heap = new MinHeap(list);
         heap.insert(2);
-        assertEquals(2,heap.getMini());
+        assertEquals(2, heap.getMini());
     }
 
     @Test
@@ -99,21 +101,10 @@ public class MinHeapTest
         list.add(9);
         list.add(10);
         MinHeap heap = new MinHeap(list);
-        assertEquals(1,heap.getMini());
-        assertEquals(1,heap.extractMini());
-        assertEquals(3,heap.getMini());
+        assertEquals(1, heap.getMini());
+        assertEquals(1, heap.extractMini());
+        assertEquals(3, heap.getMini());
     }
 
-    @Test
-    public void testExtractForSortedList()
-    {
-        List<Integer> list = new ArrayList<>();
-        list.add(1);
-        list.add(2);
-        list.add(3);
-        MinHeap heap = new MinHeap(list);
-        assertEquals(1,heap.getMini());
-        assertEquals(1,heap.extractMiniFromSortedList());
-        assertEquals(2,heap.getMini());
-    }
+
 }

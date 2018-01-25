@@ -57,8 +57,13 @@ public class SortedListsMerger
 
     }
 
-    public static List mergeMultipleHeaps(List collectionOfAllHeaps)
+    public static List mergeMultipleHeaps(List<List> collectionOfAllHeaps)
     {
+        for(List list : collectionOfAllHeaps)
+        {
+
+        }
+
         return null;
     }
 }
