@@ -103,7 +103,12 @@ public class MinHeapTest
         MinHeap heap = new MinHeap(list);
         assertEquals(1, heap.getMini());
         assertEquals(1, heap.extractMini());
-        assertEquals(3, heap.getMini());
+        assertEquals(3, heap.extractMini());
+        assertEquals(4, heap.extractMini());
+        assertEquals(7, heap.extractMini());
+        assertEquals(8, heap.extractMini());
+        assertEquals(9, heap.extractMini());
+        assertEquals(10, heap.extractMini());
     }
 
 

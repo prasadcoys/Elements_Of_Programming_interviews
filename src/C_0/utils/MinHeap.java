@@ -96,6 +96,10 @@ public class MinHeap
     {
         int mini = list.get(0);
         int lastItem = list.remove(list.size() - 1);
+        if(list.isEmpty())
+        {
+            return lastItem;
+        }
         list.set(0, lastItem);
         int currentIndex = 0;
         int leftValue = -1, rightValue = -1;
