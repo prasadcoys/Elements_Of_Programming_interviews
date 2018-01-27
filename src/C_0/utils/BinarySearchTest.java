@@ -42,4 +42,6 @@ public class BinarySearchTest
         int[] sortedArray = {2,3,4,5,6,7,8,9,10};
         assertEquals(-1,BinarySearch.find(1,sortedArray));
     }
+
+
 }
