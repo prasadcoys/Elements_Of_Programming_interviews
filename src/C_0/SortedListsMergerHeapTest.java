@@ -1,6 +1,5 @@
 package C_0;
 
-import C_0.utils.MinHeap;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -13,26 +12,23 @@ public class SortedListsMergerHeapTest
     @Test
     public void testIfmerging3SortedListsWorksCorrectly()
     {
-        List listA = new ArrayList();
+        List<Integer> listA = new ArrayList<>();
         listA.add(1);
         listA.add(3);
         listA.add(5);
-        MinHeap heapA = new MinHeap(listA);
 
-        List listB = new ArrayList();
+        List<Integer> listB = new ArrayList<>();
         listB.add(2);
         listB.add(4);
         listB.add(6);
-        MinHeap heapB = new MinHeap(listB);
-        List listC = new ArrayList();
+        List<Integer> listC = new ArrayList<>();
         listC.add(7);
         listC.add(9);
-        MinHeap heapC = new MinHeap(listC);
 
-        List<List> collectionOfAllHeaps = new ArrayList();
-        collectionOfAllHeaps.add(listA);
-        collectionOfAllHeaps.add(listB);
-        collectionOfAllHeaps.add(listC);
+        List<List<Integer>> collectionOfLists = new ArrayList<>();
+        collectionOfLists.add(listA);
+        collectionOfLists.add(listB);
+        collectionOfLists.add(listC);
         List mergedList = new ArrayList();
         mergedList.add(1);
         mergedList.add(2);
@@ -42,8 +38,8 @@ public class SortedListsMergerHeapTest
         mergedList.add(6);
         mergedList.add(7);
         mergedList.add(9);
-        assertEquals(mergedList,SortedListsMerger.mergeMultipleHeaps
-                (collectionOfAllHeaps));
+        assertEquals(mergedList, SortedListsMerger.mergeMultipleLists
+                (collectionOfLists));
 
     }
 }

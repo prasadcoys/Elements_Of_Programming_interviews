@@ -1,8 +1,11 @@
 package C_0;
 
 import C_0.utils.LinkedListNode;
+import C_0.utils.MergeHeapNode;
 import C_0.utils.MyLinkedList;
+import C_0.utils.NodeMinHeap;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class SortedListsMerger
@@ -57,13 +60,36 @@ public class SortedListsMerger
 
     }
 
-    public static List mergeMultipleHeaps(List<List> collectionOfAllHeaps)
+    public static List mergeMultipleLists(
+            List<List<Integer>>
+                    collectionOfAllSortedLists)
     {
-        for(List list : collectionOfAllHeaps)
+        NodeMinHeap nodeMinHeap = new NodeMinHeap();
+        List<Integer> sortedList = new ArrayList<>();
+        for (int i = 0; i < collectionOfAllSortedLists.size(); i++)
         {
+            nodeMinHeap.insert(new MergeHeapNode
+                    ((collectionOfAllSortedLists.get(i).remove(0)), i));
 
         }
+        int i = collectionOfAllSortedLists.size();
+        while (i>0)
+        {
+            MergeHeapNode leastValueNode = nodeMinHeap.extractMini();
+            sortedList.add(leastValueNode.getValue());
+            int arrayNumber = leastValueNode
+                    .getArrayNumber();
+            if (collectionOfAllSortedLists.get(arrayNumber).isEmpty())
+            {
+                i--;
+                continue;
+            } else
+            {
+                nodeMinHeap.insert(new MergeHeapNode(collectionOfAllSortedLists.get
+                        (arrayNumber).remove(0),arrayNumber));
+            }
+        }
 
-        return null;
+        return sortedList;
     }
 }
