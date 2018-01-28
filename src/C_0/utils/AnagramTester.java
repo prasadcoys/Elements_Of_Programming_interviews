@@ -10,20 +10,11 @@ public class AnagramTester
         {
             return false;
         }
-        char[] charArray1 = string1.toCharArray();
-        char[] charArray2 = string2.toCharArray();
-        int[] lookupRegister1 = new int[256];
-        int[] lookupRegister2 = new int[256];
+        int[] lookupRegister1 = getIntegerArrayFromWord(string1);
 
-        for(char character : charArray1)
-        {
-            lookupRegister1[character]++;
-        }
-        for(char character : charArray2)
-        {
-            lookupRegister2[character]++;
-        }
-        for(char character : charArray2)
+        int[] lookupRegister2 = getIntegerArrayFromWord(string2);
+
+        for(char character : string2.toCharArray())
         {
             if(lookupRegister1[character] == lookupRegister2[character])
             {
@@ -36,5 +27,17 @@ public class AnagramTester
         }
 
         return isAnagram;
+    }
+
+    public static int[] getIntegerArrayFromWord(String string1)
+    {
+        char[] charArray1 = string1.toCharArray();
+
+        int[] lookupRegister1 = new int[256];
+        for(char character : charArray1)
+        {
+            lookupRegister1[character]++;
+        }
+        return lookupRegister1;
     }
 }

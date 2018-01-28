@@ -28,8 +28,7 @@ public class AnagramGrouperTest
         anagramsExpected.add(firstAnagram);
         anagramsExpected.add(secondAnagram);
         assertEquals(anagramsExpected,AnagramGrouper.getGroupsOfAnagrams
-                (listOfWords))
-        ;
+                (listOfWords));
 
     }
 }
