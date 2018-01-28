@@ -31,4 +31,18 @@ public class AnagramGrouperTest
                 (listOfWords));
 
     }
+
+    @Test
+    public void
+    testIfWordsWhichDontHaveAnagramsAreGroupedIntoAnagramsCorrectly()
+    {
+        List<String> listOfWords = new ArrayList<>();
+        List<List<String>> anagramsExpected = new ArrayList<>();
+        listOfWords.add("silent");
+        listOfWords.add("badcredit");
+        listOfWords.add("notananagramword");
+        assertEquals(anagramsExpected,AnagramGrouper.getGroupsOfAnagrams
+                (listOfWords));
+
+    }
 }
