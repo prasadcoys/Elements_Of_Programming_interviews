@@ -38,4 +38,19 @@ public class TreeNode
     {
         return ""+this.value;
     }
+
+    public int getValue()
+    {
+        return value;
+    }
+
+    public boolean hasLeftNode()
+    {
+        return leftNode!=null;
+    }
+
+    public boolean hasRightNode()
+    {
+        return rightNode!=null;
+    }
 }
