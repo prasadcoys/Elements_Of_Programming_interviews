@@ -9,9 +9,26 @@ public class NaiveRecursionFibonacci
 
     public static void main(String[] args)
     {
-        long fibNumber = calculateBottomUpFibonacci(100);
+        long fibNumber = calculateBottomUpFibonacciWithImprovedStorge(100);
         System.out.println(fibNumber);
     }
+
+    private static long calculateBottomUpFibonacciWithImprovedStorge(int num)
+    {
+        long nMinus2Fib;
+        long nMinus1Fib;
+        long nthFib = 0;
+        nMinus1Fib = 1;
+        nMinus2Fib = 1;
+        for(int i = 2;i<num;i++)
+        {
+            nthFib = nMinus1Fib+nMinus2Fib;
+            nMinus2Fib = nMinus1Fib;
+            nMinus1Fib = nthFib;
+        }
+        return nthFib;
+    }
+
 
     private static long calculateBottomUpFibonacci(int num)
     {
