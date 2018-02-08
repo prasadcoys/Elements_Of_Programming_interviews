@@ -7,7 +7,7 @@ public class LongestCommonSubsequenceFinder
 {
 
     static Map<String,Integer> memo = new HashMap<>();
-    //naive recursion
+
     public static int findLCS(int[] a, int[] b)
     {
         return findLCSMemoisedRecursion(a,b,a.length,b.length);
