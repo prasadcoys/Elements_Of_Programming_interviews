@@ -49,7 +49,7 @@ public class RodCuttingCracker
                             (length - i, prices)));
             i++;
         }
-
+        pricesMap.put(length,currentMax);
         return currentMax;
     }
 }
