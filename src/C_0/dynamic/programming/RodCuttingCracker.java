@@ -80,11 +80,11 @@ public class RodCuttingCracker
     private static int getMaxRevenue(int i, int[] prices, int[] maximumRevenues)
     {
         int currentMax = prices[i];
-        int j = 1;
-        while(i>=j)
+        int j = 0;
+        while((i-j)>=j)
         {
             currentMax = Math.max(currentMax,
-                    (maximumRevenues[i-j]+
+                    (maximumRevenues[i-j-1]+
                             maximumRevenues[j]));
             j++;
         }
