@@ -8,26 +8,56 @@ public class ExponentiationTest
 {
 
     @Test
-    public void testIfExponentiationOfIntegerInDoubleFormatWorks()
+    public void testIfExponentIsZeroWeGetOne()
     {
-        double x = 2;
-        int y = 2;
-        assertEquals(4,Exponentiation.pow(x,y));
+        double number = 3.14123;
+        int exponent = 0;
+        assertEquals(1.0,Exponentiation.pow(number,exponent),3);
     }
 
     @Test
-    public void testIfExponentiationOfDoubleFormatWorks()
+    public void testIfExponentIsOneWeGetSameNumber()
     {
-        double x = 2.5;
-        int y = 2;
-        assertEquals(6.25,Exponentiation.pow(x,y));
+        double number = 3.14123;
+        int exponent = 1;
+        assertEquals(3.14123,Exponentiation.pow(number,exponent),3);
+    }
+    @Test
+    public void testIfSquaringWorksCorrectly()
+    {
+        double number = 2.5;
+        int exponent = 2;
+        assertEquals(6.25,Exponentiation.pow(number,exponent),3);
     }
 
     @Test
-    public void testIfExponentiationOfNegativeNumberWorks()
+    public void testIfCubingWorksCorrectly()
     {
-        double x = -2.5;
-        int y = 3;
-        assertEquals(-15.625,Exponentiation.pow(x,y));
+        double number = 2.5;
+        int exponent = 3;
+        assertEquals(Math.pow(number,exponent),Exponentiation.pow(number,
+                exponent),3);
     }
+
+    @Test
+    public void testIfPower16WorksCorrectly()
+    {
+        double number = 2.5;
+        int exponent = 16;
+        assertEquals(Math.pow(number,exponent),Exponentiation.pow(number,
+                exponent),3);
+        System.out.println(Math.pow(2.5,14));
+    }
+
+    @Test
+    public void testIfPower4Works()
+    {
+        double number = 2.5;
+        int exponent = 4;
+        assertEquals(Math.pow(number,exponent),Exponentiation.pow
+                (number,exponent),3);
+    }
+
+
+
 }
