@@ -10,14 +10,18 @@ public class StringAlgorithms {
         int maxLength = (endPos - startPos) + 1;
         char[] characters = wholeString.toCharArray();
         Map<Character, Integer> nonRepeatingCharacters = new HashMap<>();
+        int i = 0;
         for (char c : characters) {
             if (nonRepeatingCharacters.containsKey(c)) {
-                startPos = nonRepeatingCharacters.get(c) + 1;
+                int startPos1 = nonRepeatingCharacters.get(c) + 1;
+                startPos = startPos1 > startPos?startPos1:startPos;
             }
-            nonRepeatingCharacters.put(c, ++endPos);
+            nonRepeatingCharacters.put(c, i++);
+            endPos++;
             if (maxLength < (endPos - startPos) + 1) {
                 maxLength = (endPos - startPos) + 1;
             }
+            System.out.println(maxLength+":"+startPos+":"+endPos);
         }
         return maxLength;
     }

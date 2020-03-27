@@ -39,4 +39,11 @@ public class StringProblemsTest {
         Assert.assertEquals(3,
                 StringAlgorithms.FindLengthOfLargestSubstring(wholeString));
     }
+
+    @Test
+    public void testIfWeCanCorrectlyFindOutSizeForAnotherMixedString_2(){
+        String wholeString = "abba";
+        Assert.assertEquals(2,
+                StringAlgorithms.FindLengthOfLargestSubstring(wholeString));
+    }
 }

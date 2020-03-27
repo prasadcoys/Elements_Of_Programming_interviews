@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="0086c41c-0c5f-42c8-8f4d-141211d5d74e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C_1/Exponentiation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C_1/Exponentiation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C_1/ExponentiationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C_1/ExponentiationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Elements_Of_Programming_Interviews/hacker/earth/krypc/StringAlgorithms.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Elements_Of_Programming_Interviews/hacker/earth/krypc/StringAlgorithms.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Elements_Of_Programming_Interviews/hacker/earth/krypc/StringProblemsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Elements_Of_Programming_Interviews/hacker/earth/krypc/StringProblemsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hacker/earth/krypc/StringAlgorithms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hacker/earth/krypc/StringAlgorithms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hacker/earth/krypc/StringProblemsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hacker/earth/krypc/StringProblemsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +201,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubssetCreatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringProblemsTest.testIfWeCanCorrectlyFindOutSizeForAnotherMixedString_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Elements_Of_Programming_Interviews" />
       <extension name="coverage">
         <pattern>
@@ -208,8 +210,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="hacker.earth.krypc" />
-      <option name="MAIN_CLASS_NAME" value="hacker.earth.krypc.SubssetCreatorTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="hacker.earth.krypc.StringProblemsTest" />
+      <option name="METHOD_NAME" value="testIfWeCanCorrectlyFindOutSizeForAnotherMixedString_2" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -245,16 +248,16 @@
       <item itemvalue="JUnit.ExponentiationTest" />
       <item itemvalue="JUnit.ExponentiationTest.testIfCubingWorksCorrectly" />
       <item itemvalue="JUnit.ExponentiationTest.testIfPower16WorksCorrectly" />
-      <item itemvalue="JUnit.SubssetCreatorTest" />
       <item itemvalue="JUnit.StringProblemsTest" />
+      <item itemvalue="JUnit.StringProblemsTest.testIfWeCanCorrectlyFindOutSizeForAnotherMixedString_2" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.StringProblemsTest" />
+        <item itemvalue="JUnit.StringProblemsTest.testIfWeCanCorrectlyFindOutSizeForAnotherMixedString_2" />
         <item itemvalue="JUnit.ExponentiationTest" />
         <item itemvalue="JUnit.ExponentiationTest.testIfPower16WorksCorrectly" />
         <item itemvalue="JUnit.ExponentiationTest.testIfCubingWorksCorrectly" />
-        <item itemvalue="JUnit.SubssetCreatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -270,38 +273,6 @@
       <updated>1505227899324</updated>
     </task>
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="ExponentiationTest - 2018.04.15 at 17h 29m 24s.xml">
-      <configuration name="ExponentiationTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExponentiationTest - 2018.04.15 at 17h 30m 14s.xml">
-      <configuration name="ExponentiationTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExponentiationTest - 2018.04.15 at 17h 30m 30s.xml">
-      <configuration name="ExponentiationTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExponentiationTest - 2018.04.15 at 17h 31m 24s.xml">
-      <configuration name="ExponentiationTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExponentiationTest_testIfPower16WorksCorrectly - 2018.04.15 at 14h 25m 44s.xml">
-      <configuration name="ExponentiationTest.testIfPower16WorksCorrectly" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExponentiationTest_testIfPower16WorksCorrectly - 2018.04.15 at 14h 27m 00s.xml">
-      <configuration name="ExponentiationTest.testIfPower16WorksCorrectly" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExponentiationTest_testIfPower16WorksCorrectly - 2018.04.15 at 14h 27m 07s.xml">
-      <configuration name="ExponentiationTest.testIfPower16WorksCorrectly" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExponentiationTest_testIfPower16WorksCorrectly - 2018.04.15 at 14h 28m 34s.xml">
-      <configuration name="ExponentiationTest.testIfPower16WorksCorrectly" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExponentiationTest_testIfPower16WorksCorrectly - 2018.04.15 at 14h 30m 34s.xml">
-      <configuration name="ExponentiationTest.testIfPower16WorksCorrectly" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExponentiationTest_testIfPower16WorksCorrectly - 2018.04.15 at 17h 29m 19s.xml">
-      <configuration name="ExponentiationTest.testIfPower16WorksCorrectly" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -335,6 +306,24 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1324" height="176" key="GridCell.Tab.0.bottom" timestamp="1585334306875">
+      <screen x="0" y="23" width="1366" height="691" />
+    </state>
+    <state width="1324" height="176" key="GridCell.Tab.0.bottom/0.23.1366.691@0.23.1366.691" timestamp="1585334306875" />
+    <state width="1324" height="176" key="GridCell.Tab.0.center" timestamp="1585334306874">
+      <screen x="0" y="23" width="1366" height="691" />
+    </state>
+    <state width="1324" height="176" key="GridCell.Tab.0.center/0.23.1366.691@0.23.1366.691" timestamp="1585334306874" />
+    <state width="1324" height="176" key="GridCell.Tab.0.left" timestamp="1585334306874">
+      <screen x="0" y="23" width="1366" height="691" />
+    </state>
+    <state width="1324" height="176" key="GridCell.Tab.0.left/0.23.1366.691@0.23.1366.691" timestamp="1585334306874" />
+    <state width="1324" height="176" key="GridCell.Tab.0.right" timestamp="1585334306875">
+      <screen x="0" y="23" width="1366" height="691" />
+    </state>
+    <state width="1324" height="176" key="GridCell.Tab.0.right/0.23.1366.691@0.23.1366.691" timestamp="1585334306875" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
