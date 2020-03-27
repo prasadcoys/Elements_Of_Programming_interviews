@@ -1,29 +1,26 @@
 package hacker.earth.krypc;
 
-import java.util.LinkedHashSet;
-import java.util.Set;
+import java.util.HashMap;
+import java.util.Map;
 
 public class StringAlgorithms {
     public static int FindLengthOfLargestSubstring(String wholeString) {
-        int maxLength = 0;
+        int startPos = 0;
+        int endPos = -1;
+        int maxLength = (endPos - startPos) + 1;
         char[] characters = wholeString.toCharArray();
-        LinkedHashSet<Character> repeatingCharacters = new LinkedHashSet<>();
+        Map<Character, Integer> nonRepeatingCharacters = new HashMap<>();
         for (char c : characters) {
-            if (!repeatingCharacters.add(c)){
-
-                maxLength = setMaxLengthIfNewMaxIsFound(maxLength, repeatingCharacters);
-                repeatingCharacters = new LinkedHashSet<>();
-                repeatingCharacters.add(c);
+            if (nonRepeatingCharacters.containsKey(c)) {
+                startPos = nonRepeatingCharacters.get(c) + 1;
+            }
+            nonRepeatingCharacters.put(c, ++endPos);
+            if (maxLength < (endPos - startPos) + 1) {
+                maxLength = (endPos - startPos) + 1;
             }
         }
-        maxLength = setMaxLengthIfNewMaxIsFound(maxLength, repeatingCharacters);
         return maxLength;
     }
 
-    private static int setMaxLengthIfNewMaxIsFound(int maxLength, Set<Character> repeatingCharacters) {
-        if (repeatingCharacters.size() > maxLength) {
-            maxLength = repeatingCharacters.size();
-        }
-        return maxLength;
-    }
+
 }
