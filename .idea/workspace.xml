@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0086c41c-0c5f-42c8-8f4d-141211d5d74e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Elements_Of_Programming_Interviews/hacker/earth/krypc/StringAlgorithms.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Elements_Of_Programming_Interviews/hacker/earth/krypc/StringAlgorithms.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hacker/earth/krypc/StringAlgorithms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hacker/earth/krypc/StringAlgorithms.java" afterDir="false" />
-    </list>
+    <list default="true" id="0086c41c-0c5f-42c8-8f4d-141211d5d74e" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
