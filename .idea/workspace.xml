@@ -4,9 +4,7 @@
     <list default="true" id="0086c41c-0c5f-42c8-8f4d-141211d5d74e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Elements_Of_Programming_Interviews/hacker/earth/krypc/StringAlgorithms.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Elements_Of_Programming_Interviews/hacker/earth/krypc/StringAlgorithms.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Elements_Of_Programming_Interviews/hacker/earth/krypc/StringProblemsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Elements_Of_Programming_Interviews/hacker/earth/krypc/StringProblemsTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hacker/earth/krypc/StringAlgorithms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hacker/earth/krypc/StringAlgorithms.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hacker/earth/krypc/StringProblemsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hacker/earth/krypc/StringProblemsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -308,22 +306,22 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1324" height="176" key="GridCell.Tab.0.bottom" timestamp="1585334306875">
+    <state width="1324" height="176" key="GridCell.Tab.0.bottom" timestamp="1585409695597">
       <screen x="0" y="23" width="1366" height="691" />
     </state>
-    <state width="1324" height="176" key="GridCell.Tab.0.bottom/0.23.1366.691@0.23.1366.691" timestamp="1585334306875" />
-    <state width="1324" height="176" key="GridCell.Tab.0.center" timestamp="1585334306874">
+    <state width="1324" height="176" key="GridCell.Tab.0.bottom/0.23.1366.691@0.23.1366.691" timestamp="1585409695597" />
+    <state width="1324" height="176" key="GridCell.Tab.0.center" timestamp="1585409695595">
       <screen x="0" y="23" width="1366" height="691" />
     </state>
-    <state width="1324" height="176" key="GridCell.Tab.0.center/0.23.1366.691@0.23.1366.691" timestamp="1585334306874" />
-    <state width="1324" height="176" key="GridCell.Tab.0.left" timestamp="1585334306874">
+    <state width="1324" height="176" key="GridCell.Tab.0.center/0.23.1366.691@0.23.1366.691" timestamp="1585409695595" />
+    <state width="1324" height="176" key="GridCell.Tab.0.left" timestamp="1585409695594">
       <screen x="0" y="23" width="1366" height="691" />
     </state>
-    <state width="1324" height="176" key="GridCell.Tab.0.left/0.23.1366.691@0.23.1366.691" timestamp="1585334306874" />
-    <state width="1324" height="176" key="GridCell.Tab.0.right" timestamp="1585334306875">
+    <state width="1324" height="176" key="GridCell.Tab.0.left/0.23.1366.691@0.23.1366.691" timestamp="1585409695594" />
+    <state width="1324" height="176" key="GridCell.Tab.0.right" timestamp="1585409695595">
       <screen x="0" y="23" width="1366" height="691" />
     </state>
-    <state width="1324" height="176" key="GridCell.Tab.0.right/0.23.1366.691@0.23.1366.691" timestamp="1585334306875" />
+    <state width="1324" height="176" key="GridCell.Tab.0.right/0.23.1366.691@0.23.1366.691" timestamp="1585409695595" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -13,15 +13,12 @@ public class StringAlgorithms {
         int i = 0;
         for (char c : characters) {
             if (nonRepeatingCharacters.containsKey(c)) {
-                int startPos1 = nonRepeatingCharacters.get(c) + 1;
-                startPos = startPos1 > startPos?startPos1:startPos;
+                startPos = Math.max(startPos,
+                        nonRepeatingCharacters.get(c) + 1);
             }
             nonRepeatingCharacters.put(c, i++);
             endPos++;
-            if (maxLength < (endPos - startPos) + 1) {
-                maxLength = (endPos - startPos) + 1;
-            }
-            System.out.println(maxLength+":"+startPos+":"+endPos);
+            maxLength = Math.max(maxLength,(endPos - startPos)+1);
         }
         return maxLength;
     }
