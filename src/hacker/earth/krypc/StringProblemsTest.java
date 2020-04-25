@@ -46,4 +46,9 @@ public class StringProblemsTest {
         Assert.assertEquals(2,
                 StringAlgorithms.FindLengthOfLargestSubstring(wholeString));
     }
+
+    @Test
+    public void test(){
+        System.out.println(Integer.parseInt(Integer.toBinaryString(1)) ^ Integer.parseInt(Integer.toBinaryString(3)));
+    }
 }
