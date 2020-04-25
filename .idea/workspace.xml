@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0086c41c-0c5f-42c8-8f4d-141211d5d74e" name="Default" comment="" />
+    <list default="true" id="0086c41c-0c5f-42c8-8f4d-141211d5d74e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/backtracking/Subsets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backtracking/SubsetsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Elements_Of_Programming_Interviews/hacker/earth/krypc/StringProblemsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Elements_Of_Programming_Interviews/hacker/earth/krypc/StringProblemsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hacker/earth/krypc/StringProblemsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hacker/earth/krypc/StringProblemsTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,26 +86,26 @@
     <property name="TODO_SCOPE" value="All Places" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="test" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="C_1" />
-      <recent name="C_0" />
-      <recent name="C_0.dynamic.programming" />
-      <recent name="C_0.utils" />
-      <recent name="\" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/test" />
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="test" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="backtracking" />
+      <recent name="C_1" />
+      <recent name="C_0" />
+      <recent name="C_0.dynamic.programming" />
+      <recent name="C_0.utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.StringProblemsTest">
+  <component name="RunManager" selected="JUnit.SubsetsTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -109,56 +115,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExponentiationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Elements_Of_Programming_Interviews" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="C_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="C_1" />
-      <option name="MAIN_CLASS_NAME" value="C_1.ExponentiationTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExponentiationTest.testIfCubingWorksCorrectly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Elements_Of_Programming_Interviews" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="C_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="C_1" />
-      <option name="MAIN_CLASS_NAME" value="C_1.ExponentiationTest" />
-      <option name="METHOD_NAME" value="testIfCubingWorksCorrectly" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExponentiationTest.testIfPower16WorksCorrectly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Elements_Of_Programming_Interviews" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="C_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="C_1" />
-      <option name="MAIN_CLASS_NAME" value="C_1.ExponentiationTest" />
-      <option name="METHOD_NAME" value="testIfPower16WorksCorrectly" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -195,7 +151,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringProblemsTest.testIfWeCanCorrectlyFindOutSizeForAnotherMixedString_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringProblemsTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Elements_Of_Programming_Interviews" />
       <extension name="coverage">
         <pattern>
@@ -205,7 +161,57 @@
       </extension>
       <option name="PACKAGE_NAME" value="hacker.earth.krypc" />
       <option name="MAIN_CLASS_NAME" value="hacker.earth.krypc.StringProblemsTest" />
-      <option name="METHOD_NAME" value="testIfWeCanCorrectlyFindOutSizeForAnotherMixedString_2" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubsetsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Elements_Of_Programming_Interviews" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="backtracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="backtracking" />
+      <option name="MAIN_CLASS_NAME" value="backtracking.SubsetsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubsetsTest.testIfSubsetsForAnArrayInNonSortedArrayWorks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Elements_Of_Programming_Interviews" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="backtracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="backtracking" />
+      <option name="MAIN_CLASS_NAME" value="backtracking.SubsetsTest" />
+      <option name="METHOD_NAME" value="testIfSubsetsForAnArrayInNonSortedArrayWorks" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubsetsTest.testIfSubsetsForAnArrayInSortedArrayWorks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Elements_Of_Programming_Interviews" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="backtracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="backtracking" />
+      <option name="MAIN_CLASS_NAME" value="backtracking.SubsetsTest" />
+      <option name="METHOD_NAME" value="testIfSubsetsForAnArrayInSortedArrayWorks" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -239,19 +245,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.SortedListsMergerTest" />
-      <item itemvalue="JUnit.ExponentiationTest" />
-      <item itemvalue="JUnit.ExponentiationTest.testIfCubingWorksCorrectly" />
-      <item itemvalue="JUnit.ExponentiationTest.testIfPower16WorksCorrectly" />
       <item itemvalue="JUnit.StringProblemsTest" />
-      <item itemvalue="JUnit.StringProblemsTest.testIfWeCanCorrectlyFindOutSizeForAnotherMixedString_2" />
+      <item itemvalue="JUnit.StringProblemsTest.test" />
+      <item itemvalue="JUnit.SubsetsTest" />
+      <item itemvalue="JUnit.SubsetsTest.testIfSubsetsForAnArrayInSortedArrayWorks" />
+      <item itemvalue="JUnit.SubsetsTest.testIfSubsetsForAnArrayInNonSortedArrayWorks" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SubsetsTest" />
+        <item itemvalue="JUnit.SubsetsTest.testIfSubsetsForAnArrayInNonSortedArrayWorks" />
+        <item itemvalue="JUnit.SubsetsTest.testIfSubsetsForAnArrayInSortedArrayWorks" />
+        <item itemvalue="JUnit.StringProblemsTest.test" />
         <item itemvalue="JUnit.StringProblemsTest" />
-        <item itemvalue="JUnit.StringProblemsTest.testIfWeCanCorrectlyFindOutSizeForAnotherMixedString_2" />
-        <item itemvalue="JUnit.ExponentiationTest" />
-        <item itemvalue="JUnit.ExponentiationTest.testIfPower16WorksCorrectly" />
-        <item itemvalue="JUnit.ExponentiationTest.testIfCubingWorksCorrectly" />
       </list>
     </recent_temporary>
   </component>
@@ -302,22 +308,34 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1324" height="176" key="GridCell.Tab.0.bottom" timestamp="1585409695597">
+    <state x="1466" y="-112" width="1720" height="857" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1587798923413">
+      <screen x="1366" y="-212" width="1920" height="1057" />
+    </state>
+    <state x="1466" y="-112" width="1720" height="857" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1587798923413" />
+    <state width="1878" height="300" key="GridCell.Tab.0.bottom" timestamp="1587799615145">
+      <screen x="1366" y="-212" width="1920" height="1057" />
+    </state>
+    <state width="1324" height="176" key="GridCell.Tab.0.bottom/0.23.1366.691@0.23.1366.691" timestamp="1585825096982" />
+    <state width="1878" height="300" key="GridCell.Tab.0.bottom/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1587799615145" />
+    <state width="1878" height="300" key="GridCell.Tab.0.center" timestamp="1587799615143">
+      <screen x="1366" y="-212" width="1920" height="1057" />
+    </state>
+    <state width="1324" height="176" key="GridCell.Tab.0.center/0.23.1366.691@0.23.1366.691" timestamp="1585825096980" />
+    <state width="1878" height="300" key="GridCell.Tab.0.center/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1587799615143" />
+    <state width="1878" height="300" key="GridCell.Tab.0.left" timestamp="1587799615142">
+      <screen x="1366" y="-212" width="1920" height="1057" />
+    </state>
+    <state width="1324" height="176" key="GridCell.Tab.0.left/0.23.1366.691@0.23.1366.691" timestamp="1585825096978" />
+    <state width="1878" height="300" key="GridCell.Tab.0.left/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1587799615142" />
+    <state width="1878" height="300" key="GridCell.Tab.0.right" timestamp="1587799615144">
+      <screen x="1366" y="-212" width="1920" height="1057" />
+    </state>
+    <state width="1324" height="176" key="GridCell.Tab.0.right/0.23.1366.691@0.23.1366.691" timestamp="1585825096982" />
+    <state width="1878" height="300" key="GridCell.Tab.0.right/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1587799615144" />
+    <state x="112" y="23" key="new project wizard" timestamp="1585825096039">
       <screen x="0" y="23" width="1366" height="691" />
     </state>
-    <state width="1324" height="176" key="GridCell.Tab.0.bottom/0.23.1366.691@0.23.1366.691" timestamp="1585409695597" />
-    <state width="1324" height="176" key="GridCell.Tab.0.center" timestamp="1585409695595">
-      <screen x="0" y="23" width="1366" height="691" />
-    </state>
-    <state width="1324" height="176" key="GridCell.Tab.0.center/0.23.1366.691@0.23.1366.691" timestamp="1585409695595" />
-    <state width="1324" height="176" key="GridCell.Tab.0.left" timestamp="1585409695594">
-      <screen x="0" y="23" width="1366" height="691" />
-    </state>
-    <state width="1324" height="176" key="GridCell.Tab.0.left/0.23.1366.691@0.23.1366.691" timestamp="1585409695594" />
-    <state width="1324" height="176" key="GridCell.Tab.0.right" timestamp="1585409695595">
-      <screen x="0" y="23" width="1366" height="691" />
-    </state>
-    <state width="1324" height="176" key="GridCell.Tab.0.right/0.23.1366.691@0.23.1366.691" timestamp="1585409695595" />
+    <state x="112" y="23" key="new project wizard/0.23.1366.691@0.23.1366.691" timestamp="1585825096039" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
