@@ -82,7 +82,7 @@ public class Subsets {
             int start, boolean isTrueTree) {
 
         if (nums.length <= start) {
-            System.out.println("start :" +start+currentSubset);
+            System.out.println("start :" + start + currentSubset);
             subsets.add(currentSubset);
             return;
         }
@@ -105,21 +105,17 @@ public class Subsets {
             recursivelyAddNonDuplicateSubsetToSubsets2(subsets,
                     nums,
                     subsetWithElement, start + 1, true);
-        }
-        else if ( i <nums.length){
+        } else if (i < nums.length) {
             recursivelyAddNonDuplicateSubsetToSubsets2(subsets, nums,
                     currentSubset, i + 1, false);
             List<Integer> subsetWithElement = new ArrayList<>(currentSubset);
-            subsetWithElement.add(nums[i]);
+            subsetWithElement.add(nums[ i ]);
             recursivelyAddNonDuplicateSubsetToSubsets2(subsets,
                     nums,
                     subsetWithElement, i + 1, true);
-        }
-        else {
+        } else {
             subsets.add(currentSubset);
         }
     }
 }
-
-
 

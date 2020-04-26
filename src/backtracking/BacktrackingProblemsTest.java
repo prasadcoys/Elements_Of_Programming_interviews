@@ -6,7 +6,7 @@ import org.junit.Test;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SubsetsTest {
+public class BacktrackingProblemsTest {
 
 
     @Test
@@ -106,6 +106,43 @@ public class SubsetsTest {
         subsets.removeAll(expectedSubsets);
         Assert.assertTrue(subsets.isEmpty());
     }
+
+    @Test
+    public void testifCombainationsFro4C2CanBeCalculatedCorrectly(){
+        List<List<Integer>> expectedCombinations = new ArrayList<>();
+        int[][] combinations = new int[][]{ {1,2},{1,3},{1,4},{2,3},{2,
+                4},{3,4}};
+        addArrayToList(expectedCombinations,combinations);
+        List<List<Integer>> subsets =
+                new Combinations().combine(4,2);
+        for (List<Integer>subset:
+             subsets) {
+            System.out.println(subset);
+
+        }
+        Assert.assertEquals(expectedCombinations.size(),subsets.size());
+        subsets.removeAll(expectedCombinations);
+        Assert.assertTrue(subsets.isEmpty());
+    }
+
+    @Test
+    public void testifCombainationsFro5C3CanBeCalculatedCorrectly(){
+        List<List<Integer>> expectedCombinations = new ArrayList<>();
+        int[][] combinations = new int[][]{ {1,2,3},{1,2,4},{1,2,5},{1,3,4}
+        ,{1,3,5},{1,4,5},{2,3,4},{2,3,5},{2,4,5},{3,4,5}};
+        addArrayToList(expectedCombinations,combinations);
+        List<List<Integer>> subsets =
+                new Combinations().combine(5,3);
+        for (List<Integer>subset:
+                subsets) {
+            System.out.println(subset);
+
+        }
+        Assert.assertEquals(expectedCombinations.size(),subsets.size());
+        subsets.removeAll(expectedCombinations);
+        Assert.assertTrue(subsets.isEmpty());
+    }
+
     private void addArrayToList(List<List<Integer>> expectedSubsets, int[][] expectedArray) {
         for (int[] array :
                 expectedArray) {

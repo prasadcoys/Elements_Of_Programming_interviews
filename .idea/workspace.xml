@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0086c41c-0c5f-42c8-8f4d-141211d5d74e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/backtracking/Combinations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Elements_Of_Programming_Interviews/backtracking/Subsets.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Elements_Of_Programming_Interviews/backtracking/Subsets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Elements_Of_Programming_Interviews/backtracking/SubsetsTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/backtracking/Subsets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/Subsets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backtracking/SubsetsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/SubsetsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backtracking/SubsetsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/BacktrackingProblemsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,13 +78,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
-    <property name="extract.method.default.visibility" value="public" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/varadharajansubramanian/IdeaProjects/Elements_Of_Programming_Interviews/src/C_0/utils/MinHeapTest.java" />
-    <property name="full.screen.before.presentation.mode" value="false" />
     <property name="TODO_SCOPE" value="All Places" />
+    <property name="extract.method.default.visibility" value="public" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -103,7 +106,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SubsetsTest.testIfSubsetsWithoutDuplicatesAreGeneratedIfArrayContainsOnlyduplicates">
+  <component name="RunManager" selected="JUnit.BacktrackingProblemsTest.testifCombainationsFro5C3CanBeCalculatedCorrectly">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -113,6 +116,90 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BacktrackingProblemsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Elements_Of_Programming_Interviews" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="backtracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="backtracking" />
+      <option name="MAIN_CLASS_NAME" value="backtracking.BacktrackingProblemsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BacktrackingProblemsTest.testIfSubsetsWithoutDuplicatesAreGeneratedIfArrayContainsNoDuplicatesFor0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Elements_Of_Programming_Interviews" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="backtracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="backtracking" />
+      <option name="MAIN_CLASS_NAME" value="backtracking.BacktrackingProblemsTest" />
+      <option name="METHOD_NAME" value="testIfSubsetsWithoutDuplicatesAreGeneratedIfArrayContainsNoDuplicatesFor0" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BacktrackingProblemsTest.testIfSubsetsWithoutDuplicatesAreGeneratedIfArrayContainsOnlyduplicates" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Elements_Of_Programming_Interviews" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="backtracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="backtracking" />
+      <option name="MAIN_CLASS_NAME" value="backtracking.BacktrackingProblemsTest" />
+      <option name="METHOD_NAME" value="testIfSubsetsWithoutDuplicatesAreGeneratedIfArrayContainsOnlyduplicates" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BacktrackingProblemsTest.testifCombainationsFro4C2CanBeCalculatedCorrectly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Elements_Of_Programming_Interviews" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="backtracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="backtracking" />
+      <option name="MAIN_CLASS_NAME" value="backtracking.BacktrackingProblemsTest" />
+      <option name="METHOD_NAME" value="testifCombainationsFro4C2CanBeCalculatedCorrectly" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BacktrackingProblemsTest.testifCombainationsFro5C3CanBeCalculatedCorrectly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Elements_Of_Programming_Interviews" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="backtracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="backtracking" />
+      <option name="MAIN_CLASS_NAME" value="backtracking.BacktrackingProblemsTest" />
+      <option name="METHOD_NAME" value="testifCombainationsFro5C3CanBeCalculatedCorrectly" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -128,90 +215,6 @@
       <option name="PACKAGE_NAME" value="C_0" />
       <option name="MAIN_CLASS_NAME" value="C_0.SortedListsMergerTest" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SubsetsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Elements_Of_Programming_Interviews" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="backtracking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="backtracking" />
-      <option name="MAIN_CLASS_NAME" value="backtracking.SubsetsTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SubsetsTest.testIfSubsetsWithoutDuplicatesAreGeneratedIfArrayContainsNoDuplicatesFor0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Elements_Of_Programming_Interviews" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="backtracking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="backtracking" />
-      <option name="MAIN_CLASS_NAME" value="backtracking.SubsetsTest" />
-      <option name="METHOD_NAME" value="testIfSubsetsWithoutDuplicatesAreGeneratedIfArrayContainsNoDuplicatesFor0" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SubsetsTest.testIfSubsetsWithoutDuplicatesAreGeneratedIfArrayContainsNoDuplicatesForNegativeNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Elements_Of_Programming_Interviews" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="backtracking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="backtracking" />
-      <option name="MAIN_CLASS_NAME" value="backtracking.SubsetsTest" />
-      <option name="METHOD_NAME" value="testIfSubsetsWithoutDuplicatesAreGeneratedIfArrayContainsNoDuplicatesForNegativeNumber" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SubsetsTest.testIfSubsetsWithoutDuplicatesAreGeneratedIfArrayContainsOnlyduplicates" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Elements_Of_Programming_Interviews" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="backtracking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="backtracking" />
-      <option name="MAIN_CLASS_NAME" value="backtracking.SubsetsTest" />
-      <option name="METHOD_NAME" value="testIfSubsetsWithoutDuplicatesAreGeneratedIfArrayContainsOnlyduplicates" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SubsetsTest.testIfSubsetsWithoutDuplicatesAreGeneratedIfArrayContainsduplicates" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Elements_Of_Programming_Interviews" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="backtracking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="backtracking" />
-      <option name="MAIN_CLASS_NAME" value="backtracking.SubsetsTest" />
-      <option name="METHOD_NAME" value="testIfSubsetsWithoutDuplicatesAreGeneratedIfArrayContainsduplicates" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -244,19 +247,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.SortedListsMergerTest" />
-      <item itemvalue="JUnit.SubsetsTest" />
-      <item itemvalue="JUnit.SubsetsTest.testIfSubsetsWithoutDuplicatesAreGeneratedIfArrayContainsNoDuplicatesForNegativeNumber" />
-      <item itemvalue="JUnit.SubsetsTest.testIfSubsetsWithoutDuplicatesAreGeneratedIfArrayContainsNoDuplicatesFor0" />
-      <item itemvalue="JUnit.SubsetsTest.testIfSubsetsWithoutDuplicatesAreGeneratedIfArrayContainsduplicates" />
-      <item itemvalue="JUnit.SubsetsTest.testIfSubsetsWithoutDuplicatesAreGeneratedIfArrayContainsOnlyduplicates" />
+      <item itemvalue="JUnit.BacktrackingProblemsTest" />
+      <item itemvalue="JUnit.BacktrackingProblemsTest.testIfSubsetsWithoutDuplicatesAreGeneratedIfArrayContainsNoDuplicatesFor0" />
+      <item itemvalue="JUnit.BacktrackingProblemsTest.testIfSubsetsWithoutDuplicatesAreGeneratedIfArrayContainsOnlyduplicates" />
+      <item itemvalue="JUnit.BacktrackingProblemsTest.testifCombainationsFro4C2CanBeCalculatedCorrectly" />
+      <item itemvalue="JUnit.BacktrackingProblemsTest.testifCombainationsFro5C3CanBeCalculatedCorrectly" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SubsetsTest.testIfSubsetsWithoutDuplicatesAreGeneratedIfArrayContainsOnlyduplicates" />
-        <item itemvalue="JUnit.SubsetsTest.testIfSubsetsWithoutDuplicatesAreGeneratedIfArrayContainsNoDuplicatesForNegativeNumber" />
-        <item itemvalue="JUnit.SubsetsTest.testIfSubsetsWithoutDuplicatesAreGeneratedIfArrayContainsNoDuplicatesFor0" />
-        <item itemvalue="JUnit.SubsetsTest.testIfSubsetsWithoutDuplicatesAreGeneratedIfArrayContainsduplicates" />
-        <item itemvalue="JUnit.SubsetsTest" />
+        <item itemvalue="JUnit.BacktrackingProblemsTest.testifCombainationsFro5C3CanBeCalculatedCorrectly" />
+        <item itemvalue="JUnit.BacktrackingProblemsTest.testifCombainationsFro4C2CanBeCalculatedCorrectly" />
+        <item itemvalue="JUnit.BacktrackingProblemsTest" />
+        <item itemvalue="JUnit.BacktrackingProblemsTest.testIfSubsetsWithoutDuplicatesAreGeneratedIfArrayContainsNoDuplicatesFor0" />
+        <item itemvalue="JUnit.BacktrackingProblemsTest.testIfSubsetsWithoutDuplicatesAreGeneratedIfArrayContainsOnlyduplicates" />
       </list>
     </recent_temporary>
   </component>
@@ -307,35 +310,59 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="71" y="89" width="1224" height="564" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1587816882380">
-      <screen x="0" y="23" width="1366" height="695" />
+    <state x="1466" y="-112" width="1720" height="857" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1587912848101">
+      <screen x="1366" y="-212" width="1920" height="1057" />
     </state>
     <state x="71" y="89" width="1224" height="564" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1366.695@0.23.1366.695" timestamp="1587816882380" />
-    <state x="1466" y="-112" width="1720" height="857" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1587798923413" />
-    <state width="1324" height="235" key="GridCell.Tab.0.bottom" timestamp="1587836388073">
-      <screen x="0" y="23" width="1366" height="695" />
+    <state x="1466" y="-112" width="1720" height="857" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1587912848101" />
+    <state width="498" height="466" key="DebuggerActiveHint" timestamp="1587912273268">
+      <screen x="1366" y="-212" width="1920" height="1057" />
+    </state>
+    <state width="498" height="466" key="DebuggerActiveHint/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1587912273268" />
+    <state width="1878" height="393" key="GridCell.Tab.0.bottom" timestamp="1587913392531">
+      <screen x="1366" y="-212" width="1920" height="1057" />
     </state>
     <state width="1324" height="176" key="GridCell.Tab.0.bottom/0.23.1366.691@0.23.1366.691" timestamp="1585825096982" />
-    <state width="1324" height="235" key="GridCell.Tab.0.bottom/0.23.1366.695@0.23.1366.695" timestamp="1587836388073" />
-    <state width="1878" height="300" key="GridCell.Tab.0.bottom/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1587801199684" />
-    <state width="1324" height="235" key="GridCell.Tab.0.center" timestamp="1587836388072">
-      <screen x="0" y="23" width="1366" height="695" />
+    <state width="1324" height="235" key="GridCell.Tab.0.bottom/0.23.1366.695@0.23.1366.695" timestamp="1587899149229" />
+    <state width="1878" height="393" key="GridCell.Tab.0.bottom/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1587913392531" />
+    <state width="1878" height="393" key="GridCell.Tab.0.center" timestamp="1587913392527">
+      <screen x="1366" y="-212" width="1920" height="1057" />
     </state>
     <state width="1324" height="176" key="GridCell.Tab.0.center/0.23.1366.691@0.23.1366.691" timestamp="1585825096980" />
-    <state width="1324" height="235" key="GridCell.Tab.0.center/0.23.1366.695@0.23.1366.695" timestamp="1587836388072" />
-    <state width="1878" height="300" key="GridCell.Tab.0.center/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1587801199682" />
-    <state width="1324" height="235" key="GridCell.Tab.0.left" timestamp="1587836388071">
-      <screen x="0" y="23" width="1366" height="695" />
+    <state width="1324" height="235" key="GridCell.Tab.0.center/0.23.1366.695@0.23.1366.695" timestamp="1587899149228" />
+    <state width="1878" height="393" key="GridCell.Tab.0.center/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1587913392527" />
+    <state width="1878" height="393" key="GridCell.Tab.0.left" timestamp="1587913392525">
+      <screen x="1366" y="-212" width="1920" height="1057" />
     </state>
     <state width="1324" height="176" key="GridCell.Tab.0.left/0.23.1366.691@0.23.1366.691" timestamp="1585825096978" />
-    <state width="1324" height="235" key="GridCell.Tab.0.left/0.23.1366.695@0.23.1366.695" timestamp="1587836388071" />
-    <state width="1878" height="300" key="GridCell.Tab.0.left/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1587801199681" />
-    <state width="1324" height="235" key="GridCell.Tab.0.right" timestamp="1587836388073">
-      <screen x="0" y="23" width="1366" height="695" />
+    <state width="1324" height="235" key="GridCell.Tab.0.left/0.23.1366.695@0.23.1366.695" timestamp="1587899149227" />
+    <state width="1878" height="393" key="GridCell.Tab.0.left/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1587913392525" />
+    <state width="1878" height="393" key="GridCell.Tab.0.right" timestamp="1587913392530">
+      <screen x="1366" y="-212" width="1920" height="1057" />
     </state>
     <state width="1324" height="176" key="GridCell.Tab.0.right/0.23.1366.691@0.23.1366.691" timestamp="1585825096982" />
-    <state width="1324" height="235" key="GridCell.Tab.0.right/0.23.1366.695@0.23.1366.695" timestamp="1587836388073" />
-    <state width="1878" height="300" key="GridCell.Tab.0.right/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1587801199683" />
+    <state width="1324" height="235" key="GridCell.Tab.0.right/0.23.1366.695@0.23.1366.695" timestamp="1587899149228" />
+    <state width="1878" height="393" key="GridCell.Tab.0.right/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1587913392530" />
+    <state width="1878" height="357" key="GridCell.Tab.1.bottom" timestamp="1587912665044">
+      <screen x="1366" y="-212" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="357" key="GridCell.Tab.1.bottom/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1587912665044" />
+    <state width="1878" height="357" key="GridCell.Tab.1.center" timestamp="1587912665043">
+      <screen x="1366" y="-212" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="357" key="GridCell.Tab.1.center/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1587912665043" />
+    <state width="1878" height="357" key="GridCell.Tab.1.left" timestamp="1587912665042">
+      <screen x="1366" y="-212" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="357" key="GridCell.Tab.1.left/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1587912665042" />
+    <state width="1878" height="357" key="GridCell.Tab.1.right" timestamp="1587912665044">
+      <screen x="1366" y="-212" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="357" key="GridCell.Tab.1.right/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1587912665044" />
+    <state x="192" y="23" key="SettingsEditor" timestamp="1587896735779">
+      <screen x="0" y="23" width="1366" height="695" />
+    </state>
+    <state x="192" y="23" key="SettingsEditor/0.23.1366.695@0.23.1366.695" timestamp="1587896735779" />
     <state x="112" y="23" key="new project wizard" timestamp="1585825096039">
       <screen x="0" y="23" width="1366" height="691" />
     </state>
@@ -454,10 +481,15 @@
           <line>31</line>
           <option name="timeStamp" value="40" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/backtracking/Combinations.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/backtracking/SubsetsTest.java</url>
+          <url>file://$PROJECT_DIR$/src/backtracking/BacktrackingProblemsTest.java</url>
           <line>96</line>
-          <properties class="backtracking.SubsetsTest" method="testIfSubsetsWithoutDuplicatesAreGeneratedIfArrayContainsNoDuplicatesForNegativeNumber">
+          <properties class="backtracking.BacktrackingProblemsTest" method="testIfSubsetsWithoutDuplicatesAreGeneratedIfArrayContainsNoDuplicatesForNegativeNumber">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="41" />
