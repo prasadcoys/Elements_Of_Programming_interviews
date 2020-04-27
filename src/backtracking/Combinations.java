@@ -1,6 +1,8 @@
 package backtracking;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
 
 public class Combinations {
@@ -42,4 +44,50 @@ public class Combinations {
                     newCurrentCombination, k, numbers);
         }
     }
+
+    public List<List<Integer>> combinationSum(
+            int[] candidates,
+            int target) {
+        Arrays.sort(candidates);
+        List<List<Integer>> combinations = new ArrayList<>();
+        for (int i = 0;i< candidates.length;i ++){
+            int candidate = candidates[i];
+            if (candidate > target) {
+                break;
+            }
+            List<Integer> currentCombination = new ArrayList<>();
+            currentCombination.add(candidate);
+            if (candidate == target) {
+                combinations.add(currentCombination);
+                break;
+            }
+            int sum = 0;
+            recursivelyCalculateCombinationSum(combinations,
+                    currentCombination, sum + candidate, candidates,
+                    target,i);
+        }
+        return combinations;
+    }
+
+    private void recursivelyCalculateCombinationSum(List<List<Integer>> combinations, List<Integer> currentCombination, int sum, int[] candidates, int target, int startPos) {
+
+        for (int i = startPos;i < candidates.length;i ++){
+            int candidate = candidates[i];
+            if ( sum + candidate > target){
+                return;
+            }
+            List<Integer> newCombination =
+                    new ArrayList<>(currentCombination);
+            newCombination.add(candidate);
+            if (sum + candidate == target) {
+                combinations.add(newCombination);
+                return;
+            }
+
+            recursivelyCalculateCombinationSum(combinations,
+                    newCombination, sum + candidate, candidates, target,
+                    i);
+        }
+    }
+
 }
