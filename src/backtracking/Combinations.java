@@ -2,7 +2,6 @@ package backtracking;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashMap;
 import java.util.List;
 
 public class Combinations {
@@ -50,8 +49,8 @@ public class Combinations {
             int target) {
         Arrays.sort(candidates);
         List<List<Integer>> combinations = new ArrayList<>();
-        for (int i = 0;i< candidates.length;i ++){
-            int candidate = candidates[i];
+        for (int i = 0; i < candidates.length; i++) {
+            int candidate = candidates[ i ];
             if (candidate > target) {
                 break;
             }
@@ -64,16 +63,16 @@ public class Combinations {
             int sum = 0;
             recursivelyCalculateCombinationSum(combinations,
                     currentCombination, sum + candidate, candidates,
-                    target,i);
+                    target, i);
         }
         return combinations;
     }
 
     private void recursivelyCalculateCombinationSum(List<List<Integer>> combinations, List<Integer> currentCombination, int sum, int[] candidates, int target, int startPos) {
 
-        for (int i = startPos;i < candidates.length;i ++){
-            int candidate = candidates[i];
-            if ( sum + candidate > target){
+        for (int i = startPos; i < candidates.length; i++) {
+            int candidate = candidates[ i ];
+            if (sum + candidate > target) {
                 return;
             }
             List<Integer> newCombination =
@@ -90,4 +89,61 @@ public class Combinations {
         }
     }
 
+    public List<List<Integer>> combinationSum2(
+            int[] nums,
+            int target) {
+        List<List<Integer>> subsets = new ArrayList<>();
+        Arrays.sort(nums);
+        int currentSum = 0;
+        recursivelyAddNonDuplicateSubsetToSubsets2(subsets, nums,
+                new ArrayList<>(), 0, true, target,currentSum );
+        return subsets;
+    }
+
+    private void recursivelyAddNonDuplicateSubsetToSubsets2(
+            List<List<Integer>> subsets,
+            int[] nums,
+            List<Integer> currentSubset,
+            int start, boolean isTrueTree, int target, int sum) {
+
+        if (sum == target){
+            subsets.add(currentSubset);
+            return;
+        }
+        if (sum > target){
+            return;
+        }
+        if (nums.length <= start) {
+            return;
+        }
+
+        int i = start;
+        if (!isTrueTree) {
+            while (i < nums.length) {
+                if (nums[ i - 1 ] == nums[ i ]) {
+                    i++;
+                } else {
+                    break;
+                }
+            }
+        }
+        if (isTrueTree) {
+            recursivelyAddNonDuplicateSubsetToSubsets2(subsets, nums,
+                    currentSubset, start + 1, false, target, sum);
+            List<Integer> subsetWithElement = new ArrayList<>(currentSubset);
+            subsetWithElement.add(nums[ start ]);
+            recursivelyAddNonDuplicateSubsetToSubsets2(subsets,
+                    nums,
+                    subsetWithElement, start + 1, true, target,
+                    sum+nums[start]);
+        } else if (i < nums.length) {
+            recursivelyAddNonDuplicateSubsetToSubsets2(subsets, nums,
+                    currentSubset, i + 1, false, target, sum);
+            List<Integer> subsetWithElement = new ArrayList<>(currentSubset);
+            subsetWithElement.add(nums[ i ]);
+            recursivelyAddNonDuplicateSubsetToSubsets2(subsets,
+                    nums,
+                    subsetWithElement, i + 1, true, target, sum + nums[i]);
+        }
+    }
 }

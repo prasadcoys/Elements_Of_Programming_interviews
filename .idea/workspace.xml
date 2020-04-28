@@ -7,6 +7,7 @@
       <change beforePath="$PROJECT_DIR$/out/production/Elements_Of_Programming_Interviews/backtracking/Combinations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Elements_Of_Programming_Interviews/backtracking/Combinations.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/backtracking/BacktrackingProblemsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/BacktrackingProblemsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/backtracking/Combinations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/Combinations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backtracking/Subsets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/Subsets.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +106,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BacktrackingProblemsTest.testIfCombainationSumCanBeCalculatedForNumbersInANyOrder">
+  <component name="RunManager" selected="JUnit.BacktrackingProblemsTest.testIfCombinationSum2CanBeCalculatedProperly">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -186,7 +187,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BacktrackingProblemsTest.testifCombainationsFro5C3CanBeCalculatedCorrectly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BacktrackingProblemsTest.testIfCombinationSum2CanBeCalculatedProperly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Elements_Of_Programming_Interviews" />
       <extension name="coverage">
         <pattern>
@@ -196,7 +197,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="backtracking" />
       <option name="MAIN_CLASS_NAME" value="backtracking.BacktrackingProblemsTest" />
-      <option name="METHOD_NAME" value="testifCombainationsFro5C3CanBeCalculatedCorrectly" />
+      <option name="METHOD_NAME" value="testIfCombinationSum2CanBeCalculatedProperly" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -247,18 +248,18 @@
     <list>
       <item itemvalue="JUnit.SortedListsMergerTest" />
       <item itemvalue="JUnit.BacktrackingProblemsTest" />
-      <item itemvalue="JUnit.BacktrackingProblemsTest.testifCombainationsFro5C3CanBeCalculatedCorrectly" />
-      <item itemvalue="JUnit.BacktrackingProblemsTest.testIfCombainationSumCanBeCalculated" />
       <item itemvalue="JUnit.BacktrackingProblemsTest.testIfCombainationSumCanBeCalculatedForNumbersInANyOrder" />
       <item itemvalue="JUnit.BacktrackingProblemsTest.testIfCombainationSumCanBeCalculatedForNumbersInAscendingOrder" />
+      <item itemvalue="JUnit.BacktrackingProblemsTest.testIfCombainationSumCanBeCalculated" />
+      <item itemvalue="JUnit.BacktrackingProblemsTest.testIfCombinationSum2CanBeCalculatedProperly" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BacktrackingProblemsTest.testIfCombinationSum2CanBeCalculatedProperly" />
         <item itemvalue="JUnit.BacktrackingProblemsTest.testIfCombainationSumCanBeCalculatedForNumbersInANyOrder" />
         <item itemvalue="JUnit.BacktrackingProblemsTest.testIfCombainationSumCanBeCalculatedForNumbersInAscendingOrder" />
         <item itemvalue="JUnit.BacktrackingProblemsTest" />
         <item itemvalue="JUnit.BacktrackingProblemsTest.testIfCombainationSumCanBeCalculated" />
-        <item itemvalue="JUnit.BacktrackingProblemsTest.testifCombainationsFro5C3CanBeCalculatedCorrectly" />
       </list>
     </recent_temporary>
   </component>
@@ -309,38 +310,38 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="71" y="89" width="1224" height="564" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1588003528002">
+    <state x="71" y="89" width="1224" height="564" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1588093698301">
       <screen x="0" y="23" width="1366" height="695" />
     </state>
-    <state x="71" y="89" width="1224" height="564" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1366.695@0.23.1366.695" timestamp="1588003528002" />
+    <state x="71" y="89" width="1224" height="564" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1366.695@0.23.1366.695" timestamp="1588093698301" />
     <state x="1466" y="-112" width="1720" height="857" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1587912848101" />
     <state width="498" height="466" key="DebuggerActiveHint" timestamp="1587912273268">
       <screen x="1366" y="-212" width="1920" height="1057" />
     </state>
     <state width="498" height="466" key="DebuggerActiveHint/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1587912273268" />
-    <state width="1324" height="234" key="GridCell.Tab.0.bottom" timestamp="1588011787036">
+    <state width="1324" height="2" key="GridCell.Tab.0.bottom" timestamp="1588094999523">
       <screen x="0" y="23" width="1366" height="695" />
     </state>
     <state width="1324" height="176" key="GridCell.Tab.0.bottom/0.23.1366.691@0.23.1366.691" timestamp="1585825096982" />
-    <state width="1324" height="234" key="GridCell.Tab.0.bottom/0.23.1366.695@0.23.1366.695" timestamp="1588011787036" />
+    <state width="1324" height="2" key="GridCell.Tab.0.bottom/0.23.1366.695@0.23.1366.695" timestamp="1588094999523" />
     <state width="1878" height="393" key="GridCell.Tab.0.bottom/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1587913440892" />
-    <state width="1324" height="234" key="GridCell.Tab.0.center" timestamp="1588011787033">
+    <state width="1324" height="2" key="GridCell.Tab.0.center" timestamp="1588094999521">
       <screen x="0" y="23" width="1366" height="695" />
     </state>
     <state width="1324" height="176" key="GridCell.Tab.0.center/0.23.1366.691@0.23.1366.691" timestamp="1585825096980" />
-    <state width="1324" height="234" key="GridCell.Tab.0.center/0.23.1366.695@0.23.1366.695" timestamp="1588011787033" />
+    <state width="1324" height="2" key="GridCell.Tab.0.center/0.23.1366.695@0.23.1366.695" timestamp="1588094999521" />
     <state width="1878" height="393" key="GridCell.Tab.0.center/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1587913440890" />
-    <state width="1324" height="234" key="GridCell.Tab.0.left" timestamp="1588011787032">
+    <state width="1324" height="2" key="GridCell.Tab.0.left" timestamp="1588094999521">
       <screen x="0" y="23" width="1366" height="695" />
     </state>
     <state width="1324" height="176" key="GridCell.Tab.0.left/0.23.1366.691@0.23.1366.691" timestamp="1585825096978" />
-    <state width="1324" height="234" key="GridCell.Tab.0.left/0.23.1366.695@0.23.1366.695" timestamp="1588011787032" />
+    <state width="1324" height="2" key="GridCell.Tab.0.left/0.23.1366.695@0.23.1366.695" timestamp="1588094999521" />
     <state width="1878" height="393" key="GridCell.Tab.0.left/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1587913440888" />
-    <state width="1324" height="234" key="GridCell.Tab.0.right" timestamp="1588011787035">
+    <state width="1324" height="2" key="GridCell.Tab.0.right" timestamp="1588094999522">
       <screen x="0" y="23" width="1366" height="695" />
     </state>
     <state width="1324" height="176" key="GridCell.Tab.0.right/0.23.1366.691@0.23.1366.691" timestamp="1585825096982" />
-    <state width="1324" height="234" key="GridCell.Tab.0.right/0.23.1366.695@0.23.1366.695" timestamp="1588011787035" />
+    <state width="1324" height="2" key="GridCell.Tab.0.right/0.23.1366.695@0.23.1366.695" timestamp="1588094999522" />
     <state width="1878" height="393" key="GridCell.Tab.0.right/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1587913440891" />
     <state width="1878" height="357" key="GridCell.Tab.1.bottom" timestamp="1588011018876">
       <screen x="0" y="23" width="1366" height="695" />
@@ -378,10 +379,10 @@
       <screen x="0" y="23" width="1366" height="691" />
     </state>
     <state x="112" y="23" key="new project wizard/0.23.1366.691@0.23.1366.691" timestamp="1585825096039" />
-    <state x="391" y="23" key="refactoring.ChangeSignatureDialog" timestamp="1588010468460">
+    <state x="391" y="23" key="refactoring.ChangeSignatureDialog" timestamp="1588093432202">
       <screen x="0" y="23" width="1366" height="695" />
     </state>
-    <state x="391" y="23" key="refactoring.ChangeSignatureDialog/0.23.1366.695@0.23.1366.695" timestamp="1588010468460" />
+    <state x="391" y="23" key="refactoring.ChangeSignatureDialog/0.23.1366.695@0.23.1366.695" timestamp="1588093432202" />
     <state x="348" y="42" width="670" height="676" key="search.everywhere.popup" timestamp="1588000881955">
       <screen x="0" y="23" width="1366" height="695" />
     </state>
@@ -502,7 +503,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/backtracking/Combinations.java</url>
-          <line>24</line>
+          <line>23</line>
           <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">

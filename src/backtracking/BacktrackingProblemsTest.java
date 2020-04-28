@@ -161,13 +161,22 @@ public class BacktrackingProblemsTest {
                 new Combinations().combinationSum(new int[]{4,2,7,5,6},
                         16);
 
-//        Assert.assertEquals(expectedCombinations.size(),
-//                actualCombinations.size());
         actualCombinations.removeAll(expectedCombinations);
-        for (List<Integer> combination : actualCombinations
-        ) {
-            System.out.println(combination);
-        }
+        Assert.assertTrue(actualCombinations.isEmpty());
+
+    }
+
+    @Test
+    public void testIfCombinationSum2CanBeCalculatedProperly(){
+        List<List<Integer>> expectedCombinations = new ArrayList<>();
+        int[][] combinations = new int[][]{{5}, {1, 2, 2}};
+        addArrayToList(expectedCombinations, combinations);
+        int[] candidates = new int[]{2,5,2,1,2};
+        List<List<Integer>> actualCombinations =
+                new Combinations().combinationSum2(candidates,5);
+        Assert.assertEquals(expectedCombinations.size(),
+                actualCombinations.size());
+        actualCombinations.removeAll(expectedCombinations);
         Assert.assertTrue(actualCombinations.isEmpty());
 
     }

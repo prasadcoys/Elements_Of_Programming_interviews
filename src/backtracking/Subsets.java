@@ -82,7 +82,6 @@ public class Subsets {
             int start, boolean isTrueTree) {
 
         if (nums.length <= start) {
-            System.out.println("start :" + start + currentSubset);
             subsets.add(currentSubset);
             return;
         }
