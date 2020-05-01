@@ -152,13 +152,14 @@ public class BacktrackingProblemsTest {
         Assert.assertTrue(actualCombinations.isEmpty());
 
     }
+
     @Test
     public void testIfCombainationSumCanBeCalculatedForNumbersInANyOrder() {
         List<List<Integer>> expectedCombinations = new ArrayList<>();
-        int[][] combinations = new int[][]{{2,2,2,2,2,2,2,2},{2,2,2,2,2,2,4},{2,2,2,2,2,6},{2,2,2,2,4,4},{2,2,2,4,6},{2,2,2,5,5},{2,2,4,4,4},{2,2,5,7},{2,2,6,6},{2,4,4,6},{2,4,5,5},{2,7,7},{4,4,4,4},{4,5,7},{4,6,6},{5,5,6}};
+        int[][] combinations = new int[][]{{2, 2, 2, 2, 2, 2, 2, 2}, {2, 2, 2, 2, 2, 2, 4}, {2, 2, 2, 2, 2, 6}, {2, 2, 2, 2, 4, 4}, {2, 2, 2, 4, 6}, {2, 2, 2, 5, 5}, {2, 2, 4, 4, 4}, {2, 2, 5, 7}, {2, 2, 6, 6}, {2, 4, 4, 6}, {2, 4, 5, 5}, {2, 7, 7}, {4, 4, 4, 4}, {4, 5, 7}, {4, 6, 6}, {5, 5, 6}};
         addArrayToList(expectedCombinations, combinations);
         List<List<Integer>> actualCombinations =
-                new Combinations().combinationSum(new int[]{4,2,7,5,6},
+                new Combinations().combinationSum(new int[]{4, 2, 7, 5, 6},
                         16);
 
         actualCombinations.removeAll(expectedCombinations);
@@ -167,18 +168,35 @@ public class BacktrackingProblemsTest {
     }
 
     @Test
-    public void testIfCombinationSum2CanBeCalculatedProperly(){
+    public void testIfCombinationSum2CanBeCalculatedProperly() {
         List<List<Integer>> expectedCombinations = new ArrayList<>();
         int[][] combinations = new int[][]{{5}, {1, 2, 2}};
         addArrayToList(expectedCombinations, combinations);
-        int[] candidates = new int[]{2,5,2,1,2};
+        int[] candidates = new int[]{2, 5, 2, 1, 2};
         List<List<Integer>> actualCombinations =
-                new Combinations().combinationSum2(candidates,5);
+                new Combinations().combinationSum2(candidates, 5);
         Assert.assertEquals(expectedCombinations.size(),
                 actualCombinations.size());
         actualCombinations.removeAll(expectedCombinations);
         Assert.assertTrue(actualCombinations.isEmpty());
 
+    }
+
+    @Test
+    public void testIfPermutationsCanBeCalculated() {
+        List<List<Integer>> expectedPermutations = new ArrayList<>();
+        int[][] expectedPermutationsInArray = new int[][]{
+                {1, 2, 3},
+                {1, 3, 2},
+                {2, 1, 3},
+                {2, 3, 1},
+                {3, 1, 2},
+                {3, 2, 1}
+
+        };
+        addArrayToList(expectedPermutations,expectedPermutationsInArray);
+        List<List<Integer>> actualCombinations =
+                new Permutations().permute(new int[]{1,2,3});
     }
 
     private void addArrayToList(List<List<Integer>> expectedSubsets, int[][] expectedArray) {

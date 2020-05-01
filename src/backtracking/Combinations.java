@@ -5,6 +5,8 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Combinations {
+
+    static int count = 0;
     public List<List<Integer>> combine(int n, int k) {
         int[] numbers = new int[ n ];
         for (int i = 0; i < n; i++) {
@@ -97,6 +99,7 @@ public class Combinations {
         int currentSum = 0;
         recursivelyAddNonDuplicateSubsetToSubsets2(subsets, nums,
                 new ArrayList<>(), 0, true, target,currentSum );
+        System.out.println(count);
         return subsets;
     }
 
@@ -105,7 +108,6 @@ public class Combinations {
             int[] nums,
             List<Integer> currentSubset,
             int start, boolean isTrueTree, int target, int sum) {
-
         if (sum == target){
             subsets.add(currentSubset);
             return;
@@ -116,8 +118,11 @@ public class Combinations {
         if (nums.length <= start) {
             return;
         }
-
+        if (nums[start] > target) {
+            return;
+        }
         int i = start;
+
         if (!isTrueTree) {
             while (i < nums.length) {
                 if (nums[ i - 1 ] == nums[ i ]) {
@@ -126,6 +131,9 @@ public class Combinations {
                     break;
                 }
             }
+        }
+        if (start == 2){
+            System.out.println(i+""+nums[i]);
         }
         if (isTrueTree) {
             recursivelyAddNonDuplicateSubsetToSubsets2(subsets, nums,
