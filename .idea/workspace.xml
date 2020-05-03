@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0086c41c-0c5f-42c8-8f4d-141211d5d74e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/backtracking/Permutations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodemay/FirstBadVersion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodemay/FirstBadVersionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodemay/RansomNoteTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Elements_Of_Programming_Interviews/backtracking/BacktrackingProblemsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Elements_Of_Programming_Interviews/backtracking/BacktrackingProblemsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Elements_Of_Programming_Interviews/backtracking/Combinations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Elements_Of_Programming_Interviews/backtracking/Combinations.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/backtracking/BacktrackingProblemsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/BacktrackingProblemsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backtracking/Combinations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/Combinations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backtracking/Permutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/Permutations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,17 +31,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>list.size()</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-    </replaceStrings>
-    <dirStrings>
-      <dir>$PROJECT_DIR$</dir>
-    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -86,29 +72,29 @@
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="test" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="leetcodemay" />
+      <recent name="backtracking" />
+      <recent name="C_1" />
+      <recent name="C_0" />
+      <recent name="C_0.dynamic.programming" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/test" />
       <recent name="$PROJECT_DIR$" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="test" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="backtracking" />
-      <recent name="leetcodemay" />
-      <recent name="C_1" />
-      <recent name="C_0" />
-      <recent name="C_0.dynamic.programming" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
-    </key>
   </component>
-  <component name="RunManager" selected="JUnit.FirstBadVersionTest">
+  <component name="RunManager" selected="JUnit.BacktrackingProblemsTest.testIfPermutationsCanBeCalculatedForFour">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -122,84 +108,84 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstBadVersionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BacktrackingProblemsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Elements_Of_Programming_Interviews" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcodemay.*" />
+          <option name="PATTERN" value="backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcodemay" />
-      <option name="MAIN_CLASS_NAME" value="leetcodemay.FirstBadVersionTest" />
+      <option name="PACKAGE_NAME" value="backtracking" />
+      <option name="MAIN_CLASS_NAME" value="backtracking.BacktrackingProblemsTest" />
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstBadVersionTest.testIfGetFirstBadVersionWorksWhenFirstVersionisTheFirstBad" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BacktrackingProblemsTest.testIfPermutationsCanBeCalculated" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Elements_Of_Programming_Interviews" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcodemay.*" />
+          <option name="PATTERN" value="backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcodemay" />
-      <option name="MAIN_CLASS_NAME" value="leetcodemay.FirstBadVersionTest" />
-      <option name="METHOD_NAME" value="testIfGetFirstBadVersionWorksWhenFirstVersionisTheFirstBad" />
+      <option name="PACKAGE_NAME" value="backtracking" />
+      <option name="MAIN_CLASS_NAME" value="backtracking.BacktrackingProblemsTest" />
+      <option name="METHOD_NAME" value="testIfPermutationsCanBeCalculated" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstBadVersionTest.testIfGetFirstBadVersionWorksWhenMiddleElementIsTheFirstBadVersion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BacktrackingProblemsTest.testIfPermutationsCanBeCalculatedForFour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Elements_Of_Programming_Interviews" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcodemay.*" />
+          <option name="PATTERN" value="backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcodemay" />
-      <option name="MAIN_CLASS_NAME" value="leetcodemay.FirstBadVersionTest" />
-      <option name="METHOD_NAME" value="testIfGetFirstBadVersionWorksWhenMiddleElementIsTheFirstBadVersion" />
+      <option name="PACKAGE_NAME" value="backtracking" />
+      <option name="MAIN_CLASS_NAME" value="backtracking.BacktrackingProblemsTest" />
+      <option name="METHOD_NAME" value="testIfPermutationsCanBeCalculatedForFour" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstBadVersionTest.testIfGetFirstBadVersionWorksWhenRandomElementIsTheFirstBadVersion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BacktrackingProblemsTest.testIfRemovalFromListIsDoneCorrectlyForFirstElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Elements_Of_Programming_Interviews" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcodemay.*" />
+          <option name="PATTERN" value="backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcodemay" />
-      <option name="MAIN_CLASS_NAME" value="leetcodemay.FirstBadVersionTest" />
-      <option name="METHOD_NAME" value="testIfGetFirstBadVersionWorksWhenRandomElementIsTheFirstBadVersion" />
+      <option name="PACKAGE_NAME" value="backtracking" />
+      <option name="MAIN_CLASS_NAME" value="backtracking.BacktrackingProblemsTest" />
+      <option name="METHOD_NAME" value="testIfRemovalFromListIsDoneCorrectlyForFirstElement" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstBadVersionTest.testIfLeftShiftDividesBytwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BacktrackingProblemsTest.testIfRemovalFromListIsDoneCorrectlyForLastElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Elements_Of_Programming_Interviews" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcodemay.*" />
+          <option name="PATTERN" value="backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcodemay" />
-      <option name="MAIN_CLASS_NAME" value="leetcodemay.FirstBadVersionTest" />
-      <option name="METHOD_NAME" value="testIfLeftShiftDividesBytwo" />
+      <option name="PACKAGE_NAME" value="backtracking" />
+      <option name="MAIN_CLASS_NAME" value="backtracking.BacktrackingProblemsTest" />
+      <option name="METHOD_NAME" value="testIfRemovalFromListIsDoneCorrectlyForLastElement" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -249,19 +235,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.SortedListsMergerTest" />
-      <item itemvalue="JUnit.FirstBadVersionTest" />
-      <item itemvalue="JUnit.FirstBadVersionTest.testIfGetFirstBadVersionWorksWhenFirstVersionisTheFirstBad" />
-      <item itemvalue="JUnit.FirstBadVersionTest.testIfGetFirstBadVersionWorksWhenMiddleElementIsTheFirstBadVersion" />
-      <item itemvalue="JUnit.FirstBadVersionTest.testIfGetFirstBadVersionWorksWhenRandomElementIsTheFirstBadVersion" />
-      <item itemvalue="JUnit.FirstBadVersionTest.testIfLeftShiftDividesBytwo" />
+      <item itemvalue="JUnit.BacktrackingProblemsTest.testIfPermutationsCanBeCalculated" />
+      <item itemvalue="JUnit.BacktrackingProblemsTest.testIfRemovalFromListIsDoneCorrectlyForFirstElement" />
+      <item itemvalue="JUnit.BacktrackingProblemsTest.testIfRemovalFromListIsDoneCorrectlyForLastElement" />
+      <item itemvalue="JUnit.BacktrackingProblemsTest" />
+      <item itemvalue="JUnit.BacktrackingProblemsTest.testIfPermutationsCanBeCalculatedForFour" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FirstBadVersionTest" />
-        <item itemvalue="JUnit.FirstBadVersionTest.testIfLeftShiftDividesBytwo" />
-        <item itemvalue="JUnit.FirstBadVersionTest.testIfGetFirstBadVersionWorksWhenRandomElementIsTheFirstBadVersion" />
-        <item itemvalue="JUnit.FirstBadVersionTest.testIfGetFirstBadVersionWorksWhenMiddleElementIsTheFirstBadVersion" />
-        <item itemvalue="JUnit.FirstBadVersionTest.testIfGetFirstBadVersionWorksWhenFirstVersionisTheFirstBad" />
+        <item itemvalue="JUnit.BacktrackingProblemsTest.testIfPermutationsCanBeCalculatedForFour" />
+        <item itemvalue="JUnit.BacktrackingProblemsTest.testIfPermutationsCanBeCalculated" />
+        <item itemvalue="JUnit.BacktrackingProblemsTest" />
+        <item itemvalue="JUnit.BacktrackingProblemsTest.testIfRemovalFromListIsDoneCorrectlyForLastElement" />
+        <item itemvalue="JUnit.BacktrackingProblemsTest.testIfRemovalFromListIsDoneCorrectlyForFirstElement" />
       </list>
     </recent_temporary>
   </component>
@@ -312,71 +298,101 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="71" y="89" width="1224" height="564" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1588347322336">
-      <screen x="0" y="23" width="1366" height="695" />
+    <state x="1366" y="-212" width="1920" height="1007" key="#Plugins" timestamp="1588400025746">
+      <screen x="1366" y="-212" width="1920" height="1007" />
+    </state>
+    <state x="1366" y="-212" width="1920" height="1007" key="#Plugins/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588400025746" />
+    <state x="1466" y="-112" width="1720" height="857" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1588434148479">
+      <screen x="1366" y="-212" width="1920" height="1057" />
     </state>
     <state x="71" y="89" width="1224" height="564" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1366.695@0.23.1366.695" timestamp="1588347322336" />
-    <state x="1466" y="-112" width="1720" height="857" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1587912848101" />
+    <state x="1466" y="-112" width="1720" height="857" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1588434148479" />
     <state width="498" height="466" key="DebuggerActiveHint" timestamp="1587912273268">
       <screen x="1366" y="-212" width="1920" height="1057" />
     </state>
     <state width="498" height="466" key="DebuggerActiveHint/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1587912273268" />
-    <state width="1324" height="124" key="GridCell.Tab.0.bottom" timestamp="1588349722894">
-      <screen x="0" y="23" width="1366" height="695" />
+    <state width="1878" height="356" key="GridCell.Tab.0.bottom" timestamp="1588492551708">
+      <screen x="1366" y="-212" width="1920" height="1007" />
     </state>
     <state width="1324" height="176" key="GridCell.Tab.0.bottom/0.23.1366.691@0.23.1366.691" timestamp="1585825096982" />
-    <state width="1324" height="124" key="GridCell.Tab.0.bottom/0.23.1366.695@0.23.1366.695" timestamp="1588349722894" />
-    <state width="1878" height="393" key="GridCell.Tab.0.bottom/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1587913440892" />
-    <state width="1324" height="124" key="GridCell.Tab.0.center" timestamp="1588349722893">
-      <screen x="0" y="23" width="1366" height="695" />
+    <state width="1324" height="212" key="GridCell.Tab.0.bottom/0.23.1366.695@0.23.1366.695" timestamp="1588356132172" />
+    <state width="1878" height="202" key="GridCell.Tab.0.bottom/0.23.1920.1007@0.23.1920.1007" timestamp="1588423764620" />
+    <state width="1878" height="356" key="GridCell.Tab.0.bottom/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588492551708" />
+    <state width="1878" height="202" key="GridCell.Tab.0.bottom/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1588436565575" />
+    <state width="1878" height="356" key="GridCell.Tab.0.center" timestamp="1588492551701">
+      <screen x="1366" y="-212" width="1920" height="1007" />
     </state>
     <state width="1324" height="176" key="GridCell.Tab.0.center/0.23.1366.691@0.23.1366.691" timestamp="1585825096980" />
-    <state width="1324" height="124" key="GridCell.Tab.0.center/0.23.1366.695@0.23.1366.695" timestamp="1588349722893" />
-    <state width="1878" height="393" key="GridCell.Tab.0.center/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1587913440890" />
-    <state width="1324" height="124" key="GridCell.Tab.0.left" timestamp="1588349722892">
-      <screen x="0" y="23" width="1366" height="695" />
+    <state width="1324" height="212" key="GridCell.Tab.0.center/0.23.1366.695@0.23.1366.695" timestamp="1588356132171" />
+    <state width="1878" height="202" key="GridCell.Tab.0.center/0.23.1920.1007@0.23.1920.1007" timestamp="1588423764618" />
+    <state width="1878" height="356" key="GridCell.Tab.0.center/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588492551701" />
+    <state width="1878" height="202" key="GridCell.Tab.0.center/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1588436565572" />
+    <state width="1878" height="356" key="GridCell.Tab.0.left" timestamp="1588492551700">
+      <screen x="1366" y="-212" width="1920" height="1007" />
     </state>
     <state width="1324" height="176" key="GridCell.Tab.0.left/0.23.1366.691@0.23.1366.691" timestamp="1585825096978" />
-    <state width="1324" height="124" key="GridCell.Tab.0.left/0.23.1366.695@0.23.1366.695" timestamp="1588349722892" />
-    <state width="1878" height="393" key="GridCell.Tab.0.left/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1587913440888" />
-    <state width="1324" height="124" key="GridCell.Tab.0.right" timestamp="1588349722894">
-      <screen x="0" y="23" width="1366" height="695" />
+    <state width="1324" height="212" key="GridCell.Tab.0.left/0.23.1366.695@0.23.1366.695" timestamp="1588356132170" />
+    <state width="1878" height="202" key="GridCell.Tab.0.left/0.23.1920.1007@0.23.1920.1007" timestamp="1588423764618" />
+    <state width="1878" height="356" key="GridCell.Tab.0.left/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588492551700" />
+    <state width="1878" height="202" key="GridCell.Tab.0.left/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1588436565570" />
+    <state width="1878" height="356" key="GridCell.Tab.0.right" timestamp="1588492551707">
+      <screen x="1366" y="-212" width="1920" height="1007" />
     </state>
     <state width="1324" height="176" key="GridCell.Tab.0.right/0.23.1366.691@0.23.1366.691" timestamp="1585825096982" />
-    <state width="1324" height="124" key="GridCell.Tab.0.right/0.23.1366.695@0.23.1366.695" timestamp="1588349722894" />
-    <state width="1878" height="393" key="GridCell.Tab.0.right/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1587913440891" />
-    <state width="1324" height="212" key="GridCell.Tab.1.bottom" timestamp="1588349253496">
-      <screen x="0" y="23" width="1366" height="695" />
+    <state width="1324" height="212" key="GridCell.Tab.0.right/0.23.1366.695@0.23.1366.695" timestamp="1588356132172" />
+    <state width="1878" height="202" key="GridCell.Tab.0.right/0.23.1920.1007@0.23.1920.1007" timestamp="1588423764619" />
+    <state width="1878" height="356" key="GridCell.Tab.0.right/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588492551707" />
+    <state width="1878" height="202" key="GridCell.Tab.0.right/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1588436565574" />
+    <state width="1878" height="356" key="GridCell.Tab.1.bottom" timestamp="1588492551717">
+      <screen x="1366" y="-212" width="1920" height="1007" />
     </state>
-    <state width="1324" height="212" key="GridCell.Tab.1.bottom/0.23.1366.695@0.23.1366.695" timestamp="1588349253496" />
-    <state width="1878" height="357" key="GridCell.Tab.1.bottom/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1587912665044" />
-    <state width="1324" height="212" key="GridCell.Tab.1.center" timestamp="1588349253495">
-      <screen x="0" y="23" width="1366" height="695" />
+    <state width="1324" height="212" key="GridCell.Tab.1.bottom/0.23.1366.695@0.23.1366.695" timestamp="1588356132177" />
+    <state width="1878" height="356" key="GridCell.Tab.1.bottom/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588492551717" />
+    <state width="1878" height="356" key="GridCell.Tab.1.bottom/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1588434515502" />
+    <state width="1878" height="356" key="GridCell.Tab.1.center" timestamp="1588492551715">
+      <screen x="1366" y="-212" width="1920" height="1007" />
     </state>
-    <state width="1324" height="212" key="GridCell.Tab.1.center/0.23.1366.695@0.23.1366.695" timestamp="1588349253495" />
-    <state width="1878" height="357" key="GridCell.Tab.1.center/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1587912665043" />
-    <state width="1324" height="212" key="GridCell.Tab.1.left" timestamp="1588349253494">
-      <screen x="0" y="23" width="1366" height="695" />
+    <state width="1324" height="212" key="GridCell.Tab.1.center/0.23.1366.695@0.23.1366.695" timestamp="1588356132176" />
+    <state width="1878" height="356" key="GridCell.Tab.1.center/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588492551715" />
+    <state width="1878" height="356" key="GridCell.Tab.1.center/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1588434515500" />
+    <state width="1878" height="356" key="GridCell.Tab.1.left" timestamp="1588492551713">
+      <screen x="1366" y="-212" width="1920" height="1007" />
     </state>
-    <state width="1324" height="212" key="GridCell.Tab.1.left/0.23.1366.695@0.23.1366.695" timestamp="1588349253494" />
-    <state width="1878" height="357" key="GridCell.Tab.1.left/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1587912665042" />
-    <state width="1324" height="212" key="GridCell.Tab.1.right" timestamp="1588349253496">
-      <screen x="0" y="23" width="1366" height="695" />
+    <state width="1324" height="212" key="GridCell.Tab.1.left/0.23.1366.695@0.23.1366.695" timestamp="1588356132175" />
+    <state width="1878" height="356" key="GridCell.Tab.1.left/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588492551713" />
+    <state width="1878" height="356" key="GridCell.Tab.1.left/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1588434515500" />
+    <state width="1878" height="356" key="GridCell.Tab.1.right" timestamp="1588492551716">
+      <screen x="1366" y="-212" width="1920" height="1007" />
     </state>
-    <state width="1324" height="212" key="GridCell.Tab.1.right/0.23.1366.695@0.23.1366.695" timestamp="1588349253496" />
-    <state width="1878" height="357" key="GridCell.Tab.1.right/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1587912665044" />
+    <state width="1324" height="212" key="GridCell.Tab.1.right/0.23.1366.695@0.23.1366.695" timestamp="1588356132177" />
+    <state width="1878" height="356" key="GridCell.Tab.1.right/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588492551716" />
+    <state width="1878" height="356" key="GridCell.Tab.1.right/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1588434515501" />
     <state x="499" y="295" key="ReplaceDuplicatesPrompt" timestamp="1588002870888">
       <screen x="0" y="23" width="1366" height="695" />
     </state>
     <state x="499" y="295" key="ReplaceDuplicatesPrompt/0.23.1366.695@0.23.1366.695" timestamp="1588002870888" />
-    <state x="192" y="23" key="SettingsEditor" timestamp="1588001432092">
-      <screen x="0" y="23" width="1366" height="695" />
+    <state x="1636" y="-212" key="SettingsEditor" timestamp="1588399997464">
+      <screen x="1366" y="-212" width="1920" height="1007" />
     </state>
     <state x="192" y="23" key="SettingsEditor/0.23.1366.695@0.23.1366.695" timestamp="1588001432092" />
+    <state x="1636" y="-212" key="SettingsEditor/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588399997464" />
+    <state x="1926" y="31" key="Vcs.Push.Dialog.v2" timestamp="1588402734643">
+      <screen x="1366" y="-212" width="1920" height="1007" />
+    </state>
+    <state x="1926" y="31" key="Vcs.Push.Dialog.v2/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588402734643" />
+    <state x="531" y="140" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1588422916731">
+      <screen x="0" y="23" width="1920" height="1007" />
+    </state>
+    <state x="531" y="140" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1920.1007@0.23.1920.1007" timestamp="1588422916731" />
     <state x="421" y="144" width="524" height="484" key="extract.method.dialog" timestamp="1588002862666">
       <screen x="0" y="23" width="1366" height="695" />
     </state>
     <state x="421" y="144" width="524" height="484" key="extract.method.dialog/0.23.1366.695@0.23.1366.695" timestamp="1588002862666" />
+    <state x="1997" y="-88" width="657" height="810" key="find.popup" timestamp="1588429176873">
+      <screen x="1366" y="-212" width="1920" height="1057" />
+    </state>
+    <state x="1997" y="-94" width="657" height="771" key="find.popup/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588399918642" />
+    <state x="1997" y="-88" width="657" height="810" key="find.popup/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1588429176873" />
     <state x="112" y="23" key="new project wizard" timestamp="1585825096039">
       <screen x="0" y="23" width="1366" height="691" />
     </state>
@@ -389,10 +405,12 @@
       <screen x="0" y="23" width="1366" height="695" />
     </state>
     <state x="348" y="165" key="run.anything.popup/0.23.1366.695@0.23.1366.695" timestamp="1588347091066" />
-    <state x="348" y="42" width="670" height="676" key="search.everywhere.popup" timestamp="1588000881955">
-      <screen x="0" y="23" width="1366" height="695" />
+    <state x="1855" y="-183" width="942" height="1029" key="search.everywhere.popup" timestamp="1588507926322">
+      <screen x="1366" y="-212" width="1920" height="1057" />
     </state>
     <state x="348" y="42" width="670" height="676" key="search.everywhere.popup/0.23.1366.695@0.23.1366.695" timestamp="1588000881955" />
+    <state x="1855" y="-184" width="942" height="980" key="search.everywhere.popup/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588400960789" />
+    <state x="1855" y="-183" width="942" height="1029" key="search.everywhere.popup/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1588507926322" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -192,11 +192,63 @@ public class BacktrackingProblemsTest {
                 {2, 3, 1},
                 {3, 1, 2},
                 {3, 2, 1}
-
         };
-        addArrayToList(expectedPermutations,expectedPermutationsInArray);
-        List<List<Integer>> actualCombinations =
-                new Permutations().permute(new int[]{1,2,3});
+        addArrayToList(expectedPermutations, expectedPermutationsInArray);
+        List<List<Integer>> actualPermutations =
+                new Permutations().permute(new int[]{1, 2, 3});
+        System.out.println(actualPermutations);
+        Assert.assertEquals(expectedPermutations.size(),
+                actualPermutations.size());
+        actualPermutations.removeAll(expectedPermutations);
+        Assert.assertTrue(actualPermutations.isEmpty());
+    }
+
+    @Test
+    public void testIfPermutationsCanBeCalculatedForFour() {
+        List<List<Integer>> expectedPermutations = new ArrayList<>();
+        int[][] expectedPermutationsInArray = new int[][]{
+                {1, 2, 3},
+                {1, 3, 2},
+                {2, 1, 3},
+                {2, 3, 1},
+                {3, 1, 2},
+                {3, 2, 1}
+        };
+        addArrayToList(expectedPermutations, expectedPermutationsInArray);
+        List<List<Integer>> actualPermutations =
+                new Permutations().permute(new int[]{1, 2, 3, 4});
+        System.out.println(actualPermutations);
+        Assert.assertEquals(expectedPermutations.size(),
+                actualPermutations.size());
+        actualPermutations.removeAll(expectedPermutations);
+        Assert.assertTrue(actualPermutations.isEmpty());
+    }
+
+    @Test
+    public void testIfRemovalFromListIsDoneCorrectly() {
+        int[] numbers = new int[]{1, 2, 3};
+        int[] remainingNumbers =
+                new Permutations().getRemainingNumbers(numbers, 1);
+        int[] expected = new int[]{1, 3};
+        Assert.assertArrayEquals(expected, remainingNumbers);
+    }
+
+    @Test
+    public void testIfRemovalFromListIsDoneCorrectlyForFirstElement() {
+        int[] numbers = new int[]{1, 2, 3};
+        int[] remainingNumbers =
+                new Permutations().getRemainingNumbers(numbers, 0);
+        int[] expected = new int[]{2, 3};
+        Assert.assertArrayEquals(expected, remainingNumbers);
+    }
+
+    @Test
+    public void testIfRemovalFromListIsDoneCorrectlyForLastElement() {
+        int[] numbers = new int[]{1, 2, 3};
+        int[] remainingNumbers =
+                new Permutations().getRemainingNumbers(numbers, 2);
+        int[] expected = new int[]{1, 2};
+        Assert.assertArrayEquals(expected, remainingNumbers);
     }
 
     private void addArrayToList(List<List<Integer>> expectedSubsets, int[][] expectedArray) {
