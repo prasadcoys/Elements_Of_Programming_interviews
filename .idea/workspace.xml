@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0086c41c-0c5f-42c8-8f4d-141211d5d74e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcodemay/RansomNoteTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodemay/RansomNote.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Elements_Of_Programming_Interviews/backtracking/BacktrackingProblemsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Elements_Of_Programming_Interviews/backtracking/BacktrackingProblemsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backtracking/BacktrackingProblemsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/BacktrackingProblemsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backtracking/Permutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/Permutations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodemay/RansomNoteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodemay/RansomNoteTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,11 +73,13 @@
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/test" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="test" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="leetcodemay" />
@@ -88,13 +88,11 @@
       <recent name="C_0" />
       <recent name="C_0.dynamic.programming" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/test" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BacktrackingProblemsTest.testIfPermutationsCanBeCalculatedForFour">
+  <component name="RunManager" selected="JUnit.RansomNoteTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -158,23 +156,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BacktrackingProblemsTest.testIfRemovalFromListIsDoneCorrectlyForFirstElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Elements_Of_Programming_Interviews" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="backtracking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="backtracking" />
-      <option name="MAIN_CLASS_NAME" value="backtracking.BacktrackingProblemsTest" />
-      <option name="METHOD_NAME" value="testIfRemovalFromListIsDoneCorrectlyForFirstElement" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BacktrackingProblemsTest.testIfRemovalFromListIsDoneCorrectlyForLastElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Elements_Of_Programming_Interviews" />
       <extension name="coverage">
@@ -187,6 +168,22 @@
       <option name="MAIN_CLASS_NAME" value="backtracking.BacktrackingProblemsTest" />
       <option name="METHOD_NAME" value="testIfRemovalFromListIsDoneCorrectlyForLastElement" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RansomNoteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Elements_Of_Programming_Interviews" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcodemay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcodemay" />
+      <option name="MAIN_CLASS_NAME" value="leetcodemay.RansomNoteTest" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -236,18 +233,18 @@
     <list>
       <item itemvalue="JUnit.SortedListsMergerTest" />
       <item itemvalue="JUnit.BacktrackingProblemsTest.testIfPermutationsCanBeCalculated" />
-      <item itemvalue="JUnit.BacktrackingProblemsTest.testIfRemovalFromListIsDoneCorrectlyForFirstElement" />
       <item itemvalue="JUnit.BacktrackingProblemsTest.testIfRemovalFromListIsDoneCorrectlyForLastElement" />
       <item itemvalue="JUnit.BacktrackingProblemsTest" />
       <item itemvalue="JUnit.BacktrackingProblemsTest.testIfPermutationsCanBeCalculatedForFour" />
+      <item itemvalue="JUnit.RansomNoteTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RansomNoteTest" />
         <item itemvalue="JUnit.BacktrackingProblemsTest.testIfPermutationsCanBeCalculatedForFour" />
         <item itemvalue="JUnit.BacktrackingProblemsTest.testIfPermutationsCanBeCalculated" />
         <item itemvalue="JUnit.BacktrackingProblemsTest" />
         <item itemvalue="JUnit.BacktrackingProblemsTest.testIfRemovalFromListIsDoneCorrectlyForLastElement" />
-        <item itemvalue="JUnit.BacktrackingProblemsTest.testIfRemovalFromListIsDoneCorrectlyForFirstElement" />
       </list>
     </recent_temporary>
   </component>
@@ -311,38 +308,38 @@
       <screen x="1366" y="-212" width="1920" height="1057" />
     </state>
     <state width="498" height="466" key="DebuggerActiveHint/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1587912273268" />
-    <state width="1878" height="356" key="GridCell.Tab.0.bottom" timestamp="1588492551708">
-      <screen x="1366" y="-212" width="1920" height="1007" />
+    <state width="1878" height="202" key="GridCell.Tab.0.bottom" timestamp="1588511155330">
+      <screen x="1366" y="-212" width="1920" height="1057" />
     </state>
     <state width="1324" height="176" key="GridCell.Tab.0.bottom/0.23.1366.691@0.23.1366.691" timestamp="1585825096982" />
     <state width="1324" height="212" key="GridCell.Tab.0.bottom/0.23.1366.695@0.23.1366.695" timestamp="1588356132172" />
     <state width="1878" height="202" key="GridCell.Tab.0.bottom/0.23.1920.1007@0.23.1920.1007" timestamp="1588423764620" />
     <state width="1878" height="356" key="GridCell.Tab.0.bottom/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588492551708" />
-    <state width="1878" height="202" key="GridCell.Tab.0.bottom/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1588436565575" />
-    <state width="1878" height="356" key="GridCell.Tab.0.center" timestamp="1588492551701">
-      <screen x="1366" y="-212" width="1920" height="1007" />
+    <state width="1878" height="202" key="GridCell.Tab.0.bottom/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1588511155330" />
+    <state width="1878" height="202" key="GridCell.Tab.0.center" timestamp="1588511155328">
+      <screen x="1366" y="-212" width="1920" height="1057" />
     </state>
     <state width="1324" height="176" key="GridCell.Tab.0.center/0.23.1366.691@0.23.1366.691" timestamp="1585825096980" />
     <state width="1324" height="212" key="GridCell.Tab.0.center/0.23.1366.695@0.23.1366.695" timestamp="1588356132171" />
     <state width="1878" height="202" key="GridCell.Tab.0.center/0.23.1920.1007@0.23.1920.1007" timestamp="1588423764618" />
     <state width="1878" height="356" key="GridCell.Tab.0.center/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588492551701" />
-    <state width="1878" height="202" key="GridCell.Tab.0.center/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1588436565572" />
-    <state width="1878" height="356" key="GridCell.Tab.0.left" timestamp="1588492551700">
-      <screen x="1366" y="-212" width="1920" height="1007" />
+    <state width="1878" height="202" key="GridCell.Tab.0.center/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1588511155328" />
+    <state width="1878" height="202" key="GridCell.Tab.0.left" timestamp="1588511155327">
+      <screen x="1366" y="-212" width="1920" height="1057" />
     </state>
     <state width="1324" height="176" key="GridCell.Tab.0.left/0.23.1366.691@0.23.1366.691" timestamp="1585825096978" />
     <state width="1324" height="212" key="GridCell.Tab.0.left/0.23.1366.695@0.23.1366.695" timestamp="1588356132170" />
     <state width="1878" height="202" key="GridCell.Tab.0.left/0.23.1920.1007@0.23.1920.1007" timestamp="1588423764618" />
     <state width="1878" height="356" key="GridCell.Tab.0.left/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588492551700" />
-    <state width="1878" height="202" key="GridCell.Tab.0.left/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1588436565570" />
-    <state width="1878" height="356" key="GridCell.Tab.0.right" timestamp="1588492551707">
-      <screen x="1366" y="-212" width="1920" height="1007" />
+    <state width="1878" height="202" key="GridCell.Tab.0.left/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1588511155327" />
+    <state width="1878" height="202" key="GridCell.Tab.0.right" timestamp="1588511155329">
+      <screen x="1366" y="-212" width="1920" height="1057" />
     </state>
     <state width="1324" height="176" key="GridCell.Tab.0.right/0.23.1366.691@0.23.1366.691" timestamp="1585825096982" />
     <state width="1324" height="212" key="GridCell.Tab.0.right/0.23.1366.695@0.23.1366.695" timestamp="1588356132172" />
     <state width="1878" height="202" key="GridCell.Tab.0.right/0.23.1920.1007@0.23.1920.1007" timestamp="1588423764619" />
     <state width="1878" height="356" key="GridCell.Tab.0.right/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588492551707" />
-    <state width="1878" height="202" key="GridCell.Tab.0.right/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1588436565574" />
+    <state width="1878" height="202" key="GridCell.Tab.0.right/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1588511155329" />
     <state width="1878" height="356" key="GridCell.Tab.1.bottom" timestamp="1588492551717">
       <screen x="1366" y="-212" width="1920" height="1007" />
     </state>
@@ -380,10 +377,11 @@
       <screen x="1366" y="-212" width="1920" height="1007" />
     </state>
     <state x="1926" y="31" key="Vcs.Push.Dialog.v2/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588402734643" />
-    <state x="531" y="140" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1588422916731">
-      <screen x="0" y="23" width="1920" height="1007" />
+    <state x="1897" y="-89" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1588510946562">
+      <screen x="1366" y="-212" width="1920" height="1057" />
     </state>
     <state x="531" y="140" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1920.1007@0.23.1920.1007" timestamp="1588422916731" />
+    <state x="1897" y="-89" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1588510946562" />
     <state x="421" y="144" width="524" height="484" key="extract.method.dialog" timestamp="1588002862666">
       <screen x="0" y="23" width="1366" height="695" />
     </state>
