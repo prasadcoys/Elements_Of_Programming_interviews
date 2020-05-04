@@ -1,12 +1,13 @@
 package backtracking;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Permutations {
     public List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> permutations = new ArrayList<>();
-        recursivelyCalculatePermutationsFor(nums,permutations,new ArrayList<>());
+        recursivelyCalculatePermutationsFor(nums, permutations, new ArrayList<>());
         return permutations;
     }
 
@@ -34,5 +35,34 @@ public class Permutations {
         System.arraycopy(numbers, position + 1, dest, position,
                 numbers.length - position - 1);
         return dest;
+    }
+
+    public List<List<Integer>> permuteUnique(int[] nums) {
+        Arrays.sort(nums);
+        List<List<Integer>> permutations = new ArrayList<>();
+        recursivelyCalculateUniquePermutationsFor(nums, permutations,
+                new ArrayList<>());
+        return permutations;
+    }
+
+    private void recursivelyCalculateUniquePermutationsFor(
+            int[] nums, List<List<Integer>> permutations,
+            List<Integer> currentPermutation) {
+        if (nums.length == 0) {
+            permutations.add(currentPermutation);
+            return;
+        }
+        for (int i = 0; i < nums.length; i++) {
+            List<Integer> childPermutation = new ArrayList<>(currentPermutation);
+            if (i > 0 && nums[ i ] == nums[ i - 1 ]) {
+                continue;
+            }
+            childPermutation.add(nums[ i ]);
+            recursivelyCalculateUniquePermutationsFor(
+                    getRemainingNumbers(nums, i)
+                    , permutations,
+                    new ArrayList<>(childPermutation));
+
+        }
     }
 }
