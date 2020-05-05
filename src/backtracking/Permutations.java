@@ -53,10 +53,10 @@ public class Permutations {
             return;
         }
         for (int i = 0; i < nums.length; i++) {
-            List<Integer> childPermutation = new ArrayList<>(currentPermutation);
             if (i > 0 && nums[ i ] == nums[ i - 1 ]) {
                 continue;
             }
+            List<Integer> childPermutation = new ArrayList<>(currentPermutation);
             childPermutation.add(nums[ i ]);
             recursivelyCalculateUniquePermutationsFor(
                     getRemainingNumbers(nums, i)
