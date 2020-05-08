@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0086c41c-0c5f-42c8-8f4d-141211d5d74e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcodemay/CousinsInBInaryTreeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodemay/CousinsInBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodemay/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodemay/StraightLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodemay/StrightLineTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,11 +73,13 @@
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/test" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="test" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="leetcodemay" />
@@ -87,13 +88,11 @@
       <recent name="C_0" />
       <recent name="C_0.dynamic.programming" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/test" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CousinsInBInaryTreeTest">
+  <component name="RunManager" selected="JUnit.StrightLineTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -171,23 +170,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PermutationsTest.testIfPermutations2ForThreeElementsWithOnlyOneUniqueElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Elements_Of_Programming_Interviews" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="backtracking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="backtracking" />
-      <option name="MAIN_CLASS_NAME" value="backtracking.PermutationsTest" />
-      <option name="METHOD_NAME" value="testIfPermutations2ForThreeElementsWithOnlyOneUniqueElement" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SortedListsMergerTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="Elements_Of_Programming_Interviews" />
       <extension name="coverage">
@@ -198,6 +180,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="C_0" />
       <option name="MAIN_CLASS_NAME" value="C_0.SortedListsMergerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StrightLineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Elements_Of_Programming_Interviews" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcodemay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcodemay" />
+      <option name="MAIN_CLASS_NAME" value="leetcodemay.StrightLineTest" />
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -230,20 +228,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.CousinsInBInaryTreeTest" />
+      <item itemvalue="JUnit.SortedListsMergerTest" />
+      <item itemvalue="JUnit.PermutationsTest" />
       <item itemvalue="JUnit.FirstUniqueCharacterInStringTest" />
       <item itemvalue="JUnit.MajorityElementTest" />
-      <item itemvalue="JUnit.PermutationsTest" />
-      <item itemvalue="JUnit.PermutationsTest.testIfPermutations2ForThreeElementsWithOnlyOneUniqueElement" />
-      <item itemvalue="JUnit.SortedListsMergerTest" />
+      <item itemvalue="JUnit.CousinsInBInaryTreeTest" />
+      <item itemvalue="JUnit.StrightLineTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StrightLineTest" />
         <item itemvalue="JUnit.CousinsInBInaryTreeTest" />
         <item itemvalue="JUnit.MajorityElementTest" />
         <item itemvalue="JUnit.FirstUniqueCharacterInStringTest" />
         <item itemvalue="JUnit.PermutationsTest" />
-        <item itemvalue="JUnit.PermutationsTest.testIfPermutations2ForThreeElementsWithOnlyOneUniqueElement" />
       </list>
     </recent_temporary>
   </component>
@@ -307,38 +305,38 @@
       <screen x="1366" y="-212" width="1920" height="1057" />
     </state>
     <state width="498" height="466" key="DebuggerActiveHint/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1587912273268" />
-    <state width="1324" height="211" key="GridCell.Tab.0.bottom" timestamp="1588906982976">
+    <state width="1324" height="184" key="GridCell.Tab.0.bottom" timestamp="1588941782472">
       <screen x="0" y="23" width="1366" height="695" />
     </state>
     <state width="1324" height="176" key="GridCell.Tab.0.bottom/0.23.1366.691@0.23.1366.691" timestamp="1585825096982" />
-    <state width="1324" height="211" key="GridCell.Tab.0.bottom/0.23.1366.695@0.23.1366.695" timestamp="1588906982976" />
+    <state width="1324" height="184" key="GridCell.Tab.0.bottom/0.23.1366.695@0.23.1366.695" timestamp="1588941782472" />
     <state width="1324" height="202" key="GridCell.Tab.0.bottom/0.23.1366.745@0.23.1366.745" timestamp="1588527230246" />
     <state width="1878" height="202" key="GridCell.Tab.0.bottom/0.23.1920.1007@0.23.1920.1007" timestamp="1588423764620" />
     <state width="1878" height="356" key="GridCell.Tab.0.bottom/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588492551708" />
     <state width="1878" height="202" key="GridCell.Tab.0.bottom/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1588511155330" />
-    <state width="1324" height="211" key="GridCell.Tab.0.center" timestamp="1588906982973">
+    <state width="1324" height="184" key="GridCell.Tab.0.center" timestamp="1588941782470">
       <screen x="0" y="23" width="1366" height="695" />
     </state>
     <state width="1324" height="176" key="GridCell.Tab.0.center/0.23.1366.691@0.23.1366.691" timestamp="1585825096980" />
-    <state width="1324" height="211" key="GridCell.Tab.0.center/0.23.1366.695@0.23.1366.695" timestamp="1588906982973" />
+    <state width="1324" height="184" key="GridCell.Tab.0.center/0.23.1366.695@0.23.1366.695" timestamp="1588941782470" />
     <state width="1324" height="202" key="GridCell.Tab.0.center/0.23.1366.745@0.23.1366.745" timestamp="1588527230244" />
     <state width="1878" height="202" key="GridCell.Tab.0.center/0.23.1920.1007@0.23.1920.1007" timestamp="1588423764618" />
     <state width="1878" height="356" key="GridCell.Tab.0.center/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588492551701" />
     <state width="1878" height="202" key="GridCell.Tab.0.center/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1588511155328" />
-    <state width="1324" height="211" key="GridCell.Tab.0.left" timestamp="1588906982972">
+    <state width="1324" height="184" key="GridCell.Tab.0.left" timestamp="1588941782470">
       <screen x="0" y="23" width="1366" height="695" />
     </state>
     <state width="1324" height="176" key="GridCell.Tab.0.left/0.23.1366.691@0.23.1366.691" timestamp="1585825096978" />
-    <state width="1324" height="211" key="GridCell.Tab.0.left/0.23.1366.695@0.23.1366.695" timestamp="1588906982972" />
+    <state width="1324" height="184" key="GridCell.Tab.0.left/0.23.1366.695@0.23.1366.695" timestamp="1588941782470" />
     <state width="1324" height="202" key="GridCell.Tab.0.left/0.23.1366.745@0.23.1366.745" timestamp="1588527230243" />
     <state width="1878" height="202" key="GridCell.Tab.0.left/0.23.1920.1007@0.23.1920.1007" timestamp="1588423764618" />
     <state width="1878" height="356" key="GridCell.Tab.0.left/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588492551700" />
     <state width="1878" height="202" key="GridCell.Tab.0.left/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1588511155327" />
-    <state width="1324" height="211" key="GridCell.Tab.0.right" timestamp="1588906982975">
+    <state width="1324" height="184" key="GridCell.Tab.0.right" timestamp="1588941782471">
       <screen x="0" y="23" width="1366" height="695" />
     </state>
     <state width="1324" height="176" key="GridCell.Tab.0.right/0.23.1366.691@0.23.1366.691" timestamp="1585825096982" />
-    <state width="1324" height="211" key="GridCell.Tab.0.right/0.23.1366.695@0.23.1366.695" timestamp="1588906982975" />
+    <state width="1324" height="184" key="GridCell.Tab.0.right/0.23.1366.695@0.23.1366.695" timestamp="1588941782471" />
     <state width="1324" height="202" key="GridCell.Tab.0.right/0.23.1366.745@0.23.1366.745" timestamp="1588527230245" />
     <state width="1878" height="202" key="GridCell.Tab.0.right/0.23.1920.1007@0.23.1920.1007" timestamp="1588423764619" />
     <state width="1878" height="356" key="GridCell.Tab.0.right/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588492551707" />
