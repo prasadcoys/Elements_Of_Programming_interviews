@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0086c41c-0c5f-42c8-8f4d-141211d5d74e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcodemay/PerfectSquare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodemay/PerfectSquareTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/twopointers/FourSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/twopointers/FourSumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodemay/FindTheJudge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodemay/FindTheJudgeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,26 +51,26 @@
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="test" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="leetcodemay" />
+      <recent name="twopointers" />
+      <recent name="backtracking" />
+      <recent name="C_1" />
+      <recent name="C_0" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/test" />
       <recent name="$PROJECT_DIR$" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="test" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="twopointers" />
-      <recent name="leetcodemay" />
-      <recent name="backtracking" />
-      <recent name="C_1" />
-      <recent name="C_0" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
-    </key>
   </component>
-  <component name="RunManager" selected="JUnit.FourSumTest">
+  <component name="RunManager" selected="JUnit.FindTheJudgeTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -82,6 +80,22 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindTheJudgeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Elements_Of_Programming_Interviews" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcodemay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcodemay" />
+      <option name="MAIN_CLASS_NAME" value="leetcodemay.FindTheJudgeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -113,23 +127,6 @@
       <option name="PACKAGE_NAME" value="leetcodemay" />
       <option name="MAIN_CLASS_NAME" value="leetcodemay.PerfectSquareTest" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PerfectSquareTest.testIf14IsNotAPerfectSquare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Elements_Of_Programming_Interviews" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcodemay.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcodemay" />
-      <option name="MAIN_CLASS_NAME" value="leetcodemay.PerfectSquareTest" />
-      <option name="METHOD_NAME" value="testIf14IsNotAPerfectSquare" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -213,18 +210,18 @@
     <list>
       <item itemvalue="JUnit.SortedListsMergerTest" />
       <item itemvalue="JUnit.PerfectSquareTest" />
-      <item itemvalue="JUnit.PerfectSquareTest.testIf14IsNotAPerfectSquare" />
       <item itemvalue="JUnit.PerfectSquareTest.testIf16IsAperfectSquare" />
       <item itemvalue="JUnit.PerfectSquareTest.testIf2147483647IsNotAPerfectSquare" />
       <item itemvalue="JUnit.FourSumTest" />
+      <item itemvalue="JUnit.FindTheJudgeTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FindTheJudgeTest" />
         <item itemvalue="JUnit.FourSumTest" />
         <item itemvalue="JUnit.PerfectSquareTest" />
         <item itemvalue="JUnit.PerfectSquareTest.testIf2147483647IsNotAPerfectSquare" />
         <item itemvalue="JUnit.PerfectSquareTest.testIf16IsAperfectSquare" />
-        <item itemvalue="JUnit.PerfectSquareTest.testIf14IsNotAPerfectSquare" />
       </list>
     </recent_temporary>
   </component>
@@ -289,38 +286,38 @@
       <screen x="1366" y="-212" width="1920" height="1057" />
     </state>
     <state width="498" height="466" key="DebuggerActiveHint/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1587912273268" />
-    <state width="1324" height="203" key="GridCell.Tab.0.bottom" timestamp="1589045549649">
+    <state width="1324" height="203" key="GridCell.Tab.0.bottom" timestamp="1589117843536">
       <screen x="0" y="23" width="1366" height="695" />
     </state>
     <state width="1324" height="176" key="GridCell.Tab.0.bottom/0.23.1366.691@0.23.1366.691" timestamp="1585825096982" />
-    <state width="1324" height="203" key="GridCell.Tab.0.bottom/0.23.1366.695@0.23.1366.695" timestamp="1589045549649" />
+    <state width="1324" height="203" key="GridCell.Tab.0.bottom/0.23.1366.695@0.23.1366.695" timestamp="1589117843536" />
     <state width="1324" height="202" key="GridCell.Tab.0.bottom/0.23.1366.745@0.23.1366.745" timestamp="1588527230246" />
     <state width="1878" height="202" key="GridCell.Tab.0.bottom/0.23.1920.1007@0.23.1920.1007" timestamp="1588423764620" />
     <state width="1878" height="356" key="GridCell.Tab.0.bottom/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588492551708" />
     <state width="1878" height="311" key="GridCell.Tab.0.bottom/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1589015519875" />
-    <state width="1324" height="203" key="GridCell.Tab.0.center" timestamp="1589045549647">
+    <state width="1324" height="203" key="GridCell.Tab.0.center" timestamp="1589117843534">
       <screen x="0" y="23" width="1366" height="695" />
     </state>
     <state width="1324" height="176" key="GridCell.Tab.0.center/0.23.1366.691@0.23.1366.691" timestamp="1585825096980" />
-    <state width="1324" height="203" key="GridCell.Tab.0.center/0.23.1366.695@0.23.1366.695" timestamp="1589045549647" />
+    <state width="1324" height="203" key="GridCell.Tab.0.center/0.23.1366.695@0.23.1366.695" timestamp="1589117843534" />
     <state width="1324" height="202" key="GridCell.Tab.0.center/0.23.1366.745@0.23.1366.745" timestamp="1588527230244" />
     <state width="1878" height="202" key="GridCell.Tab.0.center/0.23.1920.1007@0.23.1920.1007" timestamp="1588423764618" />
     <state width="1878" height="356" key="GridCell.Tab.0.center/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588492551701" />
     <state width="1878" height="311" key="GridCell.Tab.0.center/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1589015519871" />
-    <state width="1324" height="203" key="GridCell.Tab.0.left" timestamp="1589045549646">
+    <state width="1324" height="203" key="GridCell.Tab.0.left" timestamp="1589117843534">
       <screen x="0" y="23" width="1366" height="695" />
     </state>
     <state width="1324" height="176" key="GridCell.Tab.0.left/0.23.1366.691@0.23.1366.691" timestamp="1585825096978" />
-    <state width="1324" height="203" key="GridCell.Tab.0.left/0.23.1366.695@0.23.1366.695" timestamp="1589045549646" />
+    <state width="1324" height="203" key="GridCell.Tab.0.left/0.23.1366.695@0.23.1366.695" timestamp="1589117843534" />
     <state width="1324" height="202" key="GridCell.Tab.0.left/0.23.1366.745@0.23.1366.745" timestamp="1588527230243" />
     <state width="1878" height="202" key="GridCell.Tab.0.left/0.23.1920.1007@0.23.1920.1007" timestamp="1588423764618" />
     <state width="1878" height="356" key="GridCell.Tab.0.left/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588492551700" />
     <state width="1878" height="311" key="GridCell.Tab.0.left/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1589015519869" />
-    <state width="1324" height="203" key="GridCell.Tab.0.right" timestamp="1589045549648">
+    <state width="1324" height="203" key="GridCell.Tab.0.right" timestamp="1589117843535">
       <screen x="0" y="23" width="1366" height="695" />
     </state>
     <state width="1324" height="176" key="GridCell.Tab.0.right/0.23.1366.691@0.23.1366.691" timestamp="1585825096982" />
-    <state width="1324" height="203" key="GridCell.Tab.0.right/0.23.1366.695@0.23.1366.695" timestamp="1589045549648" />
+    <state width="1324" height="203" key="GridCell.Tab.0.right/0.23.1366.695@0.23.1366.695" timestamp="1589117843535" />
     <state width="1324" height="202" key="GridCell.Tab.0.right/0.23.1366.745@0.23.1366.745" timestamp="1588527230245" />
     <state width="1878" height="202" key="GridCell.Tab.0.right/0.23.1920.1007@0.23.1920.1007" timestamp="1588423764619" />
     <state width="1878" height="356" key="GridCell.Tab.0.right/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588492551707" />
