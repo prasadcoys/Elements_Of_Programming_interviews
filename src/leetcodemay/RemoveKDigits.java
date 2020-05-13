@@ -1,0 +1,43 @@
+package leetcodemay;
+
+public class RemoveKDigits {
+    public String removeKdigits(String num, int k) {
+        StringBuilder result = new StringBuilder("");
+        int startPos = 0;
+        char[] nums = num.toCharArray();
+
+        for (int i = nums.length - k; i > 0; i--) {
+            char min = nums[ startPos ];
+            startPos = startPos+1;
+            for (int j = startPos; j < nums.length - i + 1; j++) {
+                if (nums[ j ] < min) {
+                    min = nums[ j ];
+                    startPos = j + 1;
+                }
+            }
+            if ( result.length() == 0 && min == '0'){
+                continue;
+            }
+            result.append(min);
+
+        }
+        if (result.length() > 0){
+            return result.toString();
+        } else {
+            return "0";
+        }
+
+    }
+
+    /*private String removeZeroesAtBeginning(StringBuilder result) {
+        String resultWithoutZero = "";
+        char[] chars = result.toString().toCharArray();
+        for (int i = 0; i < chars.length; i++) {
+            if (chars[i] != '0'){
+                resultWithoutZero = result.substring(i);
+                break;
+            }
+        }
+        return resultWithoutZero;
+    }*/
+}
