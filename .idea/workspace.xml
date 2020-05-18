@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0086c41c-0c5f-42c8-8f4d-141211d5d74e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcodemay/RemoveKDigits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodemay/RemoveKDigitsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodemay/FindAllAnagrams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodemay/FindAllAnagramsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodemay/MaximumSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodemay/MaximumSubArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodemay/Trie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodemay/TrieTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodemay/RemoveKDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodemay/RemoveKDigits.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +75,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RemoveKDigitsTest">
+  <component name="RunManager" selected="JUnit.FindAllAnagramsTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -84,7 +89,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveKDigitsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FindAllAnagramsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Elements_Of_Programming_Interviews" />
       <extension name="coverage">
         <pattern>
@@ -93,14 +98,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="leetcodemay" />
-      <option name="MAIN_CLASS_NAME" value="leetcodemay.RemoveKDigitsTest" />
+      <option name="MAIN_CLASS_NAME" value="leetcodemay.FindAllAnagramsTest" />
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveKDigitsTest.testIfWeReturnLeastPossibleNumberWhenWeRemove1From10200" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MaximumSubArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Elements_Of_Programming_Interviews" />
       <extension name="coverage">
         <pattern>
@@ -109,58 +114,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="leetcodemay" />
-      <option name="MAIN_CLASS_NAME" value="leetcodemay.RemoveKDigitsTest" />
-      <option name="METHOD_NAME" value="testIfWeReturnLeastPossibleNumberWhenWeRemove1From10200" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RemoveKDigitsTest.testIfWeReturnLeastPossibleNumberWhenWeRemove1From112" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Elements_Of_Programming_Interviews" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcodemay.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcodemay" />
-      <option name="MAIN_CLASS_NAME" value="leetcodemay.RemoveKDigitsTest" />
-      <option name="METHOD_NAME" value="testIfWeReturnLeastPossibleNumberWhenWeRemove1From112" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RemoveKDigitsTest.testIfWeReturnLeastPossibleNumberWhenWeRemove3From1432219" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Elements_Of_Programming_Interviews" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcodemay.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcodemay" />
-      <option name="MAIN_CLASS_NAME" value="leetcodemay.RemoveKDigitsTest" />
-      <option name="METHOD_NAME" value="testIfWeReturnLeastPossibleNumberWhenWeRemove3From1432219" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SingleElementInSortedArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Elements_Of_Programming_Interviews" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcodemay.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcodemay" />
-      <option name="MAIN_CLASS_NAME" value="leetcodemay.SingleElementInSortedArrayTest" />
+      <option name="MAIN_CLASS_NAME" value="leetcodemay.MaximumSubArrayTest" />
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -178,6 +132,56 @@
       <option name="PACKAGE_NAME" value="C_0" />
       <option name="MAIN_CLASS_NAME" value="C_0.SortedListsMergerTest" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrieTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Elements_Of_Programming_Interviews" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcodemay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcodemay" />
+      <option name="MAIN_CLASS_NAME" value="leetcodemay.TrieTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrieTest.testIfAppleCanBeInsertedIntoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Elements_Of_Programming_Interviews" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcodemay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcodemay" />
+      <option name="MAIN_CLASS_NAME" value="leetcodemay.TrieTest" />
+      <option name="METHOD_NAME" value="testIfAppleCanBeInsertedIntoTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrieTest.testVariousCombinations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Elements_Of_Programming_Interviews" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcodemay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcodemay" />
+      <option name="MAIN_CLASS_NAME" value="leetcodemay.TrieTest" />
+      <option name="METHOD_NAME" value="testVariousCombinations" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -210,19 +214,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.SortedListsMergerTest" />
-      <item itemvalue="JUnit.SingleElementInSortedArrayTest" />
-      <item itemvalue="JUnit.RemoveKDigitsTest" />
-      <item itemvalue="JUnit.RemoveKDigitsTest.testIfWeReturnLeastPossibleNumberWhenWeRemove3From1432219" />
-      <item itemvalue="JUnit.RemoveKDigitsTest.testIfWeReturnLeastPossibleNumberWhenWeRemove1From10200" />
-      <item itemvalue="JUnit.RemoveKDigitsTest.testIfWeReturnLeastPossibleNumberWhenWeRemove1From112" />
+      <item itemvalue="JUnit.TrieTest" />
+      <item itemvalue="JUnit.TrieTest.testIfAppleCanBeInsertedIntoTest" />
+      <item itemvalue="JUnit.TrieTest.testVariousCombinations" />
+      <item itemvalue="JUnit.MaximumSubArrayTest" />
+      <item itemvalue="JUnit.FindAllAnagramsTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RemoveKDigitsTest" />
-        <item itemvalue="JUnit.RemoveKDigitsTest.testIfWeReturnLeastPossibleNumberWhenWeRemove1From10200" />
-        <item itemvalue="JUnit.RemoveKDigitsTest.testIfWeReturnLeastPossibleNumberWhenWeRemove1From112" />
-        <item itemvalue="JUnit.RemoveKDigitsTest.testIfWeReturnLeastPossibleNumberWhenWeRemove3From1432219" />
-        <item itemvalue="JUnit.SingleElementInSortedArrayTest" />
+        <item itemvalue="JUnit.FindAllAnagramsTest" />
+        <item itemvalue="JUnit.MaximumSubArrayTest" />
+        <item itemvalue="JUnit.TrieTest" />
+        <item itemvalue="JUnit.TrieTest.testIfAppleCanBeInsertedIntoTest" />
+        <item itemvalue="JUnit.TrieTest.testVariousCombinations" />
       </list>
     </recent_temporary>
   </component>
@@ -283,68 +287,73 @@
     </state>
     <state x="71" y="89" width="1224" height="564" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1366.695@0.23.1366.695" timestamp="1589393599471" />
     <state x="1466" y="-112" width="1720" height="857" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1588434148479" />
-    <state width="498" height="466" key="DebuggerActiveHint" timestamp="1587912273268">
-      <screen x="1366" y="-212" width="1920" height="1057" />
+    <state x="442" y="78" key="#com.intellij.ide.util.MemberChooser" timestamp="1589471815724">
+      <screen x="0" y="23" width="1366" height="695" />
     </state>
+    <state x="442" y="78" key="#com.intellij.ide.util.MemberChooser/0.23.1366.695@0.23.1366.695" timestamp="1589471815724" />
+    <state width="456" height="307" key="DebuggerActiveHint" timestamp="1589478834401">
+      <screen x="0" y="23" width="1366" height="695" />
+    </state>
+    <state width="456" height="307" key="DebuggerActiveHint/0.23.1366.695@0.23.1366.695" timestamp="1589478834401" />
     <state width="498" height="466" key="DebuggerActiveHint/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1587912273268" />
-    <state width="1324" height="211" key="GridCell.Tab.0.bottom" timestamp="1589395745444">
+    <state width="1324" height="203" key="GridCell.Tab.0.bottom" timestamp="1589738223863">
       <screen x="0" y="23" width="1366" height="695" />
     </state>
     <state width="1324" height="176" key="GridCell.Tab.0.bottom/0.23.1366.691@0.23.1366.691" timestamp="1585825096982" />
-    <state width="1324" height="211" key="GridCell.Tab.0.bottom/0.23.1366.695@0.23.1366.695" timestamp="1589395745444" />
+    <state width="1324" height="203" key="GridCell.Tab.0.bottom/0.23.1366.695@0.23.1366.695" timestamp="1589738223863" />
     <state width="1324" height="202" key="GridCell.Tab.0.bottom/0.23.1366.745@0.23.1366.745" timestamp="1588527230246" />
     <state width="1878" height="202" key="GridCell.Tab.0.bottom/0.23.1920.1007@0.23.1920.1007" timestamp="1588423764620" />
     <state width="1878" height="356" key="GridCell.Tab.0.bottom/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588492551708" />
     <state width="1878" height="311" key="GridCell.Tab.0.bottom/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1589015519875" />
-    <state width="1324" height="211" key="GridCell.Tab.0.center" timestamp="1589395745442">
+    <state width="1324" height="203" key="GridCell.Tab.0.center" timestamp="1589738223861">
       <screen x="0" y="23" width="1366" height="695" />
     </state>
     <state width="1324" height="176" key="GridCell.Tab.0.center/0.23.1366.691@0.23.1366.691" timestamp="1585825096980" />
-    <state width="1324" height="211" key="GridCell.Tab.0.center/0.23.1366.695@0.23.1366.695" timestamp="1589395745442" />
+    <state width="1324" height="203" key="GridCell.Tab.0.center/0.23.1366.695@0.23.1366.695" timestamp="1589738223861" />
     <state width="1324" height="202" key="GridCell.Tab.0.center/0.23.1366.745@0.23.1366.745" timestamp="1588527230244" />
     <state width="1878" height="202" key="GridCell.Tab.0.center/0.23.1920.1007@0.23.1920.1007" timestamp="1588423764618" />
     <state width="1878" height="356" key="GridCell.Tab.0.center/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588492551701" />
     <state width="1878" height="311" key="GridCell.Tab.0.center/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1589015519871" />
-    <state width="1324" height="211" key="GridCell.Tab.0.left" timestamp="1589395745442">
+    <state width="1324" height="203" key="GridCell.Tab.0.left" timestamp="1589738223861">
       <screen x="0" y="23" width="1366" height="695" />
     </state>
     <state width="1324" height="176" key="GridCell.Tab.0.left/0.23.1366.691@0.23.1366.691" timestamp="1585825096978" />
-    <state width="1324" height="211" key="GridCell.Tab.0.left/0.23.1366.695@0.23.1366.695" timestamp="1589395745442" />
+    <state width="1324" height="203" key="GridCell.Tab.0.left/0.23.1366.695@0.23.1366.695" timestamp="1589738223861" />
     <state width="1324" height="202" key="GridCell.Tab.0.left/0.23.1366.745@0.23.1366.745" timestamp="1588527230243" />
     <state width="1878" height="202" key="GridCell.Tab.0.left/0.23.1920.1007@0.23.1920.1007" timestamp="1588423764618" />
     <state width="1878" height="356" key="GridCell.Tab.0.left/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588492551700" />
     <state width="1878" height="311" key="GridCell.Tab.0.left/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1589015519869" />
-    <state width="1324" height="211" key="GridCell.Tab.0.right" timestamp="1589395745443">
+    <state width="1324" height="203" key="GridCell.Tab.0.right" timestamp="1589738223862">
       <screen x="0" y="23" width="1366" height="695" />
     </state>
     <state width="1324" height="176" key="GridCell.Tab.0.right/0.23.1366.691@0.23.1366.691" timestamp="1585825096982" />
-    <state width="1324" height="211" key="GridCell.Tab.0.right/0.23.1366.695@0.23.1366.695" timestamp="1589395745443" />
+    <state width="1324" height="203" key="GridCell.Tab.0.right/0.23.1366.695@0.23.1366.695" timestamp="1589738223862" />
     <state width="1324" height="202" key="GridCell.Tab.0.right/0.23.1366.745@0.23.1366.745" timestamp="1588527230245" />
     <state width="1878" height="202" key="GridCell.Tab.0.right/0.23.1920.1007@0.23.1920.1007" timestamp="1588423764619" />
     <state width="1878" height="356" key="GridCell.Tab.0.right/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588492551707" />
     <state width="1878" height="311" key="GridCell.Tab.0.right/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1589015519874" />
-    <state width="1324" height="211" key="GridCell.Tab.1.bottom" timestamp="1589395745447">
+    <state width="1324" height="211" key="GridCell.Tab.1.bottom" timestamp="1589478856785">
       <screen x="0" y="23" width="1366" height="695" />
     </state>
-    <state width="1324" height="211" key="GridCell.Tab.1.bottom/0.23.1366.695@0.23.1366.695" timestamp="1589395745447" />
+    <state width="1324" height="211" key="GridCell.Tab.1.bottom/0.23.1366.695@0.23.1366.695" timestamp="1589478856785" />
     <state width="1878" height="356" key="GridCell.Tab.1.bottom/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588492551717" />
     <state width="1878" height="356" key="GridCell.Tab.1.bottom/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1588434515502" />
-    <state width="1324" height="211" key="GridCell.Tab.1.center" timestamp="1589395745445">
+    <state width="1324" height="211" key="GridCell.Tab.1.center" timestamp="1589478856783">
       <screen x="0" y="23" width="1366" height="695" />
     </state>
-    <state width="1324" height="211" key="GridCell.Tab.1.center/0.23.1366.695@0.23.1366.695" timestamp="1589395745445" />
+    <state width="1324" height="211" key="GridCell.Tab.1.center/0.23.1366.695@0.23.1366.695" timestamp="1589478856783" />
     <state width="1878" height="356" key="GridCell.Tab.1.center/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588492551715" />
     <state width="1878" height="356" key="GridCell.Tab.1.center/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1588434515500" />
-    <state width="1324" height="211" key="GridCell.Tab.1.left" timestamp="1589395745445">
+    <state width="1324" height="211" key="GridCell.Tab.1.left" timestamp="1589478856782">
       <screen x="0" y="23" width="1366" height="695" />
     </state>
-    <state width="1324" height="211" key="GridCell.Tab.1.left/0.23.1366.695@0.23.1366.695" timestamp="1589395745445" />
+    <state width="1324" height="211" key="GridCell.Tab.1.left/0.23.1366.695@0.23.1366.695" timestamp="1589478856782" />
     <state width="1878" height="356" key="GridCell.Tab.1.left/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588492551713" />
     <state width="1878" height="356" key="GridCell.Tab.1.left/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1588434515500" />
-    <state width="1324" height="211" key="GridCell.Tab.1.right" timestamp="1589395745446">
+    <state width="1324" height="211" key="GridCell.Tab.1.right" timestamp="1589478856784">
       <screen x="0" y="23" width="1366" height="695" />
     </state>
-    <state width="1324" height="211" key="GridCell.Tab.1.right/0.23.1366.695@0.23.1366.695" timestamp="1589395745446" />
+    <state width="1324" height="211" key="GridCell.Tab.1.right/0.23.1366.695@0.23.1366.695" timestamp="1589478856784" />
     <state width="1878" height="356" key="GridCell.Tab.1.right/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588492551716" />
     <state width="1878" height="356" key="GridCell.Tab.1.right/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1588434515501" />
     <state x="499" y="295" key="ReplaceDuplicatesPrompt" timestamp="1588002870888">
@@ -374,10 +383,10 @@
     </state>
     <state x="531" y="140" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1920.1007@0.23.1920.1007" timestamp="1588422916731" />
     <state x="1897" y="-89" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1588510946562" />
-    <state x="421" y="144" width="524" height="484" key="extract.method.dialog" timestamp="1589384787434">
+    <state x="421" y="144" width="524" height="484" key="extract.method.dialog" timestamp="1589737963489">
       <screen x="0" y="23" width="1366" height="695" />
     </state>
-    <state x="421" y="144" width="524" height="484" key="extract.method.dialog/0.23.1366.695@0.23.1366.695" timestamp="1589384787434" />
+    <state x="421" y="144" width="524" height="484" key="extract.method.dialog/0.23.1366.695@0.23.1366.695" timestamp="1589737963489" />
     <state x="449" y="105" width="639" height="533" key="find.popup" timestamp="1588865989455">
       <screen x="0" y="23" width="1366" height="695" />
     </state>
@@ -396,10 +405,10 @@
       <screen x="0" y="23" width="1366" height="695" />
     </state>
     <state x="348" y="165" key="run.anything.popup/0.23.1366.695@0.23.1366.695" timestamp="1588347091066" />
-    <state x="348" y="42" width="670" height="676" key="search.everywhere.popup" timestamp="1589391898763">
+    <state x="348" y="42" width="670" height="676" key="search.everywhere.popup" timestamp="1589478754756">
       <screen x="0" y="23" width="1366" height="695" />
     </state>
-    <state x="348" y="42" width="670" height="676" key="search.everywhere.popup/0.23.1366.695@0.23.1366.695" timestamp="1589391898763" />
+    <state x="348" y="42" width="670" height="676" key="search.everywhere.popup/0.23.1366.695@0.23.1366.695" timestamp="1589478754756" />
     <state x="1855" y="-184" width="942" height="980" key="search.everywhere.popup/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588400960789" />
     <state x="1855" y="-183" width="942" height="1029" key="search.everywhere.popup/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1588507926322" />
   </component>
@@ -530,6 +539,11 @@
           <url>file://$PROJECT_DIR$/src/leetcodemay/RemoveKDigits.java</url>
           <line>4</line>
           <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcodemay/Trie.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/backtracking/BacktrackingProblemsTest.java</url>

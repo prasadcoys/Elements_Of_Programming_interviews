@@ -26,18 +26,6 @@ public class RemoveKDigits {
         } else {
             return "0";
         }
-
     }
 
-    /*private String removeZeroesAtBeginning(StringBuilder result) {
-        String resultWithoutZero = "";
-        char[] chars = result.toString().toCharArray();
-        for (int i = 0; i < chars.length; i++) {
-            if (chars[i] != '0'){
-                resultWithoutZero = result.substring(i);
-                break;
-            }
-        }
-        return resultWithoutZero;
-    }*/
 }
