@@ -9,25 +9,24 @@ public class FindAllAnagrams {
         }
         char[] pChars = p.toCharArray();
         char[] sChars = s.toCharArray();
-        int[] map = new int[123];
+        int[] map = new int[26];
         for (char pChar : pChars) {
-            map[ pChar]++;
+            map[ pChar-97]++;
         }
         List<Integer> anagramsInS = new ArrayList<>();
         int lastIndexToCheck = s.length() - p.length();
         outer:
         for (int i = 0; i <= lastIndexToCheck; i++) {
-            int[] candidate = new int[123];
+            int[] candidate = new int[26];
             for (int j = i; j <i+p.length() ; j++) {
-                candidate[sChars[j]]++;
+                candidate[sChars[j]-97]++;
             }
             for (int j = i; j < i +p.length(); j++) {
-                if ( candidate[sChars[j]]!= map[sChars[j]]){
+                if ( candidate[sChars[j]-97]!= map[sChars[j]-97]){
                     continue outer;
 
                 }
             }
-            System.out.println("adding to list "+i);
             anagramsInS.add(i);
 
         }
