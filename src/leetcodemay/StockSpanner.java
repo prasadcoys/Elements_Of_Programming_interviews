@@ -2,31 +2,32 @@ package leetcodemay;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Stack;
 
 public class StockSpanner {
 
 
-    List<Integer> prices = new ArrayList<>();
-    List<Integer> spans = new ArrayList<>();
-
-
+    Stack<Integer> pricesStack = new Stack<>();
+    Stack<Integer> weightages = new Stack<>();
 
     public int next(int price) {
-        prices.add(price);
         int span = 1;
-        for (int i = prices.size()-2; i >=0 ;) {
-
-            Integer item = prices.get(i);
-            if(price< item){
-                break;
-            }
-            Integer spanOfElement = spans.get(i);
-            span+= spanOfElement;
-            i-= spanOfElement;
-
+        if (pricesStack.isEmpty()){
+            pricesStack.push(price);
+            weightages.push(span);
+            return span;
         }
-
-        spans.add(span);
+        else if (pricesStack.peek()>price){
+            pricesStack.push(price);
+            weightages.push(span);
+            return span;
+        }
+        while (!pricesStack.isEmpty() && pricesStack.peek()<=price){
+            pricesStack.pop();
+            span += weightages.pop();
+        }
+        pricesStack.push(price);
+        weightages.push(span);
         return span;
     }
 }
