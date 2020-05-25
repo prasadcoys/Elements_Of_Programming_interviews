@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0086c41c-0c5f-42c8-8f4d-141211d5d74e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcodemay/IntervalListIntersection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodemay/BSTFromPreorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodemay/BSTFromPreorderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodemay/IntervalListIntersectionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodemay/IntervalListIntersectionsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +70,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.IntervalListIntersectionsTest.testIfWeCanCompareIntervalList">
+  <component name="RunManager" selected="JUnit.BSTFromPreorderTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -84,7 +84,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntervalListIntersectionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BSTFromPreorderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Elements_Of_Programming_Interviews" />
       <extension name="coverage">
         <pattern>
@@ -93,8 +93,42 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="leetcodemay" />
-      <option name="MAIN_CLASS_NAME" value="leetcodemay.IntervalListIntersectionsTest" />
+      <option name="MAIN_CLASS_NAME" value="leetcodemay.BSTFromPreorderTest" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BSTFromPreorderTest.testIfBSTCanBeConstructedFromTwoLevels" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Elements_Of_Programming_Interviews" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcodemay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcodemay" />
+      <option name="MAIN_CLASS_NAME" value="leetcodemay.BSTFromPreorderTest" />
+      <option name="METHOD_NAME" value="testIfBSTCanBeConstructedFromTwoLevels" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BSTFromPreorderTest.testIfBinarySearchTreeCanBeConstructedFromOneElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Elements_Of_Programming_Interviews" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcodemay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcodemay" />
+      <option name="MAIN_CLASS_NAME" value="leetcodemay.BSTFromPreorderTest" />
+      <option name="METHOD_NAME" value="testIfBinarySearchTreeCanBeConstructedFromOneElement" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -150,38 +184,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StockSpannerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Elements_Of_Programming_Interviews" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcodemay.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcodemay" />
-      <option name="MAIN_CLASS_NAME" value="leetcodemay.StockSpannerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringPermutationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Elements_Of_Programming_Interviews" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcodemay.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcodemay" />
-      <option name="MAIN_CLASS_NAME" value="leetcodemay.StringPermutationTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -209,19 +211,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.SortedListsMergerTest" />
-      <item itemvalue="JUnit.StringPermutationTest" />
-      <item itemvalue="JUnit.StockSpannerTest" />
-      <item itemvalue="JUnit.IntervalListIntersectionsTest" />
       <item itemvalue="JUnit.IntervalListIntersectionsTest.testIfWeCanCompareTwoIntervalsWhereOneIsCompletelyInside" />
       <item itemvalue="JUnit.IntervalListIntersectionsTest.testIfWeCanCompareIntervalList" />
+      <item itemvalue="JUnit.BSTFromPreorderTest.testIfBinarySearchTreeCanBeConstructedFromOneElement" />
+      <item itemvalue="JUnit.BSTFromPreorderTest" />
+      <item itemvalue="JUnit.BSTFromPreorderTest.testIfBSTCanBeConstructedFromTwoLevels" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BSTFromPreorderTest" />
+        <item itemvalue="JUnit.BSTFromPreorderTest.testIfBSTCanBeConstructedFromTwoLevels" />
+        <item itemvalue="JUnit.BSTFromPreorderTest.testIfBinarySearchTreeCanBeConstructedFromOneElement" />
         <item itemvalue="JUnit.IntervalListIntersectionsTest.testIfWeCanCompareIntervalList" />
         <item itemvalue="JUnit.IntervalListIntersectionsTest.testIfWeCanCompareTwoIntervalsWhereOneIsCompletelyInside" />
-        <item itemvalue="JUnit.IntervalListIntersectionsTest" />
-        <item itemvalue="JUnit.StockSpannerTest" />
-        <item itemvalue="JUnit.StringPermutationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -277,10 +279,10 @@
     </state>
     <state x="0" y="23" key="#Plugins/0.23.1366.695@0.23.1366.695" timestamp="1589040316812" />
     <state x="1366" y="-212" width="1920" height="1007" key="#Plugins/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588400025746" />
-    <state x="71" y="89" width="1224" height="564" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1590257327203">
+    <state x="71" y="89" width="1224" height="564" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1590339554831">
       <screen x="0" y="23" width="1366" height="695" />
     </state>
-    <state x="71" y="89" width="1224" height="564" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1366.695@0.23.1366.695" timestamp="1590257327203" />
+    <state x="71" y="89" width="1224" height="564" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1366.695@0.23.1366.695" timestamp="1590339554831" />
     <state x="1466" y="-112" width="1720" height="857" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1588434148479" />
     <state x="442" y="78" key="#com.intellij.ide.util.MemberChooser" timestamp="1589471815724">
       <screen x="0" y="23" width="1366" height="695" />
@@ -291,38 +293,38 @@
     </state>
     <state width="456" height="307" key="DebuggerActiveHint/0.23.1366.695@0.23.1366.695" timestamp="1589478834401" />
     <state width="498" height="466" key="DebuggerActiveHint/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1587912273268" />
-    <state width="1324" height="203" key="GridCell.Tab.0.bottom" timestamp="1590259614189">
+    <state width="1324" height="203" key="GridCell.Tab.0.bottom" timestamp="1590339711111">
       <screen x="0" y="23" width="1366" height="695" />
     </state>
     <state width="1324" height="176" key="GridCell.Tab.0.bottom/0.23.1366.691@0.23.1366.691" timestamp="1585825096982" />
-    <state width="1324" height="203" key="GridCell.Tab.0.bottom/0.23.1366.695@0.23.1366.695" timestamp="1590259614189" />
+    <state width="1324" height="203" key="GridCell.Tab.0.bottom/0.23.1366.695@0.23.1366.695" timestamp="1590339711111" />
     <state width="1324" height="202" key="GridCell.Tab.0.bottom/0.23.1366.745@0.23.1366.745" timestamp="1588527230246" />
     <state width="1878" height="202" key="GridCell.Tab.0.bottom/0.23.1920.1007@0.23.1920.1007" timestamp="1588423764620" />
     <state width="1878" height="356" key="GridCell.Tab.0.bottom/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588492551708" />
     <state width="1878" height="311" key="GridCell.Tab.0.bottom/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1589015519875" />
-    <state width="1324" height="203" key="GridCell.Tab.0.center" timestamp="1590259614188">
+    <state width="1324" height="203" key="GridCell.Tab.0.center" timestamp="1590339711109">
       <screen x="0" y="23" width="1366" height="695" />
     </state>
     <state width="1324" height="176" key="GridCell.Tab.0.center/0.23.1366.691@0.23.1366.691" timestamp="1585825096980" />
-    <state width="1324" height="203" key="GridCell.Tab.0.center/0.23.1366.695@0.23.1366.695" timestamp="1590259614188" />
+    <state width="1324" height="203" key="GridCell.Tab.0.center/0.23.1366.695@0.23.1366.695" timestamp="1590339711109" />
     <state width="1324" height="202" key="GridCell.Tab.0.center/0.23.1366.745@0.23.1366.745" timestamp="1588527230244" />
     <state width="1878" height="202" key="GridCell.Tab.0.center/0.23.1920.1007@0.23.1920.1007" timestamp="1588423764618" />
     <state width="1878" height="356" key="GridCell.Tab.0.center/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588492551701" />
     <state width="1878" height="311" key="GridCell.Tab.0.center/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1589015519871" />
-    <state width="1324" height="203" key="GridCell.Tab.0.left" timestamp="1590259614187">
+    <state width="1324" height="203" key="GridCell.Tab.0.left" timestamp="1590339711108">
       <screen x="0" y="23" width="1366" height="695" />
     </state>
     <state width="1324" height="176" key="GridCell.Tab.0.left/0.23.1366.691@0.23.1366.691" timestamp="1585825096978" />
-    <state width="1324" height="203" key="GridCell.Tab.0.left/0.23.1366.695@0.23.1366.695" timestamp="1590259614187" />
+    <state width="1324" height="203" key="GridCell.Tab.0.left/0.23.1366.695@0.23.1366.695" timestamp="1590339711108" />
     <state width="1324" height="202" key="GridCell.Tab.0.left/0.23.1366.745@0.23.1366.745" timestamp="1588527230243" />
     <state width="1878" height="202" key="GridCell.Tab.0.left/0.23.1920.1007@0.23.1920.1007" timestamp="1588423764618" />
     <state width="1878" height="356" key="GridCell.Tab.0.left/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588492551700" />
     <state width="1878" height="311" key="GridCell.Tab.0.left/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1589015519869" />
-    <state width="1324" height="203" key="GridCell.Tab.0.right" timestamp="1590259614189">
+    <state width="1324" height="203" key="GridCell.Tab.0.right" timestamp="1590339711110">
       <screen x="0" y="23" width="1366" height="695" />
     </state>
     <state width="1324" height="176" key="GridCell.Tab.0.right/0.23.1366.691@0.23.1366.691" timestamp="1585825096982" />
-    <state width="1324" height="203" key="GridCell.Tab.0.right/0.23.1366.695@0.23.1366.695" timestamp="1590259614189" />
+    <state width="1324" height="203" key="GridCell.Tab.0.right/0.23.1366.695@0.23.1366.695" timestamp="1590339711110" />
     <state width="1324" height="202" key="GridCell.Tab.0.right/0.23.1366.745@0.23.1366.745" timestamp="1588527230245" />
     <state width="1878" height="202" key="GridCell.Tab.0.right/0.23.1920.1007@0.23.1920.1007" timestamp="1588423764619" />
     <state width="1878" height="356" key="GridCell.Tab.0.right/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588492551707" />
