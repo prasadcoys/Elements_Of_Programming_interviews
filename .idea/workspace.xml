@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0086c41c-0c5f-42c8-8f4d-141211d5d74e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dynamicprogramming/ClimbingStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamicprogramming/ClimbingStairsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodemay/UncrossedLines.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodemay/UncrossedLinesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dynamicprogramming/BestTimeToBuyAndSellStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dynamicprogramming/BestTimeToBuyAndSellStockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dynamicprogramming/MinCostClimbingStairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dynamicprogramming/MinCostClimbingStairsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +72,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ClimbingStairsTest">
+  <component name="RunManager" selected="JUnit.MinCostClimbingStairsTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -102,35 +102,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BSTFromPreorderTest.testIfBSTCanBeConstructedFromTwoLevels" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BestTimeToBuyAndSellStockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Elements_Of_Programming_Interviews" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcodemay.*" />
+          <option name="PATTERN" value="dynamicprogramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcodemay" />
-      <option name="MAIN_CLASS_NAME" value="leetcodemay.BSTFromPreorderTest" />
-      <option name="METHOD_NAME" value="testIfBSTCanBeConstructedFromTwoLevels" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BSTFromPreorderTest.testIfBinarySearchTreeCanBeConstructedFromOneElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Elements_Of_Programming_Interviews" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcodemay.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcodemay" />
-      <option name="MAIN_CLASS_NAME" value="leetcodemay.BSTFromPreorderTest" />
-      <option name="METHOD_NAME" value="testIfBinarySearchTreeCanBeConstructedFromOneElement" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="dynamicprogramming" />
+      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.BestTimeToBuyAndSellStockTest" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -146,6 +128,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="dynamicprogramming" />
       <option name="MAIN_CLASS_NAME" value="dynamicprogramming.ClimbingStairsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinCostClimbingStairsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Elements_Of_Programming_Interviews" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dynamicprogramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dynamicprogramming" />
+      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.MinCostClimbingStairsTest" />
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -210,20 +208,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.SortedListsMergerTest" />
-      <item itemvalue="JUnit.BSTFromPreorderTest.testIfBinarySearchTreeCanBeConstructedFromOneElement" />
       <item itemvalue="JUnit.BSTFromPreorderTest" />
-      <item itemvalue="JUnit.BSTFromPreorderTest.testIfBSTCanBeConstructedFromTwoLevels" />
-      <item itemvalue="JUnit.UncrossedLinesTest" />
+      <item itemvalue="JUnit.BestTimeToBuyAndSellStockTest" />
       <item itemvalue="JUnit.ClimbingStairsTest" />
+      <item itemvalue="JUnit.MinCostClimbingStairsTest" />
+      <item itemvalue="JUnit.SortedListsMergerTest" />
+      <item itemvalue="JUnit.UncrossedLinesTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MinCostClimbingStairsTest" />
+        <item itemvalue="JUnit.BestTimeToBuyAndSellStockTest" />
         <item itemvalue="JUnit.ClimbingStairsTest" />
         <item itemvalue="JUnit.UncrossedLinesTest" />
         <item itemvalue="JUnit.BSTFromPreorderTest" />
-        <item itemvalue="JUnit.BSTFromPreorderTest.testIfBSTCanBeConstructedFromTwoLevels" />
-        <item itemvalue="JUnit.BSTFromPreorderTest.testIfBinarySearchTreeCanBeConstructedFromOneElement" />
       </list>
     </recent_temporary>
   </component>
@@ -293,64 +291,64 @@
     </state>
     <state width="456" height="307" key="DebuggerActiveHint/0.23.1366.695@0.23.1366.695" timestamp="1589478834401" />
     <state width="498" height="466" key="DebuggerActiveHint/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1587912273268" />
-    <state width="1324" height="203" key="GridCell.Tab.0.bottom" timestamp="1590547918639">
+    <state width="1324" height="203" key="GridCell.Tab.0.bottom" timestamp="1590679658355">
       <screen x="0" y="23" width="1366" height="695" />
     </state>
     <state width="1324" height="176" key="GridCell.Tab.0.bottom/0.23.1366.691@0.23.1366.691" timestamp="1585825096982" />
-    <state width="1324" height="203" key="GridCell.Tab.0.bottom/0.23.1366.695@0.23.1366.695" timestamp="1590547918639" />
+    <state width="1324" height="203" key="GridCell.Tab.0.bottom/0.23.1366.695@0.23.1366.695" timestamp="1590679658355" />
     <state width="1324" height="202" key="GridCell.Tab.0.bottom/0.23.1366.745@0.23.1366.745" timestamp="1588527230246" />
     <state width="1878" height="202" key="GridCell.Tab.0.bottom/0.23.1920.1007@0.23.1920.1007" timestamp="1588423764620" />
     <state width="1878" height="356" key="GridCell.Tab.0.bottom/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588492551708" />
     <state width="1878" height="311" key="GridCell.Tab.0.bottom/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1589015519875" />
-    <state width="1324" height="203" key="GridCell.Tab.0.center" timestamp="1590547918637">
+    <state width="1324" height="203" key="GridCell.Tab.0.center" timestamp="1590679658353">
       <screen x="0" y="23" width="1366" height="695" />
     </state>
     <state width="1324" height="176" key="GridCell.Tab.0.center/0.23.1366.691@0.23.1366.691" timestamp="1585825096980" />
-    <state width="1324" height="203" key="GridCell.Tab.0.center/0.23.1366.695@0.23.1366.695" timestamp="1590547918637" />
+    <state width="1324" height="203" key="GridCell.Tab.0.center/0.23.1366.695@0.23.1366.695" timestamp="1590679658353" />
     <state width="1324" height="202" key="GridCell.Tab.0.center/0.23.1366.745@0.23.1366.745" timestamp="1588527230244" />
     <state width="1878" height="202" key="GridCell.Tab.0.center/0.23.1920.1007@0.23.1920.1007" timestamp="1588423764618" />
     <state width="1878" height="356" key="GridCell.Tab.0.center/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588492551701" />
     <state width="1878" height="311" key="GridCell.Tab.0.center/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1589015519871" />
-    <state width="1324" height="203" key="GridCell.Tab.0.left" timestamp="1590547918636">
+    <state width="1324" height="203" key="GridCell.Tab.0.left" timestamp="1590679658351">
       <screen x="0" y="23" width="1366" height="695" />
     </state>
     <state width="1324" height="176" key="GridCell.Tab.0.left/0.23.1366.691@0.23.1366.691" timestamp="1585825096978" />
-    <state width="1324" height="203" key="GridCell.Tab.0.left/0.23.1366.695@0.23.1366.695" timestamp="1590547918636" />
+    <state width="1324" height="203" key="GridCell.Tab.0.left/0.23.1366.695@0.23.1366.695" timestamp="1590679658351" />
     <state width="1324" height="202" key="GridCell.Tab.0.left/0.23.1366.745@0.23.1366.745" timestamp="1588527230243" />
     <state width="1878" height="202" key="GridCell.Tab.0.left/0.23.1920.1007@0.23.1920.1007" timestamp="1588423764618" />
     <state width="1878" height="356" key="GridCell.Tab.0.left/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588492551700" />
     <state width="1878" height="311" key="GridCell.Tab.0.left/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1589015519869" />
-    <state width="1324" height="203" key="GridCell.Tab.0.right" timestamp="1590547918638">
+    <state width="1324" height="203" key="GridCell.Tab.0.right" timestamp="1590679658354">
       <screen x="0" y="23" width="1366" height="695" />
     </state>
     <state width="1324" height="176" key="GridCell.Tab.0.right/0.23.1366.691@0.23.1366.691" timestamp="1585825096982" />
-    <state width="1324" height="203" key="GridCell.Tab.0.right/0.23.1366.695@0.23.1366.695" timestamp="1590547918638" />
+    <state width="1324" height="203" key="GridCell.Tab.0.right/0.23.1366.695@0.23.1366.695" timestamp="1590679658354" />
     <state width="1324" height="202" key="GridCell.Tab.0.right/0.23.1366.745@0.23.1366.745" timestamp="1588527230245" />
     <state width="1878" height="202" key="GridCell.Tab.0.right/0.23.1920.1007@0.23.1920.1007" timestamp="1588423764619" />
     <state width="1878" height="356" key="GridCell.Tab.0.right/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588492551707" />
     <state width="1878" height="311" key="GridCell.Tab.0.right/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1589015519874" />
-    <state width="1324" height="211" key="GridCell.Tab.1.bottom" timestamp="1589911816668">
+    <state width="1324" height="211" key="GridCell.Tab.1.bottom" timestamp="1590594455957">
       <screen x="0" y="23" width="1366" height="695" />
     </state>
-    <state width="1324" height="211" key="GridCell.Tab.1.bottom/0.23.1366.695@0.23.1366.695" timestamp="1589911816668" />
+    <state width="1324" height="211" key="GridCell.Tab.1.bottom/0.23.1366.695@0.23.1366.695" timestamp="1590594455957" />
     <state width="1878" height="356" key="GridCell.Tab.1.bottom/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588492551717" />
     <state width="1878" height="356" key="GridCell.Tab.1.bottom/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1588434515502" />
-    <state width="1324" height="211" key="GridCell.Tab.1.center" timestamp="1589911816667">
+    <state width="1324" height="211" key="GridCell.Tab.1.center" timestamp="1590594455956">
       <screen x="0" y="23" width="1366" height="695" />
     </state>
-    <state width="1324" height="211" key="GridCell.Tab.1.center/0.23.1366.695@0.23.1366.695" timestamp="1589911816667" />
+    <state width="1324" height="211" key="GridCell.Tab.1.center/0.23.1366.695@0.23.1366.695" timestamp="1590594455956" />
     <state width="1878" height="356" key="GridCell.Tab.1.center/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588492551715" />
     <state width="1878" height="356" key="GridCell.Tab.1.center/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1588434515500" />
-    <state width="1324" height="211" key="GridCell.Tab.1.left" timestamp="1589911816666">
+    <state width="1324" height="211" key="GridCell.Tab.1.left" timestamp="1590594455955">
       <screen x="0" y="23" width="1366" height="695" />
     </state>
-    <state width="1324" height="211" key="GridCell.Tab.1.left/0.23.1366.695@0.23.1366.695" timestamp="1589911816666" />
+    <state width="1324" height="211" key="GridCell.Tab.1.left/0.23.1366.695@0.23.1366.695" timestamp="1590594455955" />
     <state width="1878" height="356" key="GridCell.Tab.1.left/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588492551713" />
     <state width="1878" height="356" key="GridCell.Tab.1.left/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1588434515500" />
-    <state width="1324" height="211" key="GridCell.Tab.1.right" timestamp="1589911816668">
+    <state width="1324" height="211" key="GridCell.Tab.1.right" timestamp="1590594455957">
       <screen x="0" y="23" width="1366" height="695" />
     </state>
-    <state width="1324" height="211" key="GridCell.Tab.1.right/0.23.1366.695@0.23.1366.695" timestamp="1589911816668" />
+    <state width="1324" height="211" key="GridCell.Tab.1.right/0.23.1366.695@0.23.1366.695" timestamp="1590594455957" />
     <state width="1878" height="356" key="GridCell.Tab.1.right/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588492551716" />
     <state width="1878" height="356" key="GridCell.Tab.1.right/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1588434515501" />
     <state x="499" y="295" key="ReplaceDuplicatesPrompt" timestamp="1588002870888">
@@ -402,10 +400,10 @@
       <screen x="0" y="23" width="1366" height="695" />
     </state>
     <state x="348" y="165" key="run.anything.popup/0.23.1366.695@0.23.1366.695" timestamp="1588347091066" />
-    <state x="348" y="42" width="670" height="676" key="search.everywhere.popup" timestamp="1589907778737">
+    <state x="348" y="42" width="670" height="676" key="search.everywhere.popup" timestamp="1590584868095">
       <screen x="0" y="23" width="1366" height="695" />
     </state>
-    <state x="348" y="42" width="670" height="676" key="search.everywhere.popup/0.23.1366.695@0.23.1366.695" timestamp="1589907778737" />
+    <state x="348" y="42" width="670" height="676" key="search.everywhere.popup/0.23.1366.695@0.23.1366.695" timestamp="1590584868095" />
     <state x="1855" y="-184" width="942" height="980" key="search.everywhere.popup/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588400960789" />
     <state x="1855" y="-183" width="942" height="1029" key="search.everywhere.popup/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1588507926322" />
   </component>
