@@ -1,22 +1,18 @@
 package dynamicprogramming;
 
 public class MinCostClimbingStairs {
-    public int minCostClimbingStairs(int[] cost) {
-        int minCost = 0;
+    public int minCostClimbingStairs(final int[] cost) {
 
-        for (int i = cost.length;i>=0;){
-            if (i <= 1){
-                break;
-            }
-            if(cost[i-1]<cost[i-2]){
-                minCost+=cost[i-1];
-                i = i-1;
-            } else {
-                minCost+=cost[i-2];
-                i = i-2;
-            }
-
+        int mincost0 = cost[0];
+        int mincost1 = cost[1];
+        for (int i = 2; i < cost.length; i++) {
+            final int temp = mincost1;
+            mincost1 = cost[i]+Math.min(mincost0,mincost1);
+            mincost0 = temp;
         }
-        return minCost;
+
+        return Math.min(mincost0,
+                mincost1);
+
     }
 }

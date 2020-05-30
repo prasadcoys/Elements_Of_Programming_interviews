@@ -32,4 +32,10 @@ public class MinCostClimbingStairsTest {
         Assert.assertEquals(2,
                 new MinCostClimbingStairs().minCostClimbingStairs(cost));
     }
+    @Test
+    public void testIfWeCanCalculateForStepsWith0Case2(){
+        int[] cost = new int[]{0,1,2,2};
+        Assert.assertEquals(2,
+                new MinCostClimbingStairs().minCostClimbingStairs(cost));
+    }
 }
