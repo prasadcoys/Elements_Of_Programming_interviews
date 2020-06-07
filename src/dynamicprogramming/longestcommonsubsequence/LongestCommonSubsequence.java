@@ -47,7 +47,7 @@ public class LongestCommonSubsequence {
     public int longestCommonSubsequenceDP(String text1, String text2) {
 
         int[][] dpTable = new int[text2.length()+1][text1.length()+1];
-        
+
         for (int column = 1; column <= text1.length(); column++) {
             for (int row = 1; row <= text2.length(); row++) {
 
