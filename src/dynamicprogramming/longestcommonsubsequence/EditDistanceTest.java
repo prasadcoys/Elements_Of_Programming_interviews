@@ -16,5 +16,11 @@ public class EditDistanceTest {
                 "execution"));
     }
 
+    @Test
+    public void testIf2IsTheEditDistanceBetweenSeaAndEat(){
+        Assert.assertEquals(2,new EditDistance().minDistance("sea",
+                "eat"));
+    }
+
 
 }
