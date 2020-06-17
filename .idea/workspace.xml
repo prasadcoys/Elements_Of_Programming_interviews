@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0086c41c-0c5f-42c8-8f4d-141211d5d74e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dynamicprogramming/longestcommonsubsequence/MinimumAsciiDeleteSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamicprogramming/longestcommonsubsequence/MinimumAsciiDeleteSumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamicprogramming/longestincreasingsubsequence/LongestIncreasingSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamicprogramming/longestincreasingsubsequence/LongestIncreasingSubsequenceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dynamicprogramming/longestincreasingsubsequence/LargestDivisibleSetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dynamicprogramming/longestincreasingsubsequence/LargestDivisibleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elements_Of_Programming_Interviews.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Elements_Of_Programming_Interviews.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Elements_Of_Programming_Interviews/backtracking/BacktrackingProblemsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Elements_Of_Programming_Interviews/backtracking/BacktrackingProblemsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backtracking/BacktrackingProblemsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/BacktrackingProblemsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +45,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/varadharajansubramanian/IdeaProjects/Elements_Of_Programming_Interviews/src/C_0/utils/MinHeapTest.java" />
     <property name="TODO_SCOPE" value="All Places" />
     <property name="extract.method.default.visibility" value="public" />
@@ -53,11 +58,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/test" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="test" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="dynamicprogramming.longestincreasingsubsequence" />
@@ -66,13 +73,11 @@
       <recent name="leetcodemay" />
       <recent name="twopointers" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/test" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LongestIncreasingSubsequenceTest">
+  <component name="RunManager" selected="JUnit.LargestDivisibleSetTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -86,7 +91,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestIncreasingSubsequenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LargestDivisibleSetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Elements_Of_Programming_Interviews" />
       <extension name="coverage">
         <pattern>
@@ -95,14 +100,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="dynamicprogramming.longestincreasingsubsequence" />
-      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.longestincreasingsubsequence.LongestIncreasingSubsequenceTest" />
+      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.longestincreasingsubsequence.LargestDivisibleSetTest" />
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestIncreasingSubsequenceTest.testIfASubsequenceWith4Elements3_4_5_2Returns2IfTheyAreIncreasing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LargestDivisibleSetTest.testIfLargestDivisibleSetFor3elements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Elements_Of_Programming_Interviews" />
       <extension name="coverage">
         <pattern>
@@ -111,15 +116,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="dynamicprogramming.longestincreasingsubsequence" />
-      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.longestincreasingsubsequence.LongestIncreasingSubsequenceTest" />
-      <option name="METHOD_NAME" value="testIfASubsequenceWith4Elements3_4_5_2Returns2IfTheyAreIncreasing" />
+      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.longestincreasingsubsequence.LargestDivisibleSetTest" />
+      <option name="METHOD_NAME" value="testIfLargestDivisibleSetFor3elements" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestIncreasingSubsequenceTest.testIfWeGetCorrectValueWhenWeHaveEqualElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LargestDivisibleSetTest.testIfWeCanFindLargestDivisibleSetOf1_2_4_8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Elements_Of_Programming_Interviews" />
       <extension name="coverage">
         <pattern>
@@ -128,41 +133,42 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="dynamicprogramming.longestincreasingsubsequence" />
-      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.longestincreasingsubsequence.LongestIncreasingSubsequenceTest" />
-      <option name="METHOD_NAME" value="testIfWeGetCorrectValueWhenWeHaveEqualElements" />
+      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.longestincreasingsubsequence.LargestDivisibleSetTest" />
+      <option name="METHOD_NAME" value="testIfWeCanFindLargestDivisibleSetOf1_2_4_8" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumAsciiDeleteSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LargestDivisibleSetTest.testIfWeCanGetLargestDivisibleSetWith2DivisibleIntegersInWrongOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Elements_Of_Programming_Interviews" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dynamicprogramming.longestcommonsubsequence.*" />
+          <option name="PATTERN" value="dynamicprogramming.longestincreasingsubsequence.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="dynamicprogramming.longestcommonsubsequence" />
-      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.longestcommonsubsequence.MinimumAsciiDeleteSumTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="dynamicprogramming.longestincreasingsubsequence" />
+      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.longestincreasingsubsequence.LargestDivisibleSetTest" />
+      <option name="METHOD_NAME" value="testIfWeCanGetLargestDivisibleSetWith2DivisibleIntegersInWrongOrder" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumAsciiDeleteSumTest.testIfLongStringsCanBeProcessed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LargestDivisibleSetTest.testIfWeGetLargestDivisibleSetIf2ndAnd3rdElementAreDivisble" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Elements_Of_Programming_Interviews" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dynamicprogramming.longestcommonsubsequence.*" />
+          <option name="PATTERN" value="dynamicprogramming.longestincreasingsubsequence.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="dynamicprogramming.longestcommonsubsequence" />
-      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.longestcommonsubsequence.MinimumAsciiDeleteSumTest" />
-      <option name="METHOD_NAME" value="testIfLongStringsCanBeProcessed" />
+      <option name="PACKAGE_NAME" value="dynamicprogramming.longestincreasingsubsequence" />
+      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.longestincreasingsubsequence.LargestDivisibleSetTest" />
+      <option name="METHOD_NAME" value="testIfWeGetLargestDivisibleSetIf2ndAnd3rdElementAreDivisble" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -212,19 +218,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.SortedListsMergerTest" />
-      <item itemvalue="JUnit.MinimumAsciiDeleteSumTest" />
-      <item itemvalue="JUnit.MinimumAsciiDeleteSumTest.testIfLongStringsCanBeProcessed" />
-      <item itemvalue="JUnit.LongestIncreasingSubsequenceTest" />
-      <item itemvalue="JUnit.LongestIncreasingSubsequenceTest.testIfASubsequenceWith4Elements3_4_5_2Returns2IfTheyAreIncreasing" />
-      <item itemvalue="JUnit.LongestIncreasingSubsequenceTest.testIfWeGetCorrectValueWhenWeHaveEqualElements" />
+      <item itemvalue="JUnit.LargestDivisibleSetTest" />
+      <item itemvalue="JUnit.LargestDivisibleSetTest.testIfLargestDivisibleSetFor3elements" />
+      <item itemvalue="JUnit.LargestDivisibleSetTest.testIfWeCanGetLargestDivisibleSetWith2DivisibleIntegersInWrongOrder" />
+      <item itemvalue="JUnit.LargestDivisibleSetTest.testIfWeGetLargestDivisibleSetIf2ndAnd3rdElementAreDivisble" />
+      <item itemvalue="JUnit.LargestDivisibleSetTest.testIfWeCanFindLargestDivisibleSetOf1_2_4_8" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LongestIncreasingSubsequenceTest" />
-        <item itemvalue="JUnit.LongestIncreasingSubsequenceTest.testIfASubsequenceWith4Elements3_4_5_2Returns2IfTheyAreIncreasing" />
-        <item itemvalue="JUnit.LongestIncreasingSubsequenceTest.testIfWeGetCorrectValueWhenWeHaveEqualElements" />
-        <item itemvalue="JUnit.MinimumAsciiDeleteSumTest" />
-        <item itemvalue="JUnit.MinimumAsciiDeleteSumTest.testIfLongStringsCanBeProcessed" />
+        <item itemvalue="JUnit.LargestDivisibleSetTest" />
+        <item itemvalue="JUnit.LargestDivisibleSetTest.testIfWeCanFindLargestDivisibleSetOf1_2_4_8" />
+        <item itemvalue="JUnit.LargestDivisibleSetTest.testIfWeGetLargestDivisibleSetIf2ndAnd3rdElementAreDivisble" />
+        <item itemvalue="JUnit.LargestDivisibleSetTest.testIfWeCanGetLargestDivisibleSetWith2DivisibleIntegersInWrongOrder" />
+        <item itemvalue="JUnit.LargestDivisibleSetTest.testIfLargestDivisibleSetFor3elements" />
       </list>
     </recent_temporary>
   </component>
@@ -280,16 +286,20 @@
     </state>
     <state x="0" y="23" key="#Plugins/0.23.1366.695@0.23.1366.695" timestamp="1590687567597" />
     <state x="1366" y="-212" width="1920" height="1007" key="#Plugins/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588400025746" />
-    <state x="71" y="89" width="1224" height="561" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1591844586409">
+    <state x="71" y="89" width="1224" height="561" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1592358925643">
       <screen x="0" y="23" width="1366" height="691" />
     </state>
-    <state x="71" y="89" width="1224" height="561" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1366.691@0.23.1366.691" timestamp="1591844586409" />
+    <state x="71" y="89" width="1224" height="561" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1366.691@0.23.1366.691" timestamp="1592358925643" />
     <state x="71" y="89" width="1224" height="564" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1366.695@0.23.1366.695" timestamp="1591291088365" />
     <state x="1466" y="-112" width="1720" height="857" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1588434148479" />
     <state x="442" y="78" key="#com.intellij.ide.util.MemberChooser" timestamp="1589471815724">
       <screen x="0" y="23" width="1366" height="695" />
     </state>
     <state x="442" y="78" key="#com.intellij.ide.util.MemberChooser/0.23.1366.695@0.23.1366.695" timestamp="1589471815724" />
+    <state x="0" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1592273795654">
+      <screen x="0" y="23" width="1366" height="691" />
+    </state>
+    <state x="0" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1366.691@0.23.1366.691" timestamp="1592273795654" />
     <state width="456" height="307" key="DebuggerActiveHint" timestamp="1589478834401">
       <screen x="0" y="23" width="1366" height="695" />
     </state>
@@ -299,37 +309,37 @@
       <screen x="0" y="23" width="1366" height="691" />
     </state>
     <state x="100" y="123" width="1166" height="491" key="DiffContextDialog/0.23.1366.691@0.23.1366.691" timestamp="1591770743367" />
-    <state width="1324" height="269" key="GridCell.Tab.0.bottom" timestamp="1592041898103">
+    <state width="1307" height="209" key="GridCell.Tab.0.bottom" timestamp="1592361796650">
       <screen x="0" y="23" width="1366" height="691" />
     </state>
-    <state width="1324" height="269" key="GridCell.Tab.0.bottom/0.23.1366.691@0.23.1366.691" timestamp="1592041898103" />
+    <state width="1307" height="209" key="GridCell.Tab.0.bottom/0.23.1366.691@0.23.1366.691" timestamp="1592361796650" />
     <state width="1324" height="203" key="GridCell.Tab.0.bottom/0.23.1366.695@0.23.1366.695" timestamp="1591531234865" />
     <state width="1324" height="202" key="GridCell.Tab.0.bottom/0.23.1366.745@0.23.1366.745" timestamp="1588527230246" />
     <state width="1878" height="202" key="GridCell.Tab.0.bottom/0.23.1920.1007@0.23.1920.1007" timestamp="1588423764620" />
     <state width="1878" height="356" key="GridCell.Tab.0.bottom/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588492551708" />
     <state width="1878" height="311" key="GridCell.Tab.0.bottom/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1589015519875" />
-    <state width="1324" height="269" key="GridCell.Tab.0.center" timestamp="1592041898101">
+    <state width="1307" height="209" key="GridCell.Tab.0.center" timestamp="1592361796648">
       <screen x="0" y="23" width="1366" height="691" />
     </state>
-    <state width="1324" height="269" key="GridCell.Tab.0.center/0.23.1366.691@0.23.1366.691" timestamp="1592041898101" />
+    <state width="1307" height="209" key="GridCell.Tab.0.center/0.23.1366.691@0.23.1366.691" timestamp="1592361796648" />
     <state width="1324" height="203" key="GridCell.Tab.0.center/0.23.1366.695@0.23.1366.695" timestamp="1591531234864" />
     <state width="1324" height="202" key="GridCell.Tab.0.center/0.23.1366.745@0.23.1366.745" timestamp="1588527230244" />
     <state width="1878" height="202" key="GridCell.Tab.0.center/0.23.1920.1007@0.23.1920.1007" timestamp="1588423764618" />
     <state width="1878" height="356" key="GridCell.Tab.0.center/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588492551701" />
     <state width="1878" height="311" key="GridCell.Tab.0.center/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1589015519871" />
-    <state width="1324" height="269" key="GridCell.Tab.0.left" timestamp="1592041898099">
+    <state width="1307" height="209" key="GridCell.Tab.0.left" timestamp="1592361796647">
       <screen x="0" y="23" width="1366" height="691" />
     </state>
-    <state width="1324" height="269" key="GridCell.Tab.0.left/0.23.1366.691@0.23.1366.691" timestamp="1592041898099" />
+    <state width="1307" height="209" key="GridCell.Tab.0.left/0.23.1366.691@0.23.1366.691" timestamp="1592361796647" />
     <state width="1324" height="203" key="GridCell.Tab.0.left/0.23.1366.695@0.23.1366.695" timestamp="1591531234863" />
     <state width="1324" height="202" key="GridCell.Tab.0.left/0.23.1366.745@0.23.1366.745" timestamp="1588527230243" />
     <state width="1878" height="202" key="GridCell.Tab.0.left/0.23.1920.1007@0.23.1920.1007" timestamp="1588423764618" />
     <state width="1878" height="356" key="GridCell.Tab.0.left/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588492551700" />
     <state width="1878" height="311" key="GridCell.Tab.0.left/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1589015519869" />
-    <state width="1324" height="269" key="GridCell.Tab.0.right" timestamp="1592041898102">
+    <state width="1307" height="209" key="GridCell.Tab.0.right" timestamp="1592361796649">
       <screen x="0" y="23" width="1366" height="691" />
     </state>
-    <state width="1324" height="269" key="GridCell.Tab.0.right/0.23.1366.691@0.23.1366.691" timestamp="1592041898102" />
+    <state width="1307" height="209" key="GridCell.Tab.0.right/0.23.1366.691@0.23.1366.691" timestamp="1592361796649" />
     <state width="1324" height="203" key="GridCell.Tab.0.right/0.23.1366.695@0.23.1366.695" timestamp="1591531234865" />
     <state width="1324" height="202" key="GridCell.Tab.0.right/0.23.1366.745@0.23.1366.745" timestamp="1588527230245" />
     <state width="1878" height="202" key="GridCell.Tab.0.right/0.23.1920.1007@0.23.1920.1007" timestamp="1588423764619" />
@@ -385,14 +395,19 @@
       <screen x="0" y="23" width="1366" height="695" />
     </state>
     <state x="100" y="123" width="1166" height="495" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1366.695@0.23.1366.695" timestamp="1589032484053" />
+    <state x="409" y="269" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1592274704081">
+      <screen x="0" y="23" width="1366" height="691" />
+    </state>
+    <state x="409" y="269" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1366.691@0.23.1366.691" timestamp="1592274704081" />
     <state x="1897" y="-89" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1588510946562">
       <screen x="1366" y="-212" width="1920" height="1057" />
     </state>
     <state x="531" y="140" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1920.1007@0.23.1920.1007" timestamp="1588422916731" />
     <state x="1897" y="-89" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1588510946562" />
-    <state x="421" y="144" width="524" height="484" key="extract.method.dialog" timestamp="1589737963489">
-      <screen x="0" y="23" width="1366" height="695" />
+    <state x="421" y="143" width="524" height="484" key="extract.method.dialog" timestamp="1592273778304">
+      <screen x="0" y="23" width="1366" height="691" />
     </state>
+    <state x="421" y="143" key="extract.method.dialog/0.23.1366.691@0.23.1366.691" timestamp="1592273778304" />
     <state x="421" y="144" width="524" height="484" key="extract.method.dialog/0.23.1366.695@0.23.1366.695" timestamp="1589737963489" />
     <state x="449" y="105" width="639" height="533" key="find.popup" timestamp="1588865989455">
       <screen x="0" y="23" width="1366" height="695" />
@@ -412,10 +427,10 @@
       <screen x="0" y="23" width="1366" height="695" />
     </state>
     <state x="348" y="165" key="run.anything.popup/0.23.1366.695@0.23.1366.695" timestamp="1588347091066" />
-    <state x="348" y="42" width="670" height="673" key="search.everywhere.popup" timestamp="1591843760387">
+    <state x="348" y="42" width="670" height="673" key="search.everywhere.popup" timestamp="1592273746965">
       <screen x="0" y="23" width="1366" height="691" />
     </state>
-    <state x="348" y="42" width="670" height="673" key="search.everywhere.popup/0.23.1366.691@0.23.1366.691" timestamp="1591843760387" />
+    <state x="348" y="42" width="670" height="673" key="search.everywhere.popup/0.23.1366.691@0.23.1366.691" timestamp="1592273746965" />
     <state x="348" y="42" width="670" height="676" key="search.everywhere.popup/0.23.1366.695@0.23.1366.695" timestamp="1591526577540" />
     <state x="1855" y="-184" width="942" height="980" key="search.everywhere.popup/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588400960789" />
     <state x="1855" y="-183" width="942" height="1029" key="search.everywhere.popup/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1588507926322" />
@@ -560,7 +575,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/backtracking/BacktrackingProblemsTest.java</url>
-          <line>97</line>
+          <line>96</line>
           <properties class="backtracking.BacktrackingProblemsTest">
             <option name="EMULATED" value="true" />
           </properties>
