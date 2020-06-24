@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0086c41c-0c5f-42c8-8f4d-141211d5d74e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dynamicprogramming/longestincreasingsubsequence/MaxLengthOfPairChain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamicprogramming/longestincreasingsubsequence/MaxLengthOfPairChainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dynamicprogramming/longestincreasingsubsequence/RussianDollEnvelopes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dynamicprogramming/longestincreasingsubsequence/RussianDollEnvelopesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +74,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MaxLengthOfPairChainTest.testIfWeCanGetPairsEvenIfTheyAreNotInOrder">
+  <component name="RunManager" selected="JUnit.RussianDollEnvelopesTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -84,56 +84,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LargestDivisibleSetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Elements_Of_Programming_Interviews" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dynamicprogramming.longestincreasingsubsequence.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dynamicprogramming.longestincreasingsubsequence" />
-      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.longestincreasingsubsequence.LargestDivisibleSetTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LargestDivisibleSetTest.testIfWeCanFindLargestDivisibleSetOf1_2_4_8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Elements_Of_Programming_Interviews" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dynamicprogramming.longestincreasingsubsequence.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dynamicprogramming.longestincreasingsubsequence" />
-      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.longestincreasingsubsequence.LargestDivisibleSetTest" />
-      <option name="METHOD_NAME" value="testIfWeCanFindLargestDivisibleSetOf1_2_4_8" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LargestDivisibleSetTest.testIfWeGetLargestDivisibleSetIf2ndAnd3rdElementAreDivisble" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Elements_Of_Programming_Interviews" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dynamicprogramming.longestincreasingsubsequence.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dynamicprogramming.longestincreasingsubsequence" />
-      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.longestincreasingsubsequence.LargestDivisibleSetTest" />
-      <option name="METHOD_NAME" value="testIfWeGetLargestDivisibleSetIf2ndAnd3rdElementAreDivisble" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -165,6 +115,56 @@
       <option name="PACKAGE_NAME" value="dynamicprogramming.longestincreasingsubsequence" />
       <option name="MAIN_CLASS_NAME" value="dynamicprogramming.longestincreasingsubsequence.MaxLengthOfPairChainTest" />
       <option name="METHOD_NAME" value="testIfWeCanGetPairsEvenIfTheyAreNotInOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RussianDollEnvelopesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Elements_Of_Programming_Interviews" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dynamicprogramming.longestincreasingsubsequence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dynamicprogramming.longestincreasingsubsequence" />
+      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.longestincreasingsubsequence.RussianDollEnvelopesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RussianDollEnvelopesTest.testIfWeCanPassReallyBigTestCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Elements_Of_Programming_Interviews" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dynamicprogramming.longestincreasingsubsequence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dynamicprogramming.longestincreasingsubsequence" />
+      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.longestincreasingsubsequence.RussianDollEnvelopesTest" />
+      <option name="METHOD_NAME" value="testIfWeCanPassReallyBigTestCase" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RussianDollEnvelopesTest.testIfWeGet0WhenWeHaveNoEntries" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Elements_Of_Programming_Interviews" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dynamicprogramming.longestincreasingsubsequence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dynamicprogramming.longestincreasingsubsequence" />
+      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.longestincreasingsubsequence.RussianDollEnvelopesTest" />
+      <option name="METHOD_NAME" value="testIfWeGet0WhenWeHaveNoEntries" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -214,19 +214,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.SortedListsMergerTest" />
-      <item itemvalue="JUnit.LargestDivisibleSetTest" />
-      <item itemvalue="JUnit.LargestDivisibleSetTest.testIfWeGetLargestDivisibleSetIf2ndAnd3rdElementAreDivisble" />
-      <item itemvalue="JUnit.LargestDivisibleSetTest.testIfWeCanFindLargestDivisibleSetOf1_2_4_8" />
       <item itemvalue="JUnit.MaxLengthOfPairChainTest" />
       <item itemvalue="JUnit.MaxLengthOfPairChainTest.testIfWeCanGetPairsEvenIfTheyAreNotInOrder" />
+      <item itemvalue="JUnit.RussianDollEnvelopesTest" />
+      <item itemvalue="JUnit.RussianDollEnvelopesTest.testIfWeGet0WhenWeHaveNoEntries" />
+      <item itemvalue="JUnit.RussianDollEnvelopesTest.testIfWeCanPassReallyBigTestCase" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RussianDollEnvelopesTest" />
+        <item itemvalue="JUnit.RussianDollEnvelopesTest.testIfWeCanPassReallyBigTestCase" />
+        <item itemvalue="JUnit.RussianDollEnvelopesTest.testIfWeGet0WhenWeHaveNoEntries" />
         <item itemvalue="JUnit.MaxLengthOfPairChainTest.testIfWeCanGetPairsEvenIfTheyAreNotInOrder" />
         <item itemvalue="JUnit.MaxLengthOfPairChainTest" />
-        <item itemvalue="JUnit.LargestDivisibleSetTest" />
-        <item itemvalue="JUnit.LargestDivisibleSetTest.testIfWeCanFindLargestDivisibleSetOf1_2_4_8" />
-        <item itemvalue="JUnit.LargestDivisibleSetTest.testIfWeGetLargestDivisibleSetIf2ndAnd3rdElementAreDivisble" />
       </list>
     </recent_temporary>
   </component>
@@ -305,37 +305,37 @@
       <screen x="0" y="23" width="1366" height="691" />
     </state>
     <state x="100" y="123" width="1166" height="491" key="DiffContextDialog/0.23.1366.691@0.23.1366.691" timestamp="1591770743367" />
-    <state width="1307" height="209" key="GridCell.Tab.0.bottom" timestamp="1592446825286">
+    <state width="1307" height="209" key="GridCell.Tab.0.bottom" timestamp="1593015571233">
       <screen x="0" y="23" width="1366" height="691" />
     </state>
-    <state width="1307" height="209" key="GridCell.Tab.0.bottom/0.23.1366.691@0.23.1366.691" timestamp="1592446825286" />
+    <state width="1307" height="209" key="GridCell.Tab.0.bottom/0.23.1366.691@0.23.1366.691" timestamp="1593015571232" />
     <state width="1324" height="203" key="GridCell.Tab.0.bottom/0.23.1366.695@0.23.1366.695" timestamp="1591531234865" />
     <state width="1324" height="202" key="GridCell.Tab.0.bottom/0.23.1366.745@0.23.1366.745" timestamp="1588527230246" />
     <state width="1878" height="202" key="GridCell.Tab.0.bottom/0.23.1920.1007@0.23.1920.1007" timestamp="1588423764620" />
     <state width="1878" height="356" key="GridCell.Tab.0.bottom/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588492551708" />
     <state width="1878" height="311" key="GridCell.Tab.0.bottom/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1589015519875" />
-    <state width="1307" height="209" key="GridCell.Tab.0.center" timestamp="1592446825284">
+    <state width="1307" height="209" key="GridCell.Tab.0.center" timestamp="1593015571231">
       <screen x="0" y="23" width="1366" height="691" />
     </state>
-    <state width="1307" height="209" key="GridCell.Tab.0.center/0.23.1366.691@0.23.1366.691" timestamp="1592446825284" />
+    <state width="1307" height="209" key="GridCell.Tab.0.center/0.23.1366.691@0.23.1366.691" timestamp="1593015571231" />
     <state width="1324" height="203" key="GridCell.Tab.0.center/0.23.1366.695@0.23.1366.695" timestamp="1591531234864" />
     <state width="1324" height="202" key="GridCell.Tab.0.center/0.23.1366.745@0.23.1366.745" timestamp="1588527230244" />
     <state width="1878" height="202" key="GridCell.Tab.0.center/0.23.1920.1007@0.23.1920.1007" timestamp="1588423764618" />
     <state width="1878" height="356" key="GridCell.Tab.0.center/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588492551701" />
     <state width="1878" height="311" key="GridCell.Tab.0.center/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1589015519871" />
-    <state width="1307" height="209" key="GridCell.Tab.0.left" timestamp="1592446825283">
+    <state width="1307" height="209" key="GridCell.Tab.0.left" timestamp="1593015571227">
       <screen x="0" y="23" width="1366" height="691" />
     </state>
-    <state width="1307" height="209" key="GridCell.Tab.0.left/0.23.1366.691@0.23.1366.691" timestamp="1592446825283" />
+    <state width="1307" height="209" key="GridCell.Tab.0.left/0.23.1366.691@0.23.1366.691" timestamp="1593015571227" />
     <state width="1324" height="203" key="GridCell.Tab.0.left/0.23.1366.695@0.23.1366.695" timestamp="1591531234863" />
     <state width="1324" height="202" key="GridCell.Tab.0.left/0.23.1366.745@0.23.1366.745" timestamp="1588527230243" />
     <state width="1878" height="202" key="GridCell.Tab.0.left/0.23.1920.1007@0.23.1920.1007" timestamp="1588423764618" />
     <state width="1878" height="356" key="GridCell.Tab.0.left/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588492551700" />
     <state width="1878" height="311" key="GridCell.Tab.0.left/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1589015519869" />
-    <state width="1307" height="209" key="GridCell.Tab.0.right" timestamp="1592446825285">
+    <state width="1307" height="209" key="GridCell.Tab.0.right" timestamp="1593015571232">
       <screen x="0" y="23" width="1366" height="691" />
     </state>
-    <state width="1307" height="209" key="GridCell.Tab.0.right/0.23.1366.691@0.23.1366.691" timestamp="1592446825285" />
+    <state width="1307" height="209" key="GridCell.Tab.0.right/0.23.1366.691@0.23.1366.691" timestamp="1593015571232" />
     <state width="1324" height="203" key="GridCell.Tab.0.right/0.23.1366.695@0.23.1366.695" timestamp="1591531234865" />
     <state width="1324" height="202" key="GridCell.Tab.0.right/0.23.1366.745@0.23.1366.745" timestamp="1588527230245" />
     <state width="1878" height="202" key="GridCell.Tab.0.right/0.23.1920.1007@0.23.1920.1007" timestamp="1588423764619" />
@@ -576,6 +576,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dynamicprogramming/longestincreasingsubsequence/RussianDollEnvelopesTest.java</url>
+          <line>66</line>
+          <properties class="dynamicprogramming.longestincreasingsubsequence.RussianDollEnvelopesTest" method="testIfWeCanPassReallyBigTestCase">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="51" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
