@@ -1,4 +1,4 @@
-package dynamicprogramming;
+package dynamicprogramming.stockprofit;
 
 import org.junit.Assert;
 import org.junit.Test;
