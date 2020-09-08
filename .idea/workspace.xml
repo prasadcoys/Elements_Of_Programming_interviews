@@ -2,16 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0086c41c-0c5f-42c8-8f4d-141211d5d74e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Array/ExtraCandies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/ExtraCandiesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/RunningSum1DArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/RunningSum1DArrayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/Shuffler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/ShufflerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamicprogramming/stockprofit/BestTimeToBuyAndSellStock3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamicprogramming/stockprofit/BestTimeToBuyAndSellStock3Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/HowManyGreaterThanMe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/HowManyGreaterThanMeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BitManipulation/HammingDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BitManipulation/HammingDistanceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BitManipulation/NumberOfSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BitManipulation/NumberOfStepsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BitManipulation/OneBitComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BitManipulation/OneBitSorter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BitManipulation/OneBitSorterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BitManipulation/SetBitsPrimeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BitManipulation/SetBitsPrimeNumberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BitManipulation/SingleManipulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BitManipulation/SingleManipulationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BitManipulation/XOROperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BitManipulation/XOROperationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Elements_Of_Programming_Interviews.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Elements_Of_Programming_Interviews.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,26 +68,29 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="BitManipulation" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="test" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="BitManipulation" />
+      <recent name="OneBitSorter" />
+      <recent name="Array" />
+      <recent name="dynamicprogramming.stockprofit" />
+      <recent name="dynamicprogramming.longestincreasingsubsequence" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/test" />
       <recent name="$PROJECT_DIR$" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="test" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="Array" />
-      <recent name="dynamicprogramming.stockprofit" />
-      <recent name="dynamicprogramming.longestincreasingsubsequence" />
-      <recent name="dynamicprogramming.longestcommonsubsequence" />
-      <recent name="dynamicprogramming" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
-    </key>
   </component>
-  <component name="RunManager" selected="JUnit.ExtraCandiesTest">
+  <component name="RunManager" selected="JUnit.OneBitSorterTest.testIfWeCanCalcualateNumberOfOnes">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -95,83 +104,85 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BestTimeToBuyAndSellStock3Test.testIfWeGetBestProfitWhenWeHaveAtmostTwoTransactions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OneBitSorterTest.testIfSortingWorks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Elements_Of_Programming_Interviews" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dynamicprogramming.stockprofit.*" />
+          <option name="PATTERN" value="BitManipulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="dynamicprogramming.stockprofit" />
-      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.stockprofit.BestTimeToBuyAndSellStock3Test" />
-      <option name="METHOD_NAME" value="testIfWeGetBestProfitWhenWeHaveAtmostTwoTransactions" />
+      <option name="PACKAGE_NAME" value="BitManipulation" />
+      <option name="MAIN_CLASS_NAME" value="BitManipulation.OneBitSorterTest" />
+      <option name="METHOD_NAME" value="testIfSortingWorks" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BestTimeToBuyAndSellStock3Test.testIfWeGetProperProfitWhenWeHaveZeroAtEnd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OneBitSorterTest.testIfWeCanCalcualateNumberOfOnes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Elements_Of_Programming_Interviews" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dynamicprogramming.stockprofit.*" />
+          <option name="PATTERN" value="BitManipulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="dynamicprogramming.stockprofit" />
-      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.stockprofit.BestTimeToBuyAndSellStock3Test" />
-      <option name="METHOD_NAME" value="testIfWeGetProperProfitWhenWeHaveZeroAtEnd" />
+      <option name="PACKAGE_NAME" value="BitManipulation" />
+      <option name="MAIN_CLASS_NAME" value="BitManipulation.OneBitSorterTest" />
+      <option name="METHOD_NAME" value="testIfWeCanCalcualateNumberOfOnes" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExtraCandiesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SetBitsPrimeNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Elements_Of_Programming_Interviews" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Array.*" />
+          <option name="PATTERN" value="BitManipulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Array" />
-      <option name="MAIN_CLASS_NAME" value="Array.ExtraCandiesTest" />
+      <option name="PACKAGE_NAME" value="BitManipulation" />
+      <option name="MAIN_CLASS_NAME" value="BitManipulation.SetBitsPrimeNumberTest" />
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunningSum1DArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SetBitsPrimeNumberTest.testIfNumberIsPrime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Elements_Of_Programming_Interviews" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Array.ShufflerTest" />
+          <option name="PATTERN" value="BitManipulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Array" />
-      <option name="MAIN_CLASS_NAME" value="Array.RunningSum1DArrayTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="BitManipulation" />
+      <option name="MAIN_CLASS_NAME" value="BitManipulation.SetBitsPrimeNumberTest" />
+      <option name="METHOD_NAME" value="testIfNumberIsPrime" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShufflerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SetBitsPrimeNumberTest.testIfWeCanGetNumberOfPrimes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Elements_Of_Programming_Interviews" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Array.*" />
+          <option name="PATTERN" value="BitManipulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Array" />
-      <option name="MAIN_CLASS_NAME" value="Array.ShufflerTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="BitManipulation" />
+      <option name="MAIN_CLASS_NAME" value="BitManipulation.SetBitsPrimeNumberTest" />
+      <option name="METHOD_NAME" value="testIfWeCanGetNumberOfPrimes" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -219,20 +230,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.BestTimeToBuyAndSellStock3Test.testIfWeGetBestProfitWhenWeHaveAtmostTwoTransactions" />
-      <item itemvalue="JUnit.BestTimeToBuyAndSellStock3Test.testIfWeGetProperProfitWhenWeHaveZeroAtEnd" />
-      <item itemvalue="JUnit.ExtraCandiesTest" />
-      <item itemvalue="JUnit.RunningSum1DArrayTest" />
-      <item itemvalue="JUnit.ShufflerTest" />
       <item itemvalue="JUnit.SortedListsMergerTest" />
+      <item itemvalue="JUnit.OneBitSorterTest.testIfSortingWorks" />
+      <item itemvalue="JUnit.SetBitsPrimeNumberTest.testIfNumberIsPrime" />
+      <item itemvalue="JUnit.SetBitsPrimeNumberTest.testIfWeCanGetNumberOfPrimes" />
+      <item itemvalue="JUnit.SetBitsPrimeNumberTest" />
+      <item itemvalue="JUnit.OneBitSorterTest.testIfWeCanCalcualateNumberOfOnes" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ExtraCandiesTest" />
-        <item itemvalue="JUnit.ShufflerTest" />
-        <item itemvalue="JUnit.RunningSum1DArrayTest" />
-        <item itemvalue="JUnit.BestTimeToBuyAndSellStock3Test.testIfWeGetProperProfitWhenWeHaveZeroAtEnd" />
-        <item itemvalue="JUnit.BestTimeToBuyAndSellStock3Test.testIfWeGetBestProfitWhenWeHaveAtmostTwoTransactions" />
+        <item itemvalue="JUnit.OneBitSorterTest.testIfWeCanCalcualateNumberOfOnes" />
+        <item itemvalue="JUnit.SetBitsPrimeNumberTest" />
+        <item itemvalue="JUnit.SetBitsPrimeNumberTest.testIfWeCanGetNumberOfPrimes" />
+        <item itemvalue="JUnit.SetBitsPrimeNumberTest.testIfNumberIsPrime" />
+        <item itemvalue="JUnit.OneBitSorterTest.testIfSortingWorks" />
       </list>
     </recent_temporary>
   </component>
@@ -291,17 +302,15 @@
       <screen x="0" y="23" width="1366" height="695" />
     </state>
     <state x="0" y="23" key="#Plugins/0.23.1366.695@0.23.1366.695" timestamp="1590687567597" />
-    <state x="1366" y="-212" width="1920" height="1007" key="#Plugins/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588400025746" />
-    <state x="71" y="89" width="1224" height="561" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1596161117250">
+    <state x="71" y="89" width="1224" height="561" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1598376667371">
       <screen x="0" y="23" width="1366" height="691" />
     </state>
-    <state x="71" y="89" width="1224" height="561" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1366.691@0.23.1366.691" timestamp="1596161117250" />
+    <state x="71" y="89" width="1224" height="561" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1366.691@0.23.1366.691" timestamp="1598376667371" />
     <state x="71" y="89" width="1224" height="564" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1366.695@0.23.1366.695" timestamp="1591291088365" />
-    <state x="1466" y="-112" width="1720" height="857" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1588434148479" />
-    <state x="442" y="78" key="#com.intellij.ide.util.MemberChooser" timestamp="1589471815724">
-      <screen x="0" y="23" width="1366" height="695" />
+    <state x="496" y="85" key="#com.intellij.ide.util.MemberChooser" timestamp="1599324949727">
+      <screen x="0" y="23" width="1366" height="691" />
     </state>
-    <state x="442" y="78" key="#com.intellij.ide.util.MemberChooser/0.23.1366.695@0.23.1366.695" timestamp="1589471815724" />
+    <state x="496" y="85" key="#com.intellij.ide.util.MemberChooser/0.23.1366.691@0.23.1366.691" timestamp="1599324949727" />
     <state x="0" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1592273795654">
       <screen x="0" y="23" width="1366" height="691" />
     </state>
@@ -310,91 +319,58 @@
       <screen x="0" y="23" width="1366" height="691" />
     </state>
     <state x="435" y="231" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1366.691@0.23.1366.691" timestamp="1596160381767" />
-    <state width="456" height="307" key="DebuggerActiveHint" timestamp="1589478834401">
-      <screen x="0" y="23" width="1366" height="695" />
-    </state>
-    <state width="456" height="307" key="DebuggerActiveHint/0.23.1366.695@0.23.1366.695" timestamp="1589478834401" />
-    <state width="498" height="466" key="DebuggerActiveHint/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1587912273268" />
     <state x="100" y="123" width="1166" height="491" key="DiffContextDialog" timestamp="1591770743367">
       <screen x="0" y="23" width="1366" height="691" />
     </state>
     <state x="100" y="123" width="1166" height="491" key="DiffContextDialog/0.23.1366.691@0.23.1366.691" timestamp="1591770743367" />
-    <state width="1324" height="127" key="GridCell.Tab.0.bottom" timestamp="1596200341107">
+    <state width="1324" height="127" key="GridCell.Tab.0.bottom" timestamp="1599581459101">
       <screen x="0" y="23" width="1366" height="691" />
     </state>
-    <state width="1324" height="127" key="GridCell.Tab.0.bottom/0.23.1366.691@0.23.1366.691" timestamp="1596200341107" />
+    <state width="1324" height="127" key="GridCell.Tab.0.bottom/0.23.1366.691@0.23.1366.691" timestamp="1599581459101" />
     <state width="1324" height="203" key="GridCell.Tab.0.bottom/0.23.1366.695@0.23.1366.695" timestamp="1591531234865" />
-    <state width="1324" height="202" key="GridCell.Tab.0.bottom/0.23.1366.745@0.23.1366.745" timestamp="1588527230246" />
     <state width="1307" height="209" key="GridCell.Tab.0.bottom/0.23.1920.1003@0.23.1920.1003" timestamp="1593282321229" />
-    <state width="1878" height="202" key="GridCell.Tab.0.bottom/0.23.1920.1007@0.23.1920.1007" timestamp="1588423764620" />
-    <state width="1878" height="356" key="GridCell.Tab.0.bottom/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588492551708" />
-    <state width="1878" height="311" key="GridCell.Tab.0.bottom/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1589015519875" />
-    <state width="1324" height="127" key="GridCell.Tab.0.center" timestamp="1596200341105">
+    <state width="1324" height="127" key="GridCell.Tab.0.center" timestamp="1599581459099">
       <screen x="0" y="23" width="1366" height="691" />
     </state>
-    <state width="1324" height="127" key="GridCell.Tab.0.center/0.23.1366.691@0.23.1366.691" timestamp="1596200341105" />
+    <state width="1324" height="127" key="GridCell.Tab.0.center/0.23.1366.691@0.23.1366.691" timestamp="1599581459099" />
     <state width="1324" height="203" key="GridCell.Tab.0.center/0.23.1366.695@0.23.1366.695" timestamp="1591531234864" />
-    <state width="1324" height="202" key="GridCell.Tab.0.center/0.23.1366.745@0.23.1366.745" timestamp="1588527230244" />
     <state width="1307" height="209" key="GridCell.Tab.0.center/0.23.1920.1003@0.23.1920.1003" timestamp="1593282321227" />
-    <state width="1878" height="202" key="GridCell.Tab.0.center/0.23.1920.1007@0.23.1920.1007" timestamp="1588423764618" />
-    <state width="1878" height="356" key="GridCell.Tab.0.center/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588492551701" />
-    <state width="1878" height="311" key="GridCell.Tab.0.center/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1589015519871" />
-    <state width="1324" height="127" key="GridCell.Tab.0.left" timestamp="1596200341104">
+    <state width="1324" height="127" key="GridCell.Tab.0.left" timestamp="1599581459097">
       <screen x="0" y="23" width="1366" height="691" />
     </state>
-    <state width="1324" height="127" key="GridCell.Tab.0.left/0.23.1366.691@0.23.1366.691" timestamp="1596200341104" />
+    <state width="1324" height="127" key="GridCell.Tab.0.left/0.23.1366.691@0.23.1366.691" timestamp="1599581459097" />
     <state width="1324" height="203" key="GridCell.Tab.0.left/0.23.1366.695@0.23.1366.695" timestamp="1591531234863" />
-    <state width="1324" height="202" key="GridCell.Tab.0.left/0.23.1366.745@0.23.1366.745" timestamp="1588527230243" />
     <state width="1307" height="209" key="GridCell.Tab.0.left/0.23.1920.1003@0.23.1920.1003" timestamp="1593282321227" />
-    <state width="1878" height="202" key="GridCell.Tab.0.left/0.23.1920.1007@0.23.1920.1007" timestamp="1588423764618" />
-    <state width="1878" height="356" key="GridCell.Tab.0.left/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588492551700" />
-    <state width="1878" height="311" key="GridCell.Tab.0.left/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1589015519869" />
-    <state width="1324" height="127" key="GridCell.Tab.0.right" timestamp="1596200341106">
+    <state width="1324" height="127" key="GridCell.Tab.0.right" timestamp="1599581459100">
       <screen x="0" y="23" width="1366" height="691" />
     </state>
-    <state width="1324" height="127" key="GridCell.Tab.0.right/0.23.1366.691@0.23.1366.691" timestamp="1596200341106" />
+    <state width="1324" height="127" key="GridCell.Tab.0.right/0.23.1366.691@0.23.1366.691" timestamp="1599581459100" />
     <state width="1324" height="203" key="GridCell.Tab.0.right/0.23.1366.695@0.23.1366.695" timestamp="1591531234865" />
-    <state width="1324" height="202" key="GridCell.Tab.0.right/0.23.1366.745@0.23.1366.745" timestamp="1588527230245" />
     <state width="1307" height="209" key="GridCell.Tab.0.right/0.23.1920.1003@0.23.1920.1003" timestamp="1593282321228" />
-    <state width="1878" height="202" key="GridCell.Tab.0.right/0.23.1920.1007@0.23.1920.1007" timestamp="1588423764619" />
-    <state width="1878" height="356" key="GridCell.Tab.0.right/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588492551707" />
-    <state width="1878" height="311" key="GridCell.Tab.0.right/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1589015519874" />
     <state width="1307" height="209" key="GridCell.Tab.1.bottom" timestamp="1593282321232">
       <screen x="0" y="23" width="1920" height="1003" />
     </state>
     <state width="1307" height="209" key="GridCell.Tab.1.bottom/0.23.1366.691@0.23.1366.691" timestamp="1593137873831" />
     <state width="1324" height="211" key="GridCell.Tab.1.bottom/0.23.1366.695@0.23.1366.695" timestamp="1590778888379" />
     <state width="1307" height="209" key="GridCell.Tab.1.bottom/0.23.1920.1003@0.23.1920.1003" timestamp="1593282321232" />
-    <state width="1878" height="356" key="GridCell.Tab.1.bottom/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588492551717" />
-    <state width="1878" height="356" key="GridCell.Tab.1.bottom/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1588434515502" />
     <state width="1307" height="209" key="GridCell.Tab.1.center" timestamp="1593282321230">
       <screen x="0" y="23" width="1920" height="1003" />
     </state>
     <state width="1307" height="209" key="GridCell.Tab.1.center/0.23.1366.691@0.23.1366.691" timestamp="1593137873829" />
     <state width="1324" height="211" key="GridCell.Tab.1.center/0.23.1366.695@0.23.1366.695" timestamp="1590778888378" />
     <state width="1307" height="209" key="GridCell.Tab.1.center/0.23.1920.1003@0.23.1920.1003" timestamp="1593282321230" />
-    <state width="1878" height="356" key="GridCell.Tab.1.center/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588492551715" />
-    <state width="1878" height="356" key="GridCell.Tab.1.center/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1588434515500" />
     <state width="1307" height="209" key="GridCell.Tab.1.left" timestamp="1593282321230">
       <screen x="0" y="23" width="1920" height="1003" />
     </state>
     <state width="1307" height="209" key="GridCell.Tab.1.left/0.23.1366.691@0.23.1366.691" timestamp="1593137873828" />
     <state width="1324" height="211" key="GridCell.Tab.1.left/0.23.1366.695@0.23.1366.695" timestamp="1590778888375" />
     <state width="1307" height="209" key="GridCell.Tab.1.left/0.23.1920.1003@0.23.1920.1003" timestamp="1593282321230" />
-    <state width="1878" height="356" key="GridCell.Tab.1.left/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588492551713" />
-    <state width="1878" height="356" key="GridCell.Tab.1.left/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1588434515500" />
     <state width="1307" height="209" key="GridCell.Tab.1.right" timestamp="1593282321231">
       <screen x="0" y="23" width="1920" height="1003" />
     </state>
     <state width="1307" height="209" key="GridCell.Tab.1.right/0.23.1366.691@0.23.1366.691" timestamp="1593137873830" />
     <state width="1324" height="211" key="GridCell.Tab.1.right/0.23.1366.695@0.23.1366.695" timestamp="1590778888379" />
     <state width="1307" height="209" key="GridCell.Tab.1.right/0.23.1920.1003@0.23.1920.1003" timestamp="1593282321231" />
-    <state width="1878" height="356" key="GridCell.Tab.1.right/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588492551716" />
-    <state width="1878" height="356" key="GridCell.Tab.1.right/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1588434515501" />
-    <state x="499" y="295" key="ReplaceDuplicatesPrompt" timestamp="1588002870888">
-      <screen x="0" y="23" width="1366" height="695" />
-    </state>
-    <state x="499" y="295" key="ReplaceDuplicatesPrompt/0.23.1366.695@0.23.1366.695" timestamp="1588002870888" />
     <state x="621" y="242" key="RollbackChangesDialog" timestamp="1593274950763">
       <screen x="0" y="23" width="1920" height="1003" />
     </state>
@@ -403,56 +379,20 @@
       <screen x="0" y="23" width="1366" height="695" />
     </state>
     <state x="192" y="23" key="SettingsEditor/0.23.1366.695@0.23.1366.695" timestamp="1590687887067" />
-    <state x="1636" y="-212" key="SettingsEditor/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588399997464" />
-    <state x="1636" y="-212" key="SettingsEditor/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1589012185164" />
-    <state x="537" y="293" key="VCS.ChangelistChooser" timestamp="1588866179251">
-      <screen x="0" y="23" width="1366" height="695" />
-    </state>
-    <state x="537" y="293" key="VCS.ChangelistChooser/0.23.1366.695@0.23.1366.695" timestamp="1588866179251" />
-    <state x="1926" y="31" key="Vcs.Push.Dialog.v2" timestamp="1588402734643">
-      <screen x="1366" y="-212" width="1920" height="1007" />
-    </state>
-    <state x="1926" y="31" key="Vcs.Push.Dialog.v2/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588402734643" />
-    <state x="100" y="123" width="1166" height="495" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1589032484053">
-      <screen x="0" y="23" width="1366" height="695" />
-    </state>
-    <state x="100" y="123" width="1166" height="495" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1366.695@0.23.1366.695" timestamp="1589032484053" />
     <state x="409" y="269" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1596162429709">
       <screen x="0" y="23" width="1366" height="691" />
     </state>
     <state x="409" y="269" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1366.691@0.23.1366.691" timestamp="1596162429708" />
-    <state x="1897" y="-89" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1588510946562">
-      <screen x="1366" y="-212" width="1920" height="1057" />
-    </state>
-    <state x="531" y="140" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1920.1007@0.23.1920.1007" timestamp="1588422916731" />
-    <state x="1897" y="-89" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1588510946562" />
     <state x="421" y="143" width="524" height="484" key="extract.method.dialog" timestamp="1592273778304">
       <screen x="0" y="23" width="1366" height="691" />
     </state>
     <state x="421" y="143" key="extract.method.dialog/0.23.1366.691@0.23.1366.691" timestamp="1592273778304" />
-    <state x="421" y="144" width="524" height="484" key="extract.method.dialog/0.23.1366.695@0.23.1366.695" timestamp="1589737963489" />
-    <state x="449" y="105" width="639" height="533" key="find.popup" timestamp="1588865989455">
-      <screen x="0" y="23" width="1366" height="695" />
-    </state>
-    <state x="449" y="105" width="639" height="533" key="find.popup/0.23.1366.695@0.23.1366.695" timestamp="1588865989455" />
-    <state x="1997" y="-94" width="657" height="771" key="find.popup/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588399918642" />
-    <state x="1997" y="-88" width="657" height="810" key="find.popup/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1588429176873" />
-    <state x="391" y="23" key="refactoring.ChangeSignatureDialog" timestamp="1588093432202">
-      <screen x="0" y="23" width="1366" height="695" />
-    </state>
-    <state x="391" y="23" key="refactoring.ChangeSignatureDialog/0.23.1366.695@0.23.1366.695" timestamp="1588093432202" />
-    <state x="348" y="165" key="run.anything.popup" timestamp="1588347091066">
-      <screen x="0" y="23" width="1366" height="695" />
-    </state>
-    <state x="348" y="165" key="run.anything.popup/0.23.1366.695@0.23.1366.695" timestamp="1588347091066" />
     <state x="348" y="42" width="670" height="673" key="search.everywhere.popup" timestamp="1596160874449">
       <screen x="0" y="23" width="1366" height="691" />
     </state>
     <state x="348" y="42" width="670" height="673" key="search.everywhere.popup/0.23.1366.691@0.23.1366.691" timestamp="1596160874449" />
     <state x="348" y="42" width="670" height="676" key="search.everywhere.popup/0.23.1366.695@0.23.1366.695" timestamp="1591526577540" />
     <state x="489" y="51" width="942" height="977" key="search.everywhere.popup/0.23.1920.1003@0.23.1920.1003" timestamp="1593275469241" />
-    <state x="1855" y="-184" width="942" height="980" key="search.everywhere.popup/1366.-212.1920.1007/0.23.1366.745@1366.-212.1920.1007" timestamp="1588400960789" />
-    <state x="1855" y="-183" width="942" height="1029" key="search.everywhere.popup/1366.-212.1920.1057/0.23.1366.695@1366.-212.1920.1057" timestamp="1588507926322" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
