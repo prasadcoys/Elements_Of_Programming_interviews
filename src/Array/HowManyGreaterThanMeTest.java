@@ -10,4 +10,10 @@ public class HowManyGreaterThanMeTest {
                 new HowManyGreaterThanMe().smallerNumbersThanCurrent(new int[]{8,1,2,2,3}));
     }
 
+    @Test
+    public void testIfAllEqualNumbersGivesZero(){
+        Assert.assertArrayEquals(new int[]{0,0,0,0},
+                new HowManyGreaterThanMe().smallerNumbersThanCurrent(new int[]{7,7,7,7}));
+    }
+
 }

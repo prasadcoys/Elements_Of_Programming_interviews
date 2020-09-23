@@ -1,23 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0086c41c-0c5f-42c8-8f4d-141211d5d74e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Array/HowManyGreaterThanMe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/HowManyGreaterThanMeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BitManipulation/HammingDistance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BitManipulation/HammingDistanceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BitManipulation/NumberOfSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BitManipulation/NumberOfStepsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BitManipulation/OneBitComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BitManipulation/OneBitSorter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BitManipulation/OneBitSorterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BitManipulation/SetBitsPrimeNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BitManipulation/SetBitsPrimeNumberTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BitManipulation/SingleManipulation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BitManipulation/SingleManipulationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BitManipulation/XOROperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BitManipulation/XOROperationTest.java" afterDir="false" />
+    <list default="true" id="0086c41c-0c5f-42c8-8f4d-141211d5d74e" name="Default" comment="Bit manipulation easy problems">
+      <change afterPath="$PROJECT_DIR$/src/Array/GoodPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/GoodPairsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/ShuffleString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/ShuffleStringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BitManipulation/PowerOFTwoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BitManipulation/PowerOfTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/Foo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/PrintFirst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/PrintSecond.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/PrintThird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedlist/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedlist/MyLinkedListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/IPAddressDefanger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/IPAddressDefangerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/HowManyGreaterThanMe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/HowManyGreaterThanMe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/HowManyGreaterThanMeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/HowManyGreaterThanMeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BitManipulation/DifferenceFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BitManipulation/DifferenceFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BitManipulation/DifferenceFinderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BitManipulation/DifferenceFinderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BitManipulation/MissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BitManipulation/MissingNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BitManipulation/MissingNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BitManipulation/MissingNumberTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,9 +84,9 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="Array" />
       <recent name="BitManipulation" />
       <recent name="OneBitSorter" />
-      <recent name="Array" />
       <recent name="dynamicprogramming.stockprofit" />
       <recent name="dynamicprogramming.longestincreasingsubsequence" />
     </key>
@@ -90,7 +96,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.OneBitSorterTest.testIfWeCanCalcualateNumberOfOnes">
+  <component name="RunManager" selected="JUnit.HowManyGreaterThanMeTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -104,84 +110,81 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OneBitSorterTest.testIfSortingWorks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GoodPairsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Elements_Of_Programming_Interviews" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BitManipulation.*" />
+          <option name="PATTERN" value="Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="BitManipulation" />
-      <option name="MAIN_CLASS_NAME" value="BitManipulation.OneBitSorterTest" />
-      <option name="METHOD_NAME" value="testIfSortingWorks" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OneBitSorterTest.testIfWeCanCalcualateNumberOfOnes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Elements_Of_Programming_Interviews" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BitManipulation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="BitManipulation" />
-      <option name="MAIN_CLASS_NAME" value="BitManipulation.OneBitSorterTest" />
-      <option name="METHOD_NAME" value="testIfWeCanCalcualateNumberOfOnes" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SetBitsPrimeNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Elements_Of_Programming_Interviews" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BitManipulation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="BitManipulation" />
-      <option name="MAIN_CLASS_NAME" value="BitManipulation.SetBitsPrimeNumberTest" />
+      <option name="PACKAGE_NAME" value="Array" />
+      <option name="MAIN_CLASS_NAME" value="Array.GoodPairsTest" />
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SetBitsPrimeNumberTest.testIfNumberIsPrime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HowManyGreaterThanMeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Elements_Of_Programming_Interviews" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BitManipulation.*" />
+          <option name="PATTERN" value="Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="BitManipulation" />
-      <option name="MAIN_CLASS_NAME" value="BitManipulation.SetBitsPrimeNumberTest" />
-      <option name="METHOD_NAME" value="testIfNumberIsPrime" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="Array" />
+      <option name="MAIN_CLASS_NAME" value="Array.HowManyGreaterThanMeTest" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SetBitsPrimeNumberTest.testIfWeCanGetNumberOfPrimes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IPAddressDefangerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Elements_Of_Programming_Interviews" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BitManipulation.*" />
+          <option name="PATTERN" value="string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="BitManipulation" />
-      <option name="MAIN_CLASS_NAME" value="BitManipulation.SetBitsPrimeNumberTest" />
-      <option name="METHOD_NAME" value="testIfWeCanGetNumberOfPrimes" />
+      <option name="PACKAGE_NAME" value="string" />
+      <option name="MAIN_CLASS_NAME" value="string.IPAddressDefangerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShuffleStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Elements_Of_Programming_Interviews" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Array" />
+      <option name="MAIN_CLASS_NAME" value="Array.ShuffleStringTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShuffleStringTest.testIfWeCanRestoreString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Elements_Of_Programming_Interviews" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Array" />
+      <option name="MAIN_CLASS_NAME" value="Array.ShuffleStringTest" />
+      <option name="METHOD_NAME" value="testIfWeCanRestoreString" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -231,19 +234,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.SortedListsMergerTest" />
-      <item itemvalue="JUnit.OneBitSorterTest.testIfSortingWorks" />
-      <item itemvalue="JUnit.SetBitsPrimeNumberTest.testIfNumberIsPrime" />
-      <item itemvalue="JUnit.SetBitsPrimeNumberTest.testIfWeCanGetNumberOfPrimes" />
-      <item itemvalue="JUnit.SetBitsPrimeNumberTest" />
-      <item itemvalue="JUnit.OneBitSorterTest.testIfWeCanCalcualateNumberOfOnes" />
+      <item itemvalue="JUnit.IPAddressDefangerTest" />
+      <item itemvalue="JUnit.GoodPairsTest" />
+      <item itemvalue="JUnit.ShuffleStringTest" />
+      <item itemvalue="JUnit.ShuffleStringTest.testIfWeCanRestoreString" />
+      <item itemvalue="JUnit.HowManyGreaterThanMeTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.OneBitSorterTest.testIfWeCanCalcualateNumberOfOnes" />
-        <item itemvalue="JUnit.SetBitsPrimeNumberTest" />
-        <item itemvalue="JUnit.SetBitsPrimeNumberTest.testIfWeCanGetNumberOfPrimes" />
-        <item itemvalue="JUnit.SetBitsPrimeNumberTest.testIfNumberIsPrime" />
-        <item itemvalue="JUnit.OneBitSorterTest.testIfSortingWorks" />
+        <item itemvalue="JUnit.HowManyGreaterThanMeTest" />
+        <item itemvalue="JUnit.ShuffleStringTest.testIfWeCanRestoreString" />
+        <item itemvalue="JUnit.ShuffleStringTest" />
+        <item itemvalue="JUnit.GoodPairsTest" />
+        <item itemvalue="JUnit.IPAddressDefangerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -258,6 +261,14 @@
       <option name="presentableId" value="Default" />
       <updated>1505227899324</updated>
     </task>
+    <task id="LOCAL-00001" summary="Bit manipulation easy problems">
+      <created>1599581513373</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599581513373</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -293,24 +304,25 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Bit manipulation easy problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bit manipulation easy problems" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="283" y="34" key="#Inspections" timestamp="1596160447947">
       <screen x="0" y="23" width="1366" height="691" />
     </state>
     <state x="283" y="34" key="#Inspections/0.23.1366.691@0.23.1366.691" timestamp="1596160447947" />
-    <state x="0" y="23" width="1920" height="1007" key="#Plugins" timestamp="1590687567597">
-      <screen x="0" y="23" width="1366" height="695" />
-    </state>
-    <state x="0" y="23" key="#Plugins/0.23.1366.695@0.23.1366.695" timestamp="1590687567597" />
-    <state x="71" y="89" width="1224" height="561" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1598376667371">
-      <screen x="0" y="23" width="1366" height="691" />
+    <state x="100" y="119" width="1721" height="815" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1600103962229">
+      <screen x="0" y="23" width="1920" height="1003" />
     </state>
     <state x="71" y="89" width="1224" height="561" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1366.691@0.23.1366.691" timestamp="1598376667371" />
-    <state x="71" y="89" width="1224" height="564" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1366.695@0.23.1366.695" timestamp="1591291088365" />
-    <state x="496" y="85" key="#com.intellij.ide.util.MemberChooser" timestamp="1599324949727">
-      <screen x="0" y="23" width="1366" height="691" />
+    <state x="100" y="119" width="1721" height="815" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1920.1003@0.23.1920.1003" timestamp="1600103962229" />
+    <state x="697" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1600580940293">
+      <screen x="0" y="23" width="1920" height="1003" />
     </state>
     <state x="496" y="85" key="#com.intellij.ide.util.MemberChooser/0.23.1366.691@0.23.1366.691" timestamp="1599324949727" />
+    <state x="697" y="113" key="#com.intellij.ide.util.MemberChooser/0.23.1920.1003@0.23.1920.1003" timestamp="1600580940293" />
     <state x="0" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1592273795654">
       <screen x="0" y="23" width="1366" height="691" />
     </state>
@@ -319,66 +331,54 @@
       <screen x="0" y="23" width="1366" height="691" />
     </state>
     <state x="435" y="231" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1366.691@0.23.1366.691" timestamp="1596160381767" />
-    <state x="100" y="123" width="1166" height="491" key="DiffContextDialog" timestamp="1591770743367">
+    <state x="217" y="23" key="CommitChangelistDialog2" timestamp="1599581512555">
       <screen x="0" y="23" width="1366" height="691" />
     </state>
-    <state x="100" y="123" width="1166" height="491" key="DiffContextDialog/0.23.1366.691@0.23.1366.691" timestamp="1591770743367" />
-    <state width="1324" height="127" key="GridCell.Tab.0.bottom" timestamp="1599581459101">
+    <state x="217" y="23" key="CommitChangelistDialog2/0.23.1366.691@0.23.1366.691" timestamp="1599581512555" />
+    <state width="1324" height="245" key="GridCell.Tab.0.bottom" timestamp="1600583315521">
       <screen x="0" y="23" width="1366" height="691" />
     </state>
-    <state width="1324" height="127" key="GridCell.Tab.0.bottom/0.23.1366.691@0.23.1366.691" timestamp="1599581459101" />
-    <state width="1324" height="203" key="GridCell.Tab.0.bottom/0.23.1366.695@0.23.1366.695" timestamp="1591531234865" />
-    <state width="1307" height="209" key="GridCell.Tab.0.bottom/0.23.1920.1003@0.23.1920.1003" timestamp="1593282321229" />
-    <state width="1324" height="127" key="GridCell.Tab.0.center" timestamp="1599581459099">
+    <state width="1324" height="245" key="GridCell.Tab.0.bottom/0.23.1366.691@0.23.1366.691" timestamp="1600583315521" />
+    <state width="1878" height="245" key="GridCell.Tab.0.bottom/0.23.1920.1003@0.23.1920.1003" timestamp="1600576496738" />
+    <state width="1324" height="245" key="GridCell.Tab.0.center" timestamp="1600583315519">
       <screen x="0" y="23" width="1366" height="691" />
     </state>
-    <state width="1324" height="127" key="GridCell.Tab.0.center/0.23.1366.691@0.23.1366.691" timestamp="1599581459099" />
-    <state width="1324" height="203" key="GridCell.Tab.0.center/0.23.1366.695@0.23.1366.695" timestamp="1591531234864" />
-    <state width="1307" height="209" key="GridCell.Tab.0.center/0.23.1920.1003@0.23.1920.1003" timestamp="1593282321227" />
-    <state width="1324" height="127" key="GridCell.Tab.0.left" timestamp="1599581459097">
+    <state width="1324" height="245" key="GridCell.Tab.0.center/0.23.1366.691@0.23.1366.691" timestamp="1600583315519" />
+    <state width="1878" height="245" key="GridCell.Tab.0.center/0.23.1920.1003@0.23.1920.1003" timestamp="1600576496737" />
+    <state width="1324" height="245" key="GridCell.Tab.0.left" timestamp="1600583315518">
       <screen x="0" y="23" width="1366" height="691" />
     </state>
-    <state width="1324" height="127" key="GridCell.Tab.0.left/0.23.1366.691@0.23.1366.691" timestamp="1599581459097" />
-    <state width="1324" height="203" key="GridCell.Tab.0.left/0.23.1366.695@0.23.1366.695" timestamp="1591531234863" />
-    <state width="1307" height="209" key="GridCell.Tab.0.left/0.23.1920.1003@0.23.1920.1003" timestamp="1593282321227" />
-    <state width="1324" height="127" key="GridCell.Tab.0.right" timestamp="1599581459100">
+    <state width="1324" height="245" key="GridCell.Tab.0.left/0.23.1366.691@0.23.1366.691" timestamp="1600583315518" />
+    <state width="1878" height="245" key="GridCell.Tab.0.left/0.23.1920.1003@0.23.1920.1003" timestamp="1600576496736" />
+    <state width="1324" height="245" key="GridCell.Tab.0.right" timestamp="1600583315520">
       <screen x="0" y="23" width="1366" height="691" />
     </state>
-    <state width="1324" height="127" key="GridCell.Tab.0.right/0.23.1366.691@0.23.1366.691" timestamp="1599581459100" />
-    <state width="1324" height="203" key="GridCell.Tab.0.right/0.23.1366.695@0.23.1366.695" timestamp="1591531234865" />
-    <state width="1307" height="209" key="GridCell.Tab.0.right/0.23.1920.1003@0.23.1920.1003" timestamp="1593282321228" />
-    <state width="1307" height="209" key="GridCell.Tab.1.bottom" timestamp="1593282321232">
+    <state width="1324" height="245" key="GridCell.Tab.0.right/0.23.1366.691@0.23.1366.691" timestamp="1600583315520" />
+    <state width="1878" height="245" key="GridCell.Tab.0.right/0.23.1920.1003@0.23.1920.1003" timestamp="1600576496738" />
+    <state width="1878" height="332" key="GridCell.Tab.1.bottom" timestamp="1600135458680">
       <screen x="0" y="23" width="1920" height="1003" />
     </state>
     <state width="1307" height="209" key="GridCell.Tab.1.bottom/0.23.1366.691@0.23.1366.691" timestamp="1593137873831" />
-    <state width="1324" height="211" key="GridCell.Tab.1.bottom/0.23.1366.695@0.23.1366.695" timestamp="1590778888379" />
-    <state width="1307" height="209" key="GridCell.Tab.1.bottom/0.23.1920.1003@0.23.1920.1003" timestamp="1593282321232" />
-    <state width="1307" height="209" key="GridCell.Tab.1.center" timestamp="1593282321230">
+    <state width="1878" height="332" key="GridCell.Tab.1.bottom/0.23.1920.1003@0.23.1920.1003" timestamp="1600135458680" />
+    <state width="1878" height="332" key="GridCell.Tab.1.center" timestamp="1600135458678">
       <screen x="0" y="23" width="1920" height="1003" />
     </state>
     <state width="1307" height="209" key="GridCell.Tab.1.center/0.23.1366.691@0.23.1366.691" timestamp="1593137873829" />
-    <state width="1324" height="211" key="GridCell.Tab.1.center/0.23.1366.695@0.23.1366.695" timestamp="1590778888378" />
-    <state width="1307" height="209" key="GridCell.Tab.1.center/0.23.1920.1003@0.23.1920.1003" timestamp="1593282321230" />
-    <state width="1307" height="209" key="GridCell.Tab.1.left" timestamp="1593282321230">
+    <state width="1878" height="332" key="GridCell.Tab.1.center/0.23.1920.1003@0.23.1920.1003" timestamp="1600135458678" />
+    <state width="1878" height="332" key="GridCell.Tab.1.left" timestamp="1600135458678">
       <screen x="0" y="23" width="1920" height="1003" />
     </state>
     <state width="1307" height="209" key="GridCell.Tab.1.left/0.23.1366.691@0.23.1366.691" timestamp="1593137873828" />
-    <state width="1324" height="211" key="GridCell.Tab.1.left/0.23.1366.695@0.23.1366.695" timestamp="1590778888375" />
-    <state width="1307" height="209" key="GridCell.Tab.1.left/0.23.1920.1003@0.23.1920.1003" timestamp="1593282321230" />
-    <state width="1307" height="209" key="GridCell.Tab.1.right" timestamp="1593282321231">
+    <state width="1878" height="332" key="GridCell.Tab.1.left/0.23.1920.1003@0.23.1920.1003" timestamp="1600135458678" />
+    <state width="1878" height="332" key="GridCell.Tab.1.right" timestamp="1600135458679">
       <screen x="0" y="23" width="1920" height="1003" />
     </state>
     <state width="1307" height="209" key="GridCell.Tab.1.right/0.23.1366.691@0.23.1366.691" timestamp="1593137873830" />
-    <state width="1324" height="211" key="GridCell.Tab.1.right/0.23.1366.695@0.23.1366.695" timestamp="1590778888379" />
-    <state width="1307" height="209" key="GridCell.Tab.1.right/0.23.1920.1003@0.23.1920.1003" timestamp="1593282321231" />
+    <state width="1878" height="332" key="GridCell.Tab.1.right/0.23.1920.1003@0.23.1920.1003" timestamp="1600135458679" />
     <state x="621" y="242" key="RollbackChangesDialog" timestamp="1593274950763">
       <screen x="0" y="23" width="1920" height="1003" />
     </state>
     <state x="621" y="242" key="RollbackChangesDialog/0.23.1920.1003@0.23.1920.1003" timestamp="1593274950763" />
-    <state x="192" y="23" key="SettingsEditor" timestamp="1590687887067">
-      <screen x="0" y="23" width="1366" height="695" />
-    </state>
-    <state x="192" y="23" key="SettingsEditor/0.23.1366.695@0.23.1366.695" timestamp="1590687887067" />
     <state x="409" y="269" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1596162429709">
       <screen x="0" y="23" width="1366" height="691" />
     </state>
@@ -387,12 +387,19 @@
       <screen x="0" y="23" width="1366" height="691" />
     </state>
     <state x="421" y="143" key="extract.method.dialog/0.23.1366.691@0.23.1366.691" timestamp="1592273778304" />
-    <state x="348" y="42" width="670" height="673" key="search.everywhere.popup" timestamp="1596160874449">
+    <state x="363" y="125" width="639" height="486" key="find.popup" timestamp="1600276404588">
       <screen x="0" y="23" width="1366" height="691" />
     </state>
+    <state x="363" y="125" width="639" height="486" key="find.popup/0.23.1366.691@0.23.1366.691" timestamp="1600276404588" />
+    <state x="112" y="23" key="new project wizard" timestamp="1599581574946">
+      <screen x="0" y="23" width="1366" height="691" />
+    </state>
+    <state x="112" y="23" key="new project wizard/0.23.1366.691@0.23.1366.691" timestamp="1599581574946" />
+    <state x="489" y="51" width="942" height="977" key="search.everywhere.popup" timestamp="1599759126186">
+      <screen x="0" y="23" width="1920" height="1003" />
+    </state>
     <state x="348" y="42" width="670" height="673" key="search.everywhere.popup/0.23.1366.691@0.23.1366.691" timestamp="1596160874449" />
-    <state x="348" y="42" width="670" height="676" key="search.everywhere.popup/0.23.1366.695@0.23.1366.695" timestamp="1591526577540" />
-    <state x="489" y="51" width="942" height="977" key="search.everywhere.popup/0.23.1920.1003@0.23.1920.1003" timestamp="1593275469241" />
+    <state x="489" y="51" width="942" height="977" key="search.everywhere.popup/0.23.1920.1003@0.23.1920.1003" timestamp="1599759126186" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -531,6 +538,16 @@
           <url>file://$PROJECT_DIR$/src/dynamicprogramming/longestincreasingsubsequence/LongestIncreasingSubsequenceTest.java</url>
           <line>5</line>
           <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BitManipulation/MissingNumberTest.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linkedlist/MyLinkedListTest.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="54" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/backtracking/BacktrackingProblemsTest.java</url>
